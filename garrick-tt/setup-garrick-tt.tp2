@@ -1,7 +1,7 @@
 BACKUP ~garrick-tt/backup~
 AUTHOR ~mirandir AT orange DOT fr~
 AUTO_TRA ~garrick-tt/tra/%LANGUAGE%/%s~
-VERSION ~1.26~
+VERSION ~1.27~
 
 README ~garrick-tt/readme/%LANGUAGE%-readme.html~ ~garrick-tt/readme/english-readme.html~
 
@@ -19,7 +19,7 @@ LANGUAGE ~Deutsch (Gerri und Jastey)~
 
 BEGIN @2
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         REQUIRE_FILE ~override/X#BG1NPCPhase2.G3~ @-3 // nécessite le BG1NPC
         // on convertit les tra en utf8
 		// ne pas convertir german_ee.tra et french_ee.tra, ils sont déjà en utf8
@@ -34,7 +34,11 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
 						reload_array = reload
 		END
         // charger les équivalences de nom pour BGEE
-        INCLUDE ~garrick-tt/lib/var_bgee.tpa~
+		ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+			INCLUDE ~garrick-tt/lib/var_bgee.tpa~
+		END ELSE BEGIN
+			INCLUDE ~garrick-tt/lib/var_eet.tpa~
+		END
 END ELSE BEGIN
         //REQUIRE_FILE ~AR7200.are~ @3 // nécessite BGT
         REQUIRE_FILE ~override/X#BG1NPCPhase2.G3~ @-3 // nécessite le BG1NPC
@@ -42,7 +46,7 @@ END ELSE BEGIN
         INCLUDE ~garrick-tt/lib/var_bgt.tpa~
 END
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         // on charge les descriptions d'objets / textes modifiés pour BGEE
         LOAD_TRA ~garrick-tt/tra/%LANGUAGE%/%LANGUAGE%_ee.tra~
 END
@@ -61,7 +65,7 @@ COPY ~garrick-tt/bam/gtt#sno.bam~ ~override/gtt#sno.bam~
 COPY ~garrick-tt/spl/gtt#sno.spl~ ~override/gtt#sno.spl~
       SAY NAME1 @5
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         COPY ~garrick-tt/spl/fjbarda.spl~ ~override/fjbarda.spl~
 END
 
@@ -111,7 +115,7 @@ COPY ~garrick-tt/itm/gtt#fl2.itm~ ~override/gtt#fl2.itm~
 
 COPY ~garrick-tt/bam/gtt#vio.bam~ ~override/gtt#vio.bam~
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         COPY ~garrick-tt/spl/gtt#vio_bgee.spl~ ~override/gtt#vio.spl~
         COPY ~garrick-tt/cre/gtt#sha.cre~ ~override/gtt#sha.cre~
 END ELSE BEGIN
@@ -134,7 +138,7 @@ COPY ~garrick-tt/itm/gtt#vvv.itm~ ~override/gtt#vvv.itm~
 
 COPY ~garrick-tt/bam/gtt#bo.bam~ ~override/gtt#bo.bam~
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         COPY ~garrick-tt/itm/gtt#bo_bgee.itm~ ~override/gtt#bo.itm~
 	        SAY NAME1 @18
 	        SAY NAME2 @18
@@ -219,11 +223,7 @@ COMPILE ~garrick-tt/baf/gtt#map.baf~ EVALUATE_BUFFER
 // dialogue aubergiste Nashkel
 COMPILE ~garrick-tt/d/nashkel.d~ EVALUATE_BUFFER
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-        EXTEND_TOP ~ar4801.bcs~ ~garrick-tt/baf/ar4801.baf~ EVALUATE_BUFFER
-END ELSE BEGIN
-        EXTEND_TOP ~ar3701.bcs~ ~garrick-tt/baf/ar3701.baf~ EVALUATE_BUFFER
-END
+EXTEND_TOP ~%Nashkel_Inn%.bcs~ ~garrick-tt/baf/ar4801.baf~ EVALUATE_BUFFER
 
 COPY ~garrick-tt/sto/gtt#nas.sto~ ~override~
 
@@ -251,7 +251,7 @@ END
 COMPILE ~garrick-tt/d/tenya2.d~ EVALUATE_BUFFER // 2
 
 // BGEE change les conditions d'apparition de Tenya à la Porte, il faut donc adapter
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 		COMPILE ~garrick-tt/d/pumberl.d~ EVALUATE_BUFFER
 END
 
@@ -339,7 +339,7 @@ WRITE_LONG 0xe30 ~0x0000~
 /////////////////////////////////////////////////////
 // Ajout de la carte
 /////////////////////////////////////////////////////
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.mos~ ~override/gtt#01.mos~
         COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.are~ ~override/gtt#01.are~
 	        SAY 0x4b0 @240
@@ -385,15 +385,24 @@ BUT_ONLY_IF_IT_CHANGES
 ACTION_IF GAME_IS ~bgt~ THEN BEGIN
 	ACTION_IF FILE_EXISTS ~worldmap/map_mods_links.tbl~ THEN BEGIN
 			COPY ~worldmap/map_mods_links.tbl~  ~worldmap~
-			REPLACE_TEXTUALLY EXACT_MATCH ~AR3700    N         AR3200      EXIT3700    2         4          N        N        N        N        N        0~ ~AR3700    N         AR3200      EXIT3700    2         4          GTT#01   N        N        N        N        0~
+			REPLACE_TEXTUALLY EXACT_MATCH ~AR3700    N         AR3200      EXIT3700    2         4          N        N        N        N        N        0~
+			~AR3700    N         AR3200      EXIT3700    2         4          GTT#01   N        N        N        N        0~
 	END ELSE BEGIN
 			FAIL @600
 	END
-END
-
-ACTION_IF FILE_EXISTS ~bp-bgt_worldmap/revised/tbl/new_map_mods_links_bgt.tbl~ THEN BEGIN
-        COPY ~bp-bgt_worldmap/revised/tbl/new_map_mods_links_bgt.tbl~  ~bp-bgt_worldmap/revised/tbl~
-        REPLACE_TEXTUALLY EXACT_MATCH ~AR3700    N         AR3200      EXIT3700    2         4          AR4801   AR4701   AR5300   AR4901   AR4700   10~ ~AR3700    N         AR3200      EXIT3700    2         4          GTT#01   N   N   N   N   10~
+	ACTION_IF FILE_EXISTS ~bp-bgt_worldmap/revised/tbl/new_map_mods_links_bgt.tbl~ THEN BEGIN
+			COPY ~bp-bgt_worldmap/revised/tbl/new_map_mods_links_bgt.tbl~  ~bp-bgt_worldmap/revised/tbl~
+			REPLACE_TEXTUALLY EXACT_MATCH ~AR3700    N         AR3200      EXIT3700    2         4          AR4801   AR4701   AR5300   AR4901   AR4700   10~
+			~AR3700    N         AR3200      EXIT3700    2         4          GTT#01   N   N   N   N   10~
+	END
+END ELSE ACTION_IF GAME_IS ~eet~ THEN BEGIN
+	ACTION_IF FILE_EXISTS ~worldmap/map_mods_links.tbl~ THEN BEGIN
+			COPY ~worldmap/map_mods_links.tbl~  ~worldmap~
+			REPLACE_TEXTUALLY ~BG4800 +N +BG4300 +EXIT4800 +1 +4 +N +N +N +N +N +0~
+			~BG4800       N            BG4300       EXIT4800     1            4            GTT#01       N            N            N            N            0~
+	END ELSE BEGIN
+			FAIL @600
+	END
 END
 
 /////////////////////////////////////////////////////
