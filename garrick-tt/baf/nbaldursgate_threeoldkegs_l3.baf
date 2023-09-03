@@ -1,0 +1,10 @@
+IF
+  !Exists("Enriack")
+  !Dead("Enriack")
+  Global("gtt#tenyapretretalosencours","GLOBAL",1)
+  Global("gtt#enriackexiste","GLOBAL",0)
+THEN
+  RESPONSE #100
+  CreateCreature("GTT#ENRI",[999.477],1)
+  SetGlobal("gtt#enriackexiste","GLOBAL",1)
+END

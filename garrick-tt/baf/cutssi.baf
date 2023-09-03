@@ -1,0 +1,26 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+	CutSceneId(Player1)
+	Wait(3)
+	ActionOverride("Garrick",MoveToPoint([575.1393]))
+	ActionOverride("Garrick",Face(6))
+	Wait(2)
+	MoveViewPoint([402.1222],VERY_FAST)
+	PlaySong(0)
+	ActionOverride("SIL",PlaySound("gtt#si1"))
+	Wait(26)
+	MoveViewPoint([348.1163],VERY_FAST)
+	ActionOverride("SIL",PlaySound("gtt#si2"))
+	Wait(68)
+	ActionOverride("Garrick",DisplayStringHead(Myself,@210))
+	Wait(4)
+	ActionOverride("Garrick",DisplayStringHead(Myself,@211))
+	Wait(14)
+	ActionOverride("Garrick",DisplayStringHead(Myself,@212))
+	Wait(7)
+	SetGlobal("gtt#cutscenesirenes","GLOBAL",2)
+	UnhideGUI()
+	EndCutSceneMode()
+END

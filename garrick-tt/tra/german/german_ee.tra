@@ -1,0 +1,47 @@
+// The EE engine automatically generates the usable/unusable block of item descriptions, so we need some slightly modified descriptions for them
+@9 = ~Dieses kleine Instrument wurde im fernen Immerdar hergestellt.
+Firebead Elfenhaar hatte sie vor vielen Jahren gekauft und nach Faerûn gebracht, Sie hat ihn auf seinen vielen Reisen über den Kontinent begleitet.
+Trotz ihres eher unscheinbaren Aussehens hat diese Flöte magische Kräfte, die es dem Spieler ermöglichen, sein Publikum mit ihrem Spiel zu begeistern.
+
+EIGENSCHAFTEN:
+
+Kann den Zauber "Freunde" einmal pro Tag wirken.~
+@11 = ~Dieses kleine Instrument wurde im fernen Immerdar hergestellt.
+Firebead Elfenhaar hatte sie vor vielen Jahren gekauft und nach Faerûn gebracht. Sie hat ihn auf seinen vielen Reisen über den Kontinent begleitet. Eine Dryade aus den Wolkengipfeln gab Garrick eines ihrer Kopfhaare, weil er ihr half, ihren Baum zu retten. Dieses band sie um seine Flöte, nachdem Garrick diese versehentlich angebrochen hatte. Das magische Haar gewährt dem Benutzer besondere Fähigkeiten.
+
+EIGENSCHAFTEN:
+
+"Rindenhaut" kann zweimal pro Tag verwendet werden.~
+@15 = ~Dieses Instrument ist auch unter dem Namen "Tallows Violine" bekannt, doch dieser Spitzname wird selten unter Musikern verwendet, weil das Erwähnen des Namens von Nikolai Tallow Pech bringen soll. Nikolai, der Sohn eines Kerzenmachers, wurde in der Nähe von Hoch-Haspur geboren. Wegen des regen Verkehrs durch die Region lernte Nikolai schnell die vielen verschiedenen Kulturen kennen. Einer der Reisenden war ein elfischer Musiker mit dem Namen Relev Thinriver. Relev lehrte Nikolai mehrere Jahre lang die Violine zu spielen. Relev wusste, dass Nikolai ein unglaublich begabtes Kind mit schnellen Fingern, einem scharfen Verstand und einer Leidenschaft für alle Dinge in der Welt war. Relev erkannte aber auch, dass Nikolai äußerst stolz und arrogant war. Trotz Nikolais Defiziten lehrte Relev ihn alles, was er wusste.
+
+Nachdem Relev von einer Bande Orks getötet wurde, begann Nikolai, allein zu üben. Trotz seiner Reisen kehrte er immer wieder zurück in die isolierte Gipfelregion seines Geburtsorts. Er wurde wegen seines unglaublichen Talents und seiner leidenschaftlichen Darbietungen überall am Südmondsee und in Sembia berühmt. Schließlich erreichten die Nachrichten von dem stolzen jungen Virtuosen auch einen ansässigen Raufbold namens Tremble Ghon aus Calaunt. Als Tremble und seine Bande durch den Elfenblutpass zogen, hielten sie beim Gasthaus zur elfischen Rüstung an und forderten eine Darbietung von Nikolai, der zu diesem Zeitpunkt mit seinem Vater das Abendessen einnahm.
+
+Nikolai lehnte es ab, für Tremble und seine Männer zu spielen. Er nannte sie stinkende Flegel und versuchte, mit Würde zu gehen. Tremble verletzte Nikolais Stolz, indem er behauptete, dass Nikolai Angst davor hatte, wegen seiner Unfähigkeit aus dem Gasthaus geworfen zu werden. Nikolai entegegnete daraufhin, dass er mit der Geige so meisterlich spielen konnte, dass selbst die Toten wieder auferstehen würden. Das sah Tremble als Herausforderung an und erstach daraufhin Nikolais Vater. Als einige Dorfbewohner eingreifen wollten, wurden sie auch von den Banditen getötet.
+
+Tremble stand herausfordernd über Nikolais totem Vater und sagte: "Wo ist Euer großes Mundwerk jetzt, kleiner Geigenspieler?" Ohne ein weiteres Wort zog Nikolai seine Geige hervor und begann eine Melodie zu spielen, die keiner der Bewohner von Hoch-Haspur jemals zuvor gehört hatte, und niemand auf Faerûn sie jemals wieder hören würde. Nikolai spielte mit ungezügelter Leidenschaft und Hingabe. Zuschauer erinnerten sich später, dass er wie ein Irrer zu sein schien, der sich in nie dagewesener Weise bewegte und seinen Körper bei Spielen verdrehte. Am Höhepunkt seines furiosen Spiels sahen Tremble und seine Bande mit Entsetzen, wie die Seelen der Männer und Frauen, die sie gerade getötet hatten, sich von ihren Leichen lösten und kreischend auf ihre Mörder zuschwebten. Die Banditen starben eines schrecklichen Todes, in Todesangst und Horror durch die Seelen ihrer Opfer.
+
+Nikolai fuhr mit seinem Spiel fort, und tanzte durch die Straßen und Höfe seines alpinen Heimatortes, bis jeder Mann, jede Frau, jedes Kind und jede Kreatur, welche jemals begraben wurde, sich aus ihrem Grab erhob und umherlief, bis Nikolai und seine Musik in einem weit entfernten Tal in einem mysteriösen Nebel verschwanden, welcher sich so schnell verflüchtigte, wie er aufgetaucht war.
+
+Legenden besagen, dass bei nebligen Nächten der Geist von Nikolai Tallow in seine Heimat zurückkehrt und eine Geistergeige spielt, während die Toten ihm tanzend im Mondlicht folgen.
+
+EIGENSCHAFTEN:
+
+Ruft einmal am Tag 1W4 Schatten herbei, die ein Ziel angreifen.~
+@19 = ~Dieser Ohrring ist ein Geschenk von Tenya, der Priesterin der Umberlee, an Garrick für seine Hilfe.
+Er beherbergt einen kleinen Geist aus der elementaren Ebene des Wassers, was wohl seine Kräfte erklärt. Wie es scheint, ist der Geist irgendwie an Garrick gebunden.
+
+EIGENSCHAFTEN:
+
+Verfluchter Gegenstand:
+
+Weisheit wird um 1 Punkt gesenkt.
+Intelligenz wird um 1 Punkt erhöht.
+
+Das Wissen des Trägers wird erhöht.
+Drei mal am Tag kann der Zauber "Heiligtum" angewendet werden.~
+// #27444 in BGEE
+@371 = ~Der Fischer und die Priesterin
+Die „Priesterin“, die ich töten sollte, ist gerade mal zwölf Jahre alt. Sie sagt, die Fischer, die mich angeheuert haben, hätten ihre Mutter getötet. Ich werde die Fischer in ihrem Namen zur Rede stellen.~
+// #1827 in BGEE
+@491 = ~Tremains Sohn
+Ich habe den Körper des Kindes aus dem Tempel der Göttin Umberlee geborgen. Man kann nur von Glück sagen, dass Tenya da war, obwohl ich mir immer noch ausgenutzt vorkomme.~

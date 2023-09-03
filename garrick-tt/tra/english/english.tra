@@ -1,0 +1,551 @@
+@1 = ~Garrick: Tales of a Troubadour~
+@2 = ~Garrick: Tales of a Troubadour~
+@3 = ~This mod requires Baldur's Gate Trilogy.~
+@-3 = ~This mod requires BG1NPC.~
+//
+//
+@4 = ~Siren's Melody~
+@5 = ~Battle Song~
+@6 = ~Drunkard's Ditty~
+@7 = ~Ballad of the Mad Dwarf~
+@8 = ~Little Flute~
+@9 = ~This little recorder was made in distant Evermeet.
+It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent.
+
+Despite it's apparent mundane nature, this flute has magical powers and allows the player to be well received by their audience when played.
+
+STATISTICS:
+
+Can cast "Friends" once per day.
+Usable By:
+ Bard~
+@10 = ~Dryad Hair Flute~
+@11 = ~This little recorder was made in distant Evermeet.
+It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent. A dryad from the Cloud Peaks gave one hair from her head to Garrick, for helping her save her tree, who tied it around the flute after he cracked it by mistake. The magical hair grants abilities to the user.
+
+STATISTICS:
+
+Can cast "Barkskin" twice per day.
+
+Only Usable By:
+ Bard~
+// #16779 in Icewind Dale
+@12 = ~Violin~
+// #16781 in Icewind Dale
+@13 = ~Violins are bowed, stringed instruments having four strings, a shallow body, shoulders at right angles to the neck, a fingerboard without frets, and a curved bridge.  They are typically played by pulling a bow across the strings, but can also be plucked.  Elves are particularly fond of violins and their craftsmen produce some of the finest specimens in the world.~
+// #16782 in Icewind Dale
+@14 = ~Viol of the Hollow Men~
+// #16782 in Icewind Dale
+@15 = ~This instrument is also known as "Tallow's Violin," but that moniker is rarely spoken among musicians, as mentioning the name of Nikolai Tallow is considered bad luck. Nikolai was born in The Vast, near High Haspur, the son of a chandler. Because of the intermittent traffic through the region, Nikolai was introduced to many different cultures. One of the travelers he met was an elven musician named Relev Thinriver. Relev introduced Nikolai to the violin and taught him for several years as he wandered through the area. Relev knew that Nikolai was an incredibly gifted child, with quick fingers, a keen mind, and a passion for all things in the world. Relev also recognized that Nikolai was exceedingly proud and arrogant. In spite of Nikolai's shortcomings, Relev taught him everything he knew.
+
+After Relev was killed by a band of orcs, Nikolai began to practice on his own throughout the Vast. Despite his travels, he always returned to the isolate peaks of his mountain birthplace. He became famed throughout the Vast, the southern Moonsea and Sembia for his incredible talent and passionate performances. Eventually, news of the proud young virtuoso spread to the ears of a nearby thug from Calaunt named Tremble Ghon. When Tremble and his gang traveled through the Elvenblood Pass, they stopped at the Elf in Armor Inn and demanded a performance from Nikolai, who happened to be present and eating dinner with his father at the time.
+
+Nikolai refused to perform for Tremble and his men. He called them stinking oafs and attempted to leave with dignity. Tremble assaulted Nikolai's pride by claiming that Nikolai was afraid of performing because he'd be heckled out of the inn for his incompetence. Nikolai shot back that his skill with the violin was so great that he could raise the dead from their graves. Satisfied with a proposed challenge, Tremble immediately grabbed Nikolai's father and stabbed him in the heart. When a number of other villagers attempted to intervene, they were also killed by the bandits.
+
+Tremble defiantly stood over Nikolai's dead father and said, "Where's your big mouth now, fiddle player?" Without a word, Nikolai pulled his violin and bow out from underneath his arms and began to play a melody that none of the residents of High Haspur had ever heard before, and no one in Faerun would ever hear again. Nikolai played with unbridled passion and fervor. Onlookers later remarked that he appeared to be a madman, thrashing about in ways that people didn't think were possible. At the climax of his frenzied piece, Tremble and his gang watched in horror as the souls of the men and women they had just killed rose from their corpses and dove, shrieking, at their murderers. The bandits died horrible deaths, chilled by the shadows of their victims. Nikolai himself continued playing, dancing through the streets and back pastures of his alpine home until every man, woman, child, and beast ever buried in the region rose from its resting place and milled about until Nikolai and his music disappeared into a far off valley, shrouded in a mysterious fog that vanished as quickly as it had appeared.
+
+Legends say that on misty nights, the ghost of Nikolai Tallow returns to his homeland, playing a phantom violin with a host of dancing dead trailing behind him in the moonlight.
+
+STATISTICS:
+
+Summons 1D4 Shadows to attack a target, once per day.
+
+Only Usable By:
+ Bard~
+@16 = ~Broken violin~
+@17 = ~This violin has obviously seen better days. Its strings are cut or missing, and its wood is broken and damaged in many places.
+Yet you notice the presence of small runes on the edge of the instrument - the violin is (was?) magical without a doubt.
+Maybe it is possible to find someone who can fix it.~
+@18 = ~Earring of Tenya~
+@19 = ~This earring was offered to Garrick by Tenya, the priestess of Umberlee, as gratitude for his help.
+It is inhabitated by a small spirit from the Elemental Plane of Water, which would explain its powers. It seems that the spirit is particularly attached to Garrick.
+
+STATISTICS:
+
+Cursed item: decreases wisdom by 1 point.
+Increases intelligence by 1 point.
+
+Increases knowledge of the wearer.
+It allows to cast "Sanctuary" three times.
+
+Usable Only By:
+ Garrick~
+@20 = ~Kiss of the Dryad~
+@21 = ~Kiss of the Dryad (Necromancy)
+Level: 2
+Range: 3 meters
+Duration: Permanent
+Casting Time: 5
+Area of Effect: Target creature
+Saving Throw: None
+This spell allows the caster to bring down the wrath of the forest protector, the Dryad on the target, dealing 8 damage points.
+If cast on an ally, the spell heals 8 damage points or and heals any injury on the body of the target creature. This healing does not affect non-corporeal beings or or the undead or those from another plane.~
+@22 = ~Will of Umberlee~
+
+//
+// Dialogs
+//
+
+// New song
+@100 = ~NOTE: Garrick has learned a new song. To use it, select it from the special abilities menu, then use the default button to activate the bard song. To return to the default bard song, select "Battle Song" in the special abilities menu.~
+
+// Dialog with Gosse - Friendly Arm Inn
+@101 = ~BURP!!... hey hey hey!... look, a bard! Hip! Have you come to play us a song, then? *uurrrghhh*~
+@102 = ~Uh... Well Sir, I must admit that...~
+@103 = ~Ah, this is... urp! This is... what? Nice... need some music myself!~
+@104 = ~Sir, I'm afraid I do not have time for you. My companions and I...~
+@105 = ~'ait, I'a going to show you if you don't know... sit down, take the mug *BURP!* and... and... and... liiisten carefully to old Gosse. How is it... al-already?~
+@106 = ~I'm sorry sir but I must decli-...~
+@107 = ~Be silent and DRINK, I tell you!~
+@108 = ~(While serving Garrick again, the man starts singing what seems to be a largely incoherent song. From what you manage to gather, it is about the salacious adventures of a bear who after paying a visit to a Xvart, gets lost on the way back.)~
+@109 = ~I, uh, I have to say it wash... wash... WAS! very... interesting, my good fellow *hic*. But I'll have to leave you n-n-no-o-w. Now, where did I put my parchments...~
+@110 = ~Don't trust bears, bard! They are more horny than anyone can imagine! And VISSO... VI-... VISHOE! No, VICIOUS!~
+@111 = ~I will *Hic* be careful!~
+@112 = ~New song available: Drunkard's Ditty~
+@113 = ~Well, if you insist... *Garrick empties the beer mug in one go*.~
+
+// Dialog with Firebead
+
+@120 = ~Sir, if I may...~
+@121 = ~Yes, young man?~
+@122 = ~That flute... isn't it of elvish make? From Evermeet?~
+@123 = ~Huh? Oh yes! Yes, indeed. But how did you know?~
+@124 = ~I am especially interested in instruments of elven make... The small characteristic runes on the side are impossible to miss. The craftsmanship is exquisite! None can match the ingenuity of the elves when one considers art, and music is no exception! I only wish that I could play as well as you elves do, sir!~
+@125 = ~Yes, we generally do excel at the Arts, don't we? I remember when I could pry beautiful melodies from this very flute. I was famous, after a fashion, all over the Sword Coast! Ahhh, youth! Such a blessed time. Unfortunately, my agility and technique are not what they were. I could not even dream of playing as I used to...~
+@126 = ~Oh! I'm really sorry, sir. What a loss for this world! Not being able to hear you play!~
+// Kagain
+@127 = ~Oh, yes, SUCH a tragedy...~
+@128 = ~Your concern touches me, my boy. What is your name? Are you a musician as well?~
+@129 = ~Indeed, sir! I am Garrick, I used to play in the acting troupe: the Dale Wind Troubadours. We presented our shows in several major cities, including Neverwinter and Baldur's Gate. That was before I met <CHARNAME>, of course!~
+@130 = ~You seem to have already traveled far for such a young age. What instrument do you play?~
+@131 = ~Well, my favorite is the lyre, accompanied by my dulcet tones! But I also learnt to play the violin, and am able to play several breath instruments. But none of this quality, alas... *sigh*.~
+@132 = ~(Firebead smiles) Well Garrick, I am delighted to have met such a delightful young man with a great interest in art! I miss the sound of this flute... I miss the sound of my youth... Would you be willing to play me something?~
+// Viconia
+@133 = ~Oh! By Shar! Not this again...~
+@134 = ~Uh... me, sir? Are you sure?~
+@135 = ~Yes, yes, you! Unless there is another Garrick hidden somewhere around here?~
+@136 = ~No... no, sir, I don't see any other Garrick. Do you want to listen to something in particular?~
+@137 = ~No, my boy, play whatever you like! It will be good enough for me to hear the sweet tunes of the flute again.~
+@138 = ~Okay. Well I... I will begin.~
+@139 = ~(Garrick takes the little flute, his hands uncertain, his face unsure as he puts it to his lips. He begins to play, at first calm and relaxing, then picking up more rhythm. Hesitant at first, Garrick begins to gain confidence, he picks up speed and you feel as if his hands have more fingers than they should. The refrain of his music is particularly heady, and you feel as if you have heard this melody before, but you cannot remember when or where.)~
+@140 = ~(Whatever it was supposed to be, Garrick starts to improvise, adding notes as he goes along to the melody. It is a truly beautiful and somewhat original piece, with alternating slow and fast beats. Your mind seems to wander with the haid of the music, and you start to ponder over recent events. Gorion was a careful, methodical father and he loved you in his own fashion, you do not remember him being particularly fond of music.)~
+@141 = ~(Of course, it is supposed that he had very little time for such things... most of his free time was focused on mastering the arcane arts... unfortunately, even his considerable prowess was insufficient to save him from the assassin. In fact, upon reflection, he seemed quite insensitive to-)~
+@142 = ~(Your thoughts are interrupted by when the music stops playing and Firebead starts to applaud Garrick's skills.) Well done, my boy, well done! You seem to have real talent!~
+@143 = ~(Garrick blushes.) T-thank you, sir, I can honestly say that I have never played so well before. To be honest, I thought it was the flute's skill more than mine. I'm not...~
+@144 = ~Nonsense, my boy, nonsense! There's no need to be modest! One should be proud of ones talents! You played beautifully. A true treat for the ears!~
+// Jaheira
+@145 = ~Thank you for this musical break, Garrick. It was really beautiful.~
+@146 = ~Yes, really beautiful...~
+@147 = ~Ah, what memories this brings back! Garrick, this flute deserves to express itself through you... and you through it! It does nothing but collect dust in my possession... It will serve you much better than it does me. You would honour me by agreeing to take it, to play it, and delight your audiences!~
+@148 = ~What? Me, sir?! But this is an elven flute, from Evermeet! I can-~
+@149 = ~You cannot say no, my boy, take it, and make an old man happy!~
+@150 = ~Well, I...~
+@151 = ~It is settled then. I entrust it to you. Take good care of it, yes? It has faithfully served me my whole life. I would not want that anything bad to happen to it.~
+@152 = ~I... I... Okay, sir, you can count on me. I will be extremely careful! I will watch over it day and night, I -~
+@153 = ~I thank you, my boy, with all heart. I wish you luck in your travels, to all of you. May luck always be with you on your journey.~
+// Imoen
+@154 = ~I can't believe that was really Garrick playing! <CHARNAME>, he can stay with us forever, right?~
+
+// Dryad 1
+
+@170 = ~It's we who thank you, woodland creature. The mere chance at being able to contemplate your beauty is a reward enough for us. My flute will be inspired by it for weeks to come!~
+@171 = ~Your words are pleasing to hear, human. But I would not have you sing my praises with an instrument made from the death of a tree...~
+@172 = ~I... I must admit I do not know the origins of this flute, fair lady. The elves of distant Evermeet crafted it, I do not know how or where they harvest their wood...~
+@173 = ~Elves are more sensible towards nature than most... Evermeet, you say? Can I see this flute?~
+@174 = ~It is made from the wood of a pear tree. It seems the tree had already died before it's wood was used... there was no pain for it, no suffering... The elves are most kind... It is proper only to use wood from a tree that has completed it's life cycle... and died.~
+@175 = ~That is good to know. It comforts me that it wasn't necessary to cut down a beautiful pear tree so that I could play my music. My songs will be even more beautiful!~
+@176 = ~(The dryad smiles) It is rare to see such a sensible human. Most members of your species are mostly obsessed with material pursuits... Allow me to gift you this...~
+@177 = ~(The dryad removes one of her hairs from her head and gives it to Garrick.) Here. The wood of the flute is old, and there is crack on the inside which yo do not see. Tie this around it in this fashion. It will help in more ways than you can imagine. And when you travel, do not forget the gifts the Forest has provided for your music. Take care, bard.~
+
+// Dryad 2
+@180 = ~Greetings, mortals.~
+@181 = ~Bard, I have thought about you a great deal since we last met. I have something for you... it is a piece of skin on which a human mage wrote a song for me that he said "magical". The poor fool was completely obsessed with me... and I had done nothing to encourage the feeling. The behaviour of mortals will never cease to confound me!~
+@182 = ~If you wish, I can sing you this song. It seems to have incantations for a spell woven into the words. Perhaps it will be of more use to than it was to me.~
+@183 = ~Yes, ma'am! Let me just grab a pen and a scroll.~
+@184 = ~New spell: Kiss of the Dryad~
+
+// Garrick writes The Ballad of the Mad Dwarf
+@190 = ~This story is particularly tragic, and I am not sorry to see the end of it. After a lifetime of adventures, attempted assassinations by doppelgangers, murder, death and killing over and over and over again... the faces of loved ones... No wonder Durlag went mad. The misfortunes of the poor dwarf would draw tears from a fiend from the deepest parts of the Nine Hells!~
+@191 = ~And when you think he will be remembered as a greedy dwarf who murdered his loved ones without remorse and was obsessed with wealth... I mean he endured more suffering in one lifetime than anyone could in a thousand! It is my duty to correct this injustice. I will write a song in honour of his memory!~
+// Yeslick
+@192 = ~That is a very good idea, Garrick. Perhaps it will help Durlag's soul to find the rest it deserves.~
+@193 = ~That's it! I have done it! My song in honour of Durlag is complete! I call it "The Ballad of the Mad Dwarf". I must admit I am pretty pleased with it! Do you wish to hear it?~
+// Yeslick
+@194 = ~Bravo, Garrick. I am eager to hear what you have compiled.~
+@195 = ~<CHARNAME>?~
+@196 = ~Very well. We will listen to you, Garrick.~
+@197 = ~One, two, three!~
+@198 = ~Do you think we have nothing better to do than listen to your music? Really?~
+@199 = ~Uh... well... but I... Good. Okay, let's continue then. Sigh...~
+@200 = ~New song available: Ballad of the Mad Dwarf~
+
+// Cutscene - sirens
+@210 = ~...~
+@211 = ~Whisper: their song is so enchanting. It is hard to imagine that behind such beauty and synergy lies the death of countless sailors... eaten... yech!~
+@212 = ~What an amazing show. Thank you, Tymora, for this opportunity!~
+@213 = ~New song available: Siren's Melody~
+
+// Sirens - Morning Temple
+@220 = ~Mermaids are such beautiful creatures. They say that their beauty and their song can drive even the wisest of men, mad. We should stay here and listen to their song for a bit, if we have time. But adventure is a demanding mistress, alas...!~
+
+// Sirens - Lighthouse
+@230 = ~Maybe we'll see mermaids! But I suppose they will be more aggressive here than by the Morning Temple.~
+
+// "random" map
+@240 = ~The body of this man was in poor condition even before the wolves start to devour it. It will be difficult to learn how he died.~
+// Faldorn
+@241 = ~This is strange. This man looks like a barbarian... from Icewind Dale, far to the north! There are no distinguishing marks for me to identify what tribe he belongs to. I wonder what he was doing so far from home... Father Oak! What has forced him to come down this far south?~
+// Garrick sees the violin
+@242 = ~Oh, no! Look at this! This violin has been massacred! Who would do such a thing to an instrument?! Look at the quality of the wood?! And these small runes that run along it- <CHARNAME>, this is no trivial thing... this violin is precious. We must do something to repair it! Leaving it like this would be an unspeakable crime!~
+
+// Dialog with Thalantyr about the violin
+@250 = ~We found a violin recently... in a very bad shape. Do you think you can fix it?~
+@251 = ~A violin, you say? Show it to me.~
+@252 = ~(Thalantyr examines the violin.) Ah, it must have been a beautiful instrument once. Unfortunately, I have no expertise in repairing violins, and even less so if they are magical, as this one clearly is. You'll have to find someone more skilled than I. And before you ask, no, I do not know anyone who can fix this.~
+@253 = ~What a pity. Thanks anyway for your help.~
+
+// Dialog with Toubazar Drin about the violin
+@260 = ~My companions and I have an old violin, it is magical, but it is in a very poor state. Do you know anyone who might be able to fix it?~
+@261 = ~Show it to me... Ah... well, your violin has seen better days, that much is certain. I am sorry my friends, I do not have the skill to repair musical instruments... but I do know someone who will be able to... yes, I think he will be able to do it... But there is a downside... he is an artist and his work is not cheap... given the state of the violin, I can tell you that he will ask for 20.000 gold pieces, and not a piece less!~
+@262 = ~That is very expensive, but I accept. Here's your 20.000 gold pieces.~
+@263 = ~Thank you. I will take it for repairs to my friend, today. Should take about... ten days, I think.~
+@264 = ~That is too expensive! I refuse to pay such high sums for a musical instrument!~
+@265 = ~It's your choice, and your instrument. Come back if you change your mind.~
+@266 = ~I do not have the means to pay that much gold at the moment.~
+@267 = ~Well, come back once you have the gold, if you are still interested that is.~
+@268 = ~About my violin...~
+@269 = ~My friend has not yet completed the repairs. I told you ten days, right?~
+@270 = ~Yes, I remember, you want to get it fixed. Do you have the 20.000 gold?~
+@271 = ~Yes, here it is.~
+@272 = ~No.~
+@273 = ~You're wasting your time, friend... and mine. Come back when you are ready.~
+@274 = ~Hello there. My friend just brought back your violin. Look... here it is. A work of art, if I may say so!~
+// Garrick
+@275 = ~He speaks truth, <CHARNAME>. The instrument is divine, I feel the magic pulsating from it... look, touch the bow, you'll feel it too!~
+
+// Nashkel - Innkeeper
+@280 = ~You and your companions have made a right holy mess in my inn, master bard!~
+@281 = ~We were just minding our own business, innkeeper. We do not know why that woman attacked us.~
+@282 = ~Bah! Whatever you say... Are you going to stay long in Nashkel?~
+@283 = ~I do not know. Our party is here to investigate the problems in your mines.~
+@284 = ~Ah! Then you will not be staying here for too long then! You are not the first to attempt to investigate the mines and you won't be the last: Many a fool has gone into the depths and not come out! I would not go if I were in your place! They say the dead have come to life and stalk the shafts... They say there are demons down there... or worse... What with all these problems, and war brewing with Baldur's Gate the mood in the city is very bleak indeed.~
+@285 = ~How fortunate indeed then that I have a bard standing in front of me.... a chance to liven things up a bit! What do you say, Master bard? Will you perform in my inn tonight? The people really need a pick-me-up... and something new and fresh would do just that! Come now, consider it payment for the damage you have caused... and the dead body that I have to dispose of! Not to mention bear witness on your behalf to the law when it comes to investigate what happened!~
+@286 = ~Ummmm... I don't know. What do you think <CHARNAME>?~
+@287 = ~I think it's a good idea. A little popularity with the local populace could come in useful someday.~
+@288 = ~No, Garrick. This will draw unwanted attention to ourselves. We have assassins on our trail... and that will complicate our work in the mines unnecessarily. My apologies, innkeeper, but we really don't have time for this...~
+@289 = ~Humph! As you wish!~
+@290 = ~Hurrah!~
+@291 = ~(Applause!)~
+@292 = ~Yes, bravo!~
+@293 = ~Ah, such a good audience, yes?! People are happy, they are laughing and it's been long time coming under this roof! A success, a great success, thanks to you! Many thanks, noble sirs! Your stay for tonight is free, yes? And you shall have a discount on the food and drink for the evening! Come, let me show you to your rooms, I will prepare them myself while you eat!~
+@294 = ~Mom, is that a real bard?~
+@295 = ~Shhh, it is starting!~
+@296 = ~Be reasonable! Don't leave tonight! People say strange things are happening after nightfall...~
+@297 = ~What do you have for me today?~
+@298 = ~I do not need anything right now.~
+
+// Dialog with Larriaz
+@300 = ~Larriaz's Blessings~
+@301 = ~Larriaz, I... I had the opportunity to listen to the songs of your sisters... south of Candlekeep. If it is any comfort, I will sing with you...~
+@302 = ~You... you... will you do this for Larriaz, human? Why?~
+@303 = ~If it is your desire, yes. I just want to ease your suffering... If you don't want our help we will leave you in peace.~
+@304 = ~Wha-... Larriaz accepts your offer... you may sing with Larriaz, human.~
+@305 = ~(Garrick softly sings the song he heard the mermaids sing before.)~
+@306 = ~Thank you... for not letting Larriaz die alone... May the Sea remember the kindness you have shown it's daughters, wherever you are... and repay you in kind...~
+
+// Garrick, after Aec'Letec
+@310 = ~By the gods, I never thought it would be possible! We have defeated a powerful fiend, and prevented it from spreading death and destruction on Faerun! It is a day of celebration, <CHARNAME>! I will sing of our exploit in all the inns and taverns of the Coast!~
+
+// Garrick explains his songs
+@320 = ~Garrick, tell me something about some of the songs that you know?~
+@321 = ~Which song do you wish to know about, <CHARNAME>?~
+@322 = ~The "Battle Song".~
+@323 = ~The "Siren's Melody".~
+@324 = ~The "Drunkard's Ditty".~
+@325 = ~The "Ballad of the Mad Dwarf".~
+@326 = ~This is the traditional battle song... it is known to almost every self-respecting bard in this part of Faerun. It inspires courage in those who hear it.~
+@327 = ~Ah, it is rather difficult to perform, especially for a male. It is difficult to mimic the tones and notes of the mermaids, but I think I can do it quite well. This song allows the singer to influence the minds of those who wish to harm us. It's effect is of a short duration, though.~
+@328 = ~ Uh... yes. Well, it's... let's just say it's a song I learnt from a drunk at the Friendly Arm. I adapted some of the lines and the tunes for my own song... What was its name... Hmm... I'm not sure that the words are suitable for the most ears. It whips up my allies into a frenzy! Unfortunately, that means the people affected are not ready for intellectual pursuits while the effects last.~
+@329 = ~Beautiful lyrics, aren't they? I composed it following our expedition to the Tower of Durlag, the dwarf... I had hoped to help make his true story known to the world... I know Durlag appreciates it from the great beyond because when I sing it, a curse affects our enemies!~
+@330 = ~Very well. Thank you, Garrick.~
+
+// Dialog with Tenya - 1
+@340 = ~<CHARNAME>, it seems that the situation is much more complex than we have been led to believe. Damsel, we will do everything we can to help you, you have my word!~
+// after the quest with fishermen
+@341 = ~Sweet damsel, the fishermen are dead. Your mother is avenged. Do you know what you're going to do now?~
+@342 = ~Sweet damsel, we have found the Bowl that was stolen from you. I hope your mother will find rest now. I will pray to the gods that she does, with your permission. Do you know what you're going to do now?~
+@343 = ~Ah! Umberlee is mother now, and she is very, very happy. What will I do? Well... I'll get to Baldur's Gate, I guess.~
+@344 = ~But how are you going to live without your mother, without anyone, at your tender age? You cannot be serious! We cannot let you go like that. Please, take some gold at least, it will help you survive for a while.~
+@345 = ~(Tenya smiles) You seem very nice. What is your name? Why do you offer gold to a stranger?~
+@346 = ~I am Garrick, notable bard of the Sword Coast! I only wish to help you, humbly. If I can do anything else to help you, especially d-~
+@347 = ~(Tenya laughs.) Well, Garrick, that's very kind of you. But my sisters will welcome me with open arms. And Umberlee is perfectly capable of defending her daughters, even without the help of a handsome bard with a sharp wit!~
+@348 = ~(Garrick blushes) B-b-but I thought that-~
+@349 = ~However, your kindness deserves a reward. (Tenya removes the earring she wears on her left ear and hands it to Garrick.) Here... for you... with my gratitude. May it remind you always of me.~
+@350 = ~I... your... I... your eyes are so blue. This is very weird and -~
+@351 = ~(Tenya whispers softly) Do you know where the Water Queen's House is, Garrick?~
+@352 = ~W-what? Well, I... yes, I've already seen it at the Gate. You-~
+@353 = ~If you wish to see me again... I will be there... waiting... impatiently.~
+@354 = ~I... yes, me... too. You... you're not really a young girl, is not it?~
+@355 = ~(strange laugh) Not really, no. You and your companions were perfect, and the Water Queen will reward you... in time.~
+@356 = ~(Garrick seems to be lost in thoughts.)~
+@357 = ~Garrick, are you alright? What was that all about?~
+@358 = ~I.... I do not know, <CHARNAME>. Do you think she cast a spell on me?!~
+// Imoen
+@359 = ~I don't know, but it was a rather disturbing laugh!~
+// Kagain
+@360 = ~Don't feel she needed her magic... *snicker*...~
+// Eldoth
+@361 = ~You're really stupid. I refuse to be killed because of the actions of this moron!~
+// Minsc
+@362 = ~I hope Boo will kindly explain this, because I did not understand everything. Boo?~
+@363 = ~*squeak!*~
+@364 = ~Uh. Thanks, Boo.~
+// Jaheira
+@365 = ~You'd better watch out, Garrick. And you too, <CHARNAME>. Maybe this Tenya isn't what she claims to be.~
+// Xan
+@366 = ~We are doomed! After all that we have done, now we attract the attention of Umberlee! We should just lie down and wait for death...~
+@367 = ~I'd really like for you to stop your whining just once, Garrick. Shut up now!~
+@368 = ~I don't know, Garrick. I hope not.~
+@369 = ~No idea. But that was very clever, Garrick. I think having a god as an ally might prove useful. I count on you to develop this relationship.~
+@370 = ~<CHARNAME>?~
+// BGT Original - Journal entry
+// @800029 + @6286 in BGT for english lang.
+@371 = ~The priestess of Umberlee.
+
+The "priestess" I was sent to kill is no more than a child of perhaps twelve years.  She says the fishermen who hired me killed her mother.  I shall go confront them on her behalf.~
+@372 = ~See you soon, Garrick.~
+
+// Tenya 2 - The Gate
+@399 = ~We wish to see the Priestess Tenya.~
+@400 = ~Greetings, Garrick. Welcome to the House of Umberlee. I am delighted to see you.~
+@401 = ~Hello, Tenya. I'm... very glad to see you, I guess.~
+@402 = ~You... guess? Ahuh... I-... We'll talk later... I must inform you that the Water Queen has plans for you... big plans... Oh where are my manners! Greetings to you too, <CHARNAME>. I pray that the goddess Umberlee watches over you. This is the House of Umberlee, and she watches all... especially you.~
+@403 = ~I am confused... are you trying to assure me or threaten me, little priestess?~
+@404 = ~As for me, I'm not sure whether it is good news that Umberlee has "big plans" for me.~
+@405 = ~(Tenya ignores your remark.) Garrick, you have no reason to worry. Let me tell you what it is.~
+@406 = ~"Especially me"? Why is that?~
+@407 = ~People like you who wreak havoc and destruction, and leave many dead in your wake... Is it not fitting for the gods to keep an eye on you?~
+@408 = ~I am not sure I like the thought of being watched by Umberlee. Especially if she has plans for me...~
+@409 = ~Garrick, you have no reason to worry. Let me tell you what it is.~
+@410 = ~Adventurers of your kind... are always ready to defend, with the sword if necessary, your notion of what is "good", always ready to slay "evil" in the name of your "higher" morality. As if you had the ability to judge that sort of thing! As if your opinion has made universal truths to be applied to everything and everyone or everywhere.~
+@411 = ~I do what I think is right, yes. Unlike your moral code, mine has saved the people of this loast from bandit attacks, miners from perishing by kobolds, freed slaves condemned to work till they die...~
+@412 = ~Has our first meeting taught you nothing? How many creatures have you attacked on sight, without even knowing what their intentions were?! Just for what they WERE? How many Xvart, females and young, have you MASSACRED during raids on their villages?! How many daughters of Umberlee have been exterminated on the Coast because of just their SINGING?! Or captured by the "poor" and "innocent" fishermen and raped for their charms? You speak of kobolds... if the miners hadn't dug into THEIR homes, they wouldn't have had to defend themselves?! To survive?!~
+@413 = ~You are young and understand little. If I were as blood thirsty and as mindless as you say I am, you would have been dead in our first meeting... I would have dropped you without a thought. As for attacking creatures without knowing their intentions, I have never attacked anything that didn't attack first... that includes the Xvart.~
+@414 = ~The kobolds were brought there by a villain... there homes were nowhere near the area. And, for the sake of argument, even if they were, perhaps they should have tried negotiating with the miners instead of killing them. That is what sentient species DO!~
+@415 = ~All your arguments are very pretty... I'm sure you have tried yourself to negotiate with the kobolds before to kill them all? And you have conducted investigations to be sure to deliver justice. Or... maybe not? Does that not bother your conscience?~
+@416 = ~Indeed, it does... Not because I killed them... but because I had to...~
+@417 = ~Does that not make you the same as the creatures that you exterminate? Perhaps even worse? Perhaps under the cover of your so-called morality, you hit randomly, justifying your actions to yourself and others by the idea that you are on the "good side", which exists only in your imagination.~
+@418 = ~Does this argument not ring any bells in your mind, <CHARNAME>?~
+@419 = ~This is a waste of time... Garrick, over to you...~
+@420 = ~Either what we hold to be right and good and true is right and good and true for everyone, everything, everywhere... or it is not. There is no such thing as subjective morality. If your argument is accepted then you would allow these creatures to mercilessly kill people for pleasure... or food, or gold! It is a simple matter: Which holocaust should be chosen? Because neither can live with the other. I did not hear you complain when I dealt with the fishermen...~
+@421 = ~(Tenya glares at you with her wide blue eyes. She says nothing, but you see disapproval in her eyes.)~
+@422 = ~The Water Queen appeared to me last night to tell me that one of her children had been captured by a family of fishermen, just off the Gate. According to our... informants, their boat returned to the dock this early morning. You must find her before it's too late. These monsters are capable of anything, and the daughter of Umberlee cannot survive very long outside of the sea.~
+// Edwin
+@423 = ~As if these two idiots were able to do anything. I guess I'm going to have to do everything myself... again...~
+@424 = ~What is a daughter of Umberlee, exactly?~
+@425 = ~Umberlee has many children, Garrick. In this case, she is a mermaid. But we do not have time to talk! When you have found her, tell her that you have been sent by the will of Umberlee, she will know what that means and accept your aid.~
+@426 = ~Okay, let's go.~
+@427 = ~Fishing for a mermaid
+
+Tenya, the priestess of Umberlee, has asked us to find a mermaid who has been caught and brought ashore by fishermen. She has asked us to start at the docks. The mermaid cannot survive for long outside of water so we must make haste.~
+@428 = ~Fishing for a mermaid
+
+Unfortunately, Larriaz, the captured mermaid, died and there was nothing that could be done to prevent it. I hope Tenya... or Umberlee will not blame us...~
+@429 = ~There is no way I'm helping you, Tenya. Umberlee can find herself another pawn! I have bigger "fish" to fry!~
+@430 = ~You have chosen to displease Umberlee. Now you will suffer the consequences, FOOLS!
+
+Oh Umberlee, Queen of the Seas! Give me the power to protect myself, your child, and to face your opponents! May your Wrath fall upon them, and the Sea itself rise up to destroy them!~
+@431 = ~I hope you have good news... Yes? Stop wasting time if you don't!~
+@432 = ~I hope you have good news...~
+@433 = ~I do not have good news: the mermaid is dead. We could not do anything.~
+@434 = ~WHAT?! I entrusted you with a SIMPLE task! Even for someone with YOUR miserable skills! And you still find a way to ruin everything! What have you DONE?!~
+@435 = ~Tenya, calm down. We did everything we could, but the mermaid would not listen. If it is any consolation to Umberlee, I did my best to ease her passing.~
+@436 = ~We arrived too late. She had stayed too long out of water, we were unable to save her. She did not want to be saved anyway.~
+@437 = ~You are... you... I should have done it MYSELF! We would have been spared this debacle! Because of you, the Water Queen has lost one of her daughters! You will be punished for, <CHARNAME>! You had better serve Umberlee well in future, or there will be dire consequences!~
+@438 = ~The Water Queen has already given me your next quest. A logical consequence of our first meeting: the guilty must be punished, as you yourself will be, for your failure.~
+// Jaheira
+@439 = ~What?! What is the point of all this? You sent us to achieve a task you knew was impossible and you want to punish us for our predictable failure? And you think punishing us will put us in a more cooperative state. Don't dare to approach me.~
+@440 = ~Stop, Tenya. I do not want to have anything to do with Umberlee or her followers. Stay here and rot with your goddess! Farewell, priestess.~
+@441 = ~I... very well...~
+@442 = ~You are learning humility, <CHARNAME>. It's a good thing. Don't move, it will not be long... and not TOO painful.~
+@443 = ~(Tenya whispers a prayer to her goddess. You manage to hear only a few words, but you do not really grasp their meaning. The prayer seems to speaks of duty, of weakness implanted in water and of the icy death found in the Great Dark, whatever that means. It seems to-)~
+@444 = ~(An excruciating pain tears your thoughts. For a moment, you have the impression that the blood flowing in your brain has become frozen. Everything spins around you, then, as quickly as it came, the pain disappears. You did not even have time to scream.
+As your initial surprise susides, you feel a great sense of weakness, which dissipates as quickly as it appeared.)~
+@445 = ~(<CHARNAME> permanently loses two life points.)~
+@446 = ~Nothing that will slow down someone like you, right? ...snicker...~
+@447 = ~Now, I assume you remember Sonner and his henchmen?The ones who stole the magic bowl given by the goddess to my mother, before torturing and killing her? You've probably already figured out that these miserable fishermen did not have the brains to come up with that idea on their own... they would never have found the courage to challenge Umberlee.~
+@448 = ~Our priestesses have tracked down the person responsible for these acts of cruelty. It is a powerful priest named Enriack, sent by the Church of Talos. This man must pay for his crimes! The Water Queen wants him to... *disappear*. That is where you come in.~
+// Imoen
+@449 = ~Uhhh are we assassins now? We're not even getting paid... I understand that this child mother was killed but...~
+// Khalid
+@450 = ~*cough*... I d-d-don't think t-t-this is such a good id-d-dea...~
+// Imoen
+@451 = ~As long as we know why we are doing this... If it's for justice, I guess it's okay. But I don't like this.~
+@452 = ~I guess we'll have to deal with this priest then... Umberlee must really be short staffed to be obliged to carry out her dirty work through the first group of adventurers that passes by!~
+@453 = ~Hold your tongue... Your ignorance makes you particularly crass! Talos is a direct superior... of Umberlee. If we approach Enriack, the Storm Lord will know immediately. Umberlee does not want to displease her superior... not directly, anyway.~
+@454 = ~So that's the explanation for all this. Umberlee simply need thugs to do her dirty work, anonymously. How... crude.~
+@455 = ~Crude? You expected something more... heroic, perhaps? Sorry to disappoint you! (Tenya laughs.)~
+@456 = ~Don't be so glum, Garrick, for you the rewards are truly great indeed! I promise once you have accomplished all that Umberlee asks of you, she will reward you with something you will greatly desire! And it will be just for you.~
+@457 = ~On to the details, Enriack currently resides at the Three Old Kegs inn, from where he expects to embark for Waterdeep. He should NOT place a foot on a ship, understood, <CHARNAME>? After what he did to us, there is no way he will be allowed to set foot onto our mother's kingdom! Go kill him!~
+@458 = ~One last thing: no one knows that you work for Umberlee, and it would be unfortunate if this circumstance changes. Now go, and try to come back alive. And, more importantly, victorious!~
+@459 = ~Is Enriack dead? No?! What are you STILL doing here?! Leave immediately!!~
+@460 = ~Is Enriack dead?~
+@461 = ~Yes. It was a tough battle, but we managed to accomplish what we set out to do...~
+@462 = ~Finally! You are not as incapable as you look. Glory be to the Water Queen! The affront has been washed in blood! Umberlee is mother, and her revenge is accomplished!~
+@463 = ~Um... yes... Can we go now?~
+@464 = ~Yes... you have served Umberlee well. Go with her blessing!~
+@465 = ~Indeed. What about our reward...?~
+@466 = ~A reward? The privilege of serving the greatest goddess of Faerun is not enough for you?~
+@467 = ~No.~
+@468 = ~Too bad. Sigh... well... Given the service you have rendered to Umberlee, I authorize you to keep the items you took from Enriack. You will not get nothing more. Go now.~
+@469 = ~I... yes?~
+@470 = ~Garrick, I have a proposal for you. Please come see me whenever you wish..., whenever you get rid of <CHARNAME> that is! Together, we will accomplish great things! With Umberlee's blessing, we will explore the wonders of marine world. Amazing things await, and we will go further than we can even dare to imagine.~
+@471 = ~These are Umberlee's wishes? Her "great plans" for me? Are you offering me a job?!~
+@472 = ~It is rather kind of a... partnership, but you can see it as you like it, I guess.~
+@473 = ~I honestly do not think I want to join the church of Umberlee. I have worked with some unsavory people, and I do not want to repeat the experience.~
+@474 = ~I do not require you to join our ranks, Garrick. I am suggesting you work with me, from time to time... if you wish, and without jeopardizing your "morality". The plans of Umberlee require many hands, in many places, and a talented bard will be more than useful. Imagine the wonderful things we will see! Your ballads, songs and poems will tell of them all! Your talents will be put to good use! You will be important, I am sure!~
+@475 = ~I do not know, Tenya. You... you are intriguing, and strange as well, and part of me would love to follow you. But I must admit I do not know whether I can trust you... You were very quick to unleash the wrath of your goddess on <CHARNAME>.~
+@476 = ~I am sorry about that, Garrick, but I am not always like that. I want you to be with me...~
+@477 = ~If you say so. In any case, I have to help <CHARNAME> to finish some little things.~
+@478 = ~Well ,then you will have plenty of time to think... about us. I will wait to hear from you with great impatience, Garrick. Farewell!~
+@479 = ~Garrick! It is nice to see you! Have you thought about my proposal?~
+@480 = ~I am not yet finished with <CHARNAME>, Tenya.~
+@481 = ~... That's... too bad. I will pray to Umberlee for your success, then.~
+@482 = ~The priest of Talos
+
+According to Tenya, the person responsible for the death of her mother is a priest of Talos called Enriack. She and her goddess have ordered us to kill him, as punishment for his crimes. He resides currently in the Three Old Kegs inn.~
+@483 = ~The priest of Talos
+
+We reported our success to Tenya with regards to Enriack. She was very happy, but did not judge it good enough to give us a proper reward... Helping evil gods does not pay, it seems.~
+@484 = ~I really hope you will not disappoint me...~
+@485 = ~Garrick, stay a moment, please.~
+@486 = ~You're back.~
+@487 = ~You want something else, <CHARNAME>?~
+@488 = ~No. Bye for now.~
+@489 = ~I don't want anything from you, but a dead body you have kept here in your *sacred* halls. I don't imagine keeping it around is good for the decor...~
+@490 = ~You think you are asking for something small? Very well... you may take the child and leave. The lesson is learned. Do with the body as you wish.~
+// BGT Original - Journal entry
+// @800062 + @1827 in BGT for english lang.
+@491 = ~Rescue Tremain's son.
+
+I have retrieved the child's body from the Umberlee temple.  It was a stroke of luck that Tenya was there, though I feel no better about being used before.~
+
+// Enriack
+@500 = ~Enriack~
+@501 = ~I hope you have a VERY good reason for entering my room without my permission.~
+@502 = ~I am looking for Enriack. Are you he?~
+@503 = ~Yes, I am Enriack. Who are you and what do you want me?~
+@504 = ~I'm afraid you have angered the wrong person. Any last words before I send you to the bosom of your loving god, Talos?~
+@505 = ~I... What?! I warn you... out of charity: I will not be easy prey! TALOS, BEHOLD YOUR DEVOTED SERVANT! BEHOLD AS I BRING DESTRUCTION IN YOUR NAME!~
+@-500 = ~Aerial Servant~
+@-501 = ~Storm Shield~
+@-502 = ~Lightning Bolt~
+
+// Desert stone
+@-520 = ~Gem~
+@520 = ~Desert stone~
+@521 = ~This little gem is made of a material that you have never seen before. It is difficult to guess at the origin, but it is likely of some value.
+
+The stone is warm to touch, even when the surroundings are cold. Maybe it is magical, or perhaps it is just an impression one gets when the unusual texture of the stone is touched.~
+@522 = ~Divination spells do not do much on this rock.
+
+According to legend, it would have belonged to an efreet of the Elemental Plane of Fire, who used it to decorate his favorite magic scimitar. It is said that this efreet was captured by a Sha'ir wizard and sentenced to serve 100 years. To lighten his sentence, the efreet would have negotiated a shorter period of captivity in return for his scimitar.
+The Sha'ir would have kept the weapons for years, until, in need of money, he would ended up to eventually sell it.
+
+You have no idea how this gem ended up here, or what its powers are, if indeed it has any.~
+// Silence
+@523 = ~Tell me, do you have interest in gemstones, by chance?~
+@524 = ~Not really, no.~
+@525 = ~Sorry to have bothered you.~
+@526 = ~It depends. What sort of stones are you talking about?~
+@527 = ~Ah, I knew it! Let me explain. One of my friends has recently imported a particularly rare gem. In fact, I have never seen one such as this before!~
+@528 = ~Imported, you say? And where does it come from?~
+@529 = ~My friend says it comes from a remote area to the far south, called Zakhara. According to him, it has vast deserts, and there is much mineral wealth! It is said that there are may djinn there, and one can see them walking around! Unless you catch the evil eye, hahaha!~
+@530 = ~On second thought, this does not interest us. I will look at some other services.~
+@531 = ~Hilarious. And what does this have to do with gems?~
+@532 = ~Of course, of course! Look, here it is. Strange, is it not? See the purity of its features, the fabulous colors, it exudes exoticism! Really fascinating, yes?~
+@533 = ~It is very pretty, indeed. But what is it for?~
+@534 = ~What is it for?! Well that's for you to- Oh let's see! You can gift it to a relative or a friend on a great occasion! You can put a smile on the face of a beautiful damsel - or an handsome man - with this, you can-~
+@535 = ~Alright alright, thank you, I get the idea. It is not very useful, then. And how much does it cost?~
+@536 = ~For someone as exceptional as you, I'll give it for... 800 gold. A mere trifle to you, no doubt.~
+@537 = ~What?! That is a lot of gold for a pebble!~
+@538 = ~Your price is a bit excessive.~
+@539 = ~<CHARNAME>? I think I will buy this stone, if you allow it.~
+@540 = ~You? Well... if you want, sure. I do not see how it would serve a purpose for me, anyway.~
+@541 = ~Uhhhh... would it be possible to loan me some gold? I will return it as soon as I can! My finances are a bit... uhhh... dry.~
+@542 = ~No, sorry, I cannot.~
+@543 = ~Never mind, I will sell it to someone else. You have missed quite a bargain!~
+@544 = ~Hmm... if you want, sure. Here.~
+@545 = ~Thank you so much, <CHARNAME>! Here, my good fellow!~
+@546 = ~I guess that is over with...~
+@547 = ~Garrick, out of curiosity... what are you going to do with it?~
+@548 = ~(Garrick blushes) Well uh, I... I'm going to offer it to Tenya.~
+@549 = ~Sorry, what?!~
+@550 = ~I, uh, yes. I think it will make her happy... a stone...~
+@551 = ~Garrick. You do not have to justify yourself to me, as long as you pay me back...~
+@552 = ~Thank you, <CHARNAME>.~
+@553 = ~I do hope you realise she is 12 years old... and quite a handful... not the nicest person, if you know what I mean...~
+@554 = ~I know, <CHARNAME>. I know.~
+@555 = ~You really are ridiculous, Garrick. You better pay me back soon!~
+@556 = ~(Garrick looks down at the ground, without saying anything else.)~
+@557 = ~Thank you.~
+// Gift for Tenya
+@560 = ~Yes? Did you need something?~
+@561 = ~Tenya, I... I brought you something. A... a gift.~
+@562 = ~You brought a *gift*? For me?~
+@563 = ~Yes. Look...~
+@564 = ~(Tenya looks at the stone for a few moments, then looks at Garrick. She smiles.) Thank you, Garrick... this is so sweet of you... thank you very much... this is such a beautiful gem. Where did you find it?~
+@565 = ~It comes from a desert region far to the south.~
+@566 = ~(Tenya laughs.) Very original... gifting a desert stone to a priestess of the Water Queen. I appreciate the irony! Oh Garrick, this pleases me... very much. I promise to wear it, always!~
+@567 = ~Really? Oh, I... Well, I, uh, I think... we have to go, time to go, <CHARNAME>? Yes? We have a lot to do, and... uh-~
+@568 = ~I don't doubt it. Come back soon, Garrick.~
+
+// Garrick - end of BG1
+@570 = ~<CHARNAME>...~
+@571 = ~I've thought deeply about it... and I think the time has come for us to part ways. I... I'm going back to the Water Queen's Temple... I will tell Tenya that I accept her offer.~
+@572 = ~It is your choice, Garrick. But we'll miss you. And Tenya will be very lucky to have you.~
+@573 = ~I know, <CHARNAME>. I will miss your company as well. But we'll meet again, I'm sure. Take care of yourself, okay?~
+@574 = ~You too. Goodbye, Garrick.~
+@575 = ~What?! You are a traitor! Leaving when I need you most! Go, go away! Disappear! I hope I never see you again!~
+@576 = ~But...~
+@577 = ~GO AWAY!~
+@578 = ~I... Well, <CHARNAME>. Farewell.~
+@579 = ~Recruitment Drive
+
+The bard Garrick is too busy with Tenya to accompany me on the trek to Dragonspear.~
+
+// Garrick in BG2 -> "Gorrick"
+@580 = ~Gorrick~
+// from #27838
+@581 = ~I wonder who that gnome be who stands always behind Gorrick. He certainly does look rather cute, methinks.~
+// from #27839
+@582 = ~Gorrick be an amusing man, but he'll hardly take my heart. For a bard, he seems to have a hesitant and awkward grasp of courtly words.~
+// from #27840
+@583 = ~If I e'er found a man who could speak as Gorrick does, but with fluency and passion... then that man would have my heart, methinks.~
+// from #27870
+@584 = ~Err... Gorrick, isn't it? What can I do for ye, Gorrick?~
+// from #27875
+@585 = ~Oh... I see. Well, thank you, Gorrick.~
+// from #27905
+@586 = ~It was your words, little gnome, that stole my heart. Placing them in Gorrick's mouth did naught for me. I love you for it, regardless.~
+// from #27843
+@587 = ~This foolish boy, Gorrick, can barely take instruction... sometimes I think he barely has a thought in his head.~
+// from #27835
+@588 = ~The foolishness of this Gorrick fellow... does he think the Lady Irlana does not see through his ruse?~
+// from #27837
+@589 = ~It is quite amusing to watch Gorrick perform these endeavours in his efforts to win the Lady's heart. I cannot wait to see what he does, next.~
+// from #27901
+@590 = ~Well, perhaps the gnome fellow standing behind our good Gorrick has the answer to that.  What say you, sir gnome?~
+// from #27906
+@591 = ~And just where is that Gorrick fellow, now?~
+// from #27863 - Silke -> Ragaei
+@592 = ~Are you trying to tell me, bard, that you do not remember me? You were working for that evil sorceress, Ragaei, when I ran into you.~
+// from #27834 Baldur's Gate -> Waterdeep
+@593 = ~Come to think of it, you do look passingly familiar. Did we perhaps meet in Waterdeep? I can hardly remember.~
+// from #27864 - Silke -> Ragaei
+@594 = ~Hmm. Nope, doesn't ring a bell. Who's this Ragaei person?~
+
+//
+// Installation - additional strings
+//
+@600 = ~Error installing Worldmap compatibility. Is BGT installed?~

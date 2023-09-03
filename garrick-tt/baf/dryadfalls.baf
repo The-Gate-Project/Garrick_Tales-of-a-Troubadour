@@ -1,0 +1,16 @@
+IF
+    OnCreation()
+	InParty("Garrick")
+	!Dead("Garrick")
+	Global("AskedDryad","GLOBAL",0)
+	Global("gtt#dryadegarrick1","GLOBAL",1)
+	PartyHasItem("gtt#fl2")
+	Global("gtt#creadryad2","GLOBAL",0)
+	Global("Chapter","GLOBAL",%tutu_chapter_4%)
+	GlobalTimerExpired("gtt#tpsavantdryad2","GLOBAL")
+THEN
+    RESPONSE #100
+    CreateCreature("dryad",[3233.2160],5)
+    SetGlobal("gtt#creadryad2","GLOBAL",1)
+    Continue()
+END

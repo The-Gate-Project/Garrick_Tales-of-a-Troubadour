@@ -1,0 +1,70 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+	CutSceneId(Player1)
+	FadeToColor([20.0],0)
+	Wait(2)
+	// on déplace l'équipe
+	JumpToPoint([184.442])
+	Face(12)
+    ActionOverride(Player2,JumpToPoint([184.401]))
+    ActionOverride(Player2,Face(12))
+    ActionOverride(Player3,JumpToPoint([248.405]))
+    ActionOverride(Player3,Face(12))
+    ActionOverride(Player4,JumpToPoint([241.367]))
+    ActionOverride(Player4,Face(15))
+    ActionOverride(Player5,JumpToPoint([247.307]))
+    ActionOverride(Player5,Face(13))
+    ActionOverride(Player6,JumpToPoint([280.332]))
+    ActionOverride(Player6,Face(13))
+    // on place Garrick
+    ActionOverride("Garrick",JumpToPoint([628.463]))
+    ActionOverride("Garrick",Face(4))
+    // création des femmes
+	CreateCreature("FTOWNA",[538.559],11)
+	CreateCreature("GTT#F1",[417.431],12)
+	// création des hommes assis
+	CreateCreatureImpassable("MTOWNAST",[488.490],10)
+	CreateCreatureImpassable("MTOWNAST",[515.510],10)
+	CreateCreatureImpassable("MTOWNAST",[423.585],10)
+	CreateCreatureImpassable("MTOWNAST",[310.398],10)
+	CreateCreatureImpassable("MTOWNAST",[382.417],5)
+	// création de l'homme debout
+	CreateCreature("GTT#FA1",[360.457],12)
+	// création des enfants
+	CreateCreature("GTT#CH1",[441.413],13)
+	CreateCreature("CHILNA_C",[451.430],12)
+
+	// une fois les acteurs ajoutés
+	FadeFromColor([20.0],0)
+    Wait(2)
+    
+    ActionOverride("GTT#CH1",DisplayStringHead(Myself,@294))
+    Wait(3)
+    ActionOverride("GTT#F1",DisplayStringHead(Myself,@295))
+    Wait(2)
+    
+    PlaySong(0)
+	ActionOverride("Garrick",PlaySound("gtt#t01"))
+	Wait(74)
+	
+	ActionOverride("GTT#CH1",DisplayStringHead(Myself,@290))
+	Wait(3)
+	ActionOverride("GTT#F1",DisplayStringHead(Myself,@290))
+	Wait(3)
+	ActionOverride("GTT#FA1",DisplayStringHead(Myself,@292))
+	Wait(2)
+    
+    FadeToColor([20.0],0)
+	Wait(2)
+    UnhideGUI()
+    FadeFromColor([20.0],0)
+    Wait(2)    
+    GiveGoldForce(5)
+    GiveGoldForce(2)
+    GiveGoldForce(10)
+    GiveGoldForce(3)
+    
+	EndCutSceneMode()
+END

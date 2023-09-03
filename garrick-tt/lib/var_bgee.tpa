@@ -1,0 +1,40 @@
+// déclaration des variables pour BGEE
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        // cartes
+        OUTER_SPRINT "Beregost_FirebeadsHouse_L1" "AR3333"
+        OUTER_SPRINT "DryadFalls" "AR5200"
+        OUTER_SPRINT "Lighthouse" "AR3600"
+        OUTER_SPRINT "Temple_SongoftheMorning" "AR3402"
+        OUTER_SPRINT "Nashkel" "AR4800"
+        OUTER_SPRINT "Nashkel_Inn" "AR4801"
+        OUTER_SPRINT "NBaldursGate_ThreeOldKegs_L3" "AR0121"
+        OUTER_SPRINT "NorthNashkelRoad" "AR4300"
+        OUTER_SPRINT "FishermansLake" "AR4200"
+        OUTER_SPRINT "XvartVillage" "AR4700"
+        OUTER_SPRINT "FireLeafForest" "AR5300"
+        
+        // dialogues
+        OUTER_SPRINT "VICONIA_JOINED" "VICONJ"
+        OUTER_SPRINT "JAHEIRA_JOINED" "JAHEIJ"
+        OUTER_SPRINT "IMOEN_JOINED" "IMOEN2"
+        
+        // death variables
+        OUTER_SPRINT "IMOEN_DV" "imoen"
+        
+        // scripts
+        OUTER_SPRINT "GARRICK_BCS" "GARRICK"
+        
+        // numéros chapitre
+        OUTER_SPRINT "tutu_chapter_2" "2"
+        OUTER_SPRINT "tutu_chapter_4" "4"
+        
+        // autres
+        // -> le numéro de piste audio pour l'auberge de Nashkel
+        OUTER_SPRINT "NB_AUDIO_NASHKEL" "37"
+        // -> le numéro du dialogue "avale une potion"
+        OUTER_SPRINT "AVALE_UNE_POTION" "31249"
+        // -> bloc à modifier pour Silence
+        OUTER_SPRINT "BLOC_SILENCE_A" "2"
+        // -> bloc à modifier pour Silence
+        OUTER_SPRINT "BLOC_SILENCE_B" "1"
+END

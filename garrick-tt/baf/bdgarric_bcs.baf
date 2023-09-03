@@ -1,0 +1,20 @@
+// dialogue après la mort / capture de Korlasz
+IF
+	Global("gtt#tenyapropositiongarrick","GLOBAL",1)
+	OR(2)
+	Dead("bdkorlas")
+        Global("BD_KORLASZ_SURRENDER","GLOBAL",1)
+	InParty("GARRICK")
+	!Dead("GARRICK")
+	!See([ENEMY])
+	InMyArea(Player1)
+	!StateCheck("GARRICK",CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!See([ENEMY])
+	Global("gtt#garricksod","GLOBAL",0)
+	Global("gtt#garrickarejointtenya","GLOBAL",0)
+THEN
+	RESPONSE #100
+	Wait(2)
+	StartDialogNoSet(Player1)
+END

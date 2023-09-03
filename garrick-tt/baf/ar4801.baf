@@ -1,0 +1,10 @@
+IF
+	Or(3)
+	Global("gtt#garrickjouenashkel","GLOBAL",2)
+	Global("gtt#garrickjouenashkel","GLOBAL",3)
+	Global("gtt#garrickjouenashkel","GLOBAL",7)
+THEN
+	RESPONSE #100
+	PlaySong(%NB_AUDIO_NASHKEL%)
+	Continue()
+END

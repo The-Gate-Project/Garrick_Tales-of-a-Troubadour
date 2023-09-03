@@ -1,0 +1,9 @@
+IF
+  Global("gtt#garrickarejointtenya","GLOBAL",1)
+  Exists("BDGARRIC")
+THEN
+  RESPONSE #100
+    ActionOverride("BDGARRIC",DestroySelf())
+    AddJournalEntry(@579,INFO)
+    Continue()
+END

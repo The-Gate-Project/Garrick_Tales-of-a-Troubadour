@@ -1,0 +1,170 @@
+// pour initier la rencontre aléatoire forcée
+// FIXME: ne semble fonctionner que pour la première destination (%NorthNashkelRoad%)
+IF
+	AreaCheck("%Nashkel%")
+	Global("gtt#01rencontre","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("Set","GLOBAL",1)
+	SetEncounterProbability("%Nashkel%","%NorthNashkelRoad%",100)
+	SetEncounterProbability("%Nashkel%","%FishermansLake%",100)
+	SetEncounterProbability("%Nashkel%","%XvartVillage%",100)
+	SetEncounterProbability("%Nashkel%","%DryadFalls%",100)
+	SetEncounterProbability("%Nashkel%","%FireLeafForest%",100)
+	SetGlobal("gtt#01rencontre","GLOBAL",1)
+	Continue()
+END
+
+IF
+	AreaCheck("%Nashkel%")
+	Global("gtt#01rencontre","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("Set","GLOBAL",1)
+	SetEncounterProbability("%Nashkel%","%NorthNashkelRoad%",0)
+	SetEncounterProbability("%Nashkel%","%FishermansLake%",0)
+	SetEncounterProbability("%Nashkel%","%XvartVillage%",0)
+	SetEncounterProbability("%Nashkel%","%DryadFalls%",0)
+	SetEncounterProbability("%Nashkel%","%FireLeafForest%",0)
+	SetGlobal("gtt#01rencontre","GLOBAL",3)
+	Continue()
+END
+
+// script pour la ballade du nain fou
+IF
+	InParty("Garrick")
+	Global("DurlagFinish","GLOBAL",1)
+	Global("gtt#durlagtimer1active","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("gtt#durlagtimer1","GLOBAL",30)
+	SetGlobal("gtt#durlagtimer1active","GLOBAL",1)
+END
+
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!StateCheck("Garrick",STATE_SLEEPING)
+	!See([ENEMY])
+	InMyArea(Player1)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!See([ENEMY])
+	Global("DurlagFinish","GLOBAL",1)
+	Global("gtt#durlagtimer1active","GLOBAL",1)
+	Global("gtt#diagchansonnainfou1","GLOBAL",0)
+	GlobalTimerExpired("gtt#durlagtimer1","GLOBAL")
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#diagchansonnainfou1","GLOBAL",1)
+	StartDialogNoSet(Player1)
+END
+
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!StateCheck("Garrick",STATE_SLEEPING)
+	!See([ENEMY])
+	InMyArea(Player1)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!See([ENEMY])
+	Global("gtt#diagchansonnainfou1","GLOBAL",2)
+	Global("gtt#diagchansonnainfou2","GLOBAL",0)
+	GlobalTimerExpired("gtt#durlagtimer2","GLOBAL")
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#diagchansonnainfou2","GLOBAL",1)
+	StartDialogNoSet(Player1)
+END
+
+// remarque au Temple du matin
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!See([ENEMY])
+	InMyArea(Player1)
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!See([ENEMY])
+	AreaCheck("%Temple_SongoftheMorning%")
+	!Global("gtt#ChansonSirenes","GLOBAL",1)
+	Global("gtt#templesirenes","GLOBAL",0)
+THEN
+	RESPONSE #100
+	Wait(5)
+	SetGlobal("gtt#templesirenes","GLOBAL",1)
+	StartDialogNoSet(Player1)
+END
+
+// remarque sur la carte du phare
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!See([ENEMY])
+	InMyArea(Player1)
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!See([ENEMY])
+	AreaCheck("%Lighthouse%")
+	!Global("gtt#ChansonSirenes","GLOBAL",1)
+	Global("gtt#pharesirenes","GLOBAL",0)
+THEN
+	RESPONSE #100
+	Wait(2)
+	SetGlobal("gtt#pharesirenes","GLOBAL",1)
+	StartDialogNoSet(Player1)
+END
+
+// remarque après la défaite d'Aec'Letec
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!See([ENEMY])
+	InMyArea(Player1)
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!See([ENEMY])
+	Global("DaemonCultFinish","GLOBAL",1)
+	Global("gtt#garrickaecletec","GLOBAL",0)
+THEN
+	RESPONSE #100
+	Wait(2)
+	SetGlobal("gtt#garrickaecletec","GLOBAL",1)
+	StartDialogNoSet(Player1)
+END
+
+// dialogue avec CHARNAME après le départ de Tenya
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!See([ENEMY])
+	InMyArea(Player1)
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!See([ENEMY])
+	Global("gtt#tenyagarrick","GLOBAL",2)
+	Global("gtt#aprestenya2","GLOBAL",1)
+THEN
+	RESPONSE #100
+	Wait(6)
+	StartDialogNoSet(Player1)
+END
+
+// dialogue avec Perleflamme
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!See([ENEMY])
+	InMyArea("FIREBE")
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck("FIREBE",CD_STATE_NOTVALID)
+	!See([ENEMY])
+	Global("FirebeadDone","GLOBAL",1)
+	!Global("gtt#garrickflute","GLOBAL",1)
+	AreaCheck("%Beregost_FirebeadsHouse_L1%")
+THEN
+	RESPONSE #100
+	Wait(1)
+	StartDialogNoSet("FIREBE")
+END

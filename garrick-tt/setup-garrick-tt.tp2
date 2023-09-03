@@ -1,0 +1,406 @@
+BACKUP ~garrick-tt/backup~
+AUTHOR ~mirandir AT orange DOT fr~
+AUTO_TRA ~garrick-tt/tra/%LANGUAGE%/%s~
+VERSION ~1.26~
+
+README ~garrick-tt/readme/%LANGUAGE%-readme.html~ ~garrick-tt/readme/english-readme.html~
+
+LANGUAGE ~Francais~
+         ~french~
+         ~garrick-tt/tra/french/french.tra~
+
+LANGUAGE ~English (Nightfarer and Gertwenger)~
+         ~english~
+         ~garrick-tt/tra/english/english.tra~
+
+LANGUAGE ~Deutsch (Gerri und Jastey)~
+         ~german~
+         ~garrick-tt/tra/german/german.tra~
+
+BEGIN @2
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        REQUIRE_FILE ~override/X#BG1NPCPhase2.G3~ @-3 // nécessite le BG1NPC
+        // on convertit les tra en utf8
+		// ne pas convertir german_ee.tra et french_ee.tra, ils sont déjà en utf8
+		ACTION_DEFINE_ARRAY noconvert BEGIN german_ee french_ee END
+		ACTION_DEFINE_ARRAY reload BEGIN english english_ee french german german_ee END
+		LAF HANDLE_CHARSETS
+				INT_VAR
+						infer_charset = 1
+				STR_VAR
+						tra_path = ~garrick-tt/tra~
+						noconvert_array = noconvert
+						reload_array = reload
+		END
+        // charger les équivalences de nom pour BGEE
+        INCLUDE ~garrick-tt/lib/var_bgee.tpa~
+END ELSE BEGIN
+        //REQUIRE_FILE ~AR7200.are~ @3 // nécessite BGT
+        REQUIRE_FILE ~override/X#BG1NPCPhase2.G3~ @-3 // nécessite le BG1NPC
+        // charger les équivalences de nom pour BGT
+        INCLUDE ~garrick-tt/lib/var_bgt.tpa~
+END
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        // on charge les descriptions d'objets / textes modifiés pour BGEE
+        LOAD_TRA ~garrick-tt/tra/%LANGUAGE%/%LANGUAGE%_ee.tra~
+END
+
+// on ajoute les textes du journal à bgee.sql (n'a d'effet qu'avec BGEE)
+ADD_JOURNAL @427 @428 @482 @483 @579 USING ~garrick-tt/tra/%LANGUAGE%/%LANGUAGE%.tra~
+
+/////////////////////////////////////////////////////
+// Ajout des ressources de base (bam, sorts, objets, ...)
+/////////////////////////////////////////////////////
+
+// Ajout du retour au chant normal
+
+COPY ~garrick-tt/bam/gtt#sno.bam~ ~override/gtt#sno.bam~
+
+COPY ~garrick-tt/spl/gtt#sno.spl~ ~override/gtt#sno.spl~
+      SAY NAME1 @5
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        COPY ~garrick-tt/spl/fjbarda.spl~ ~override/fjbarda.spl~
+END
+
+// Ajout du chant des sirenes
+
+COPY ~garrick-tt/bam/gtt#s0.bam~ ~override/gtt#s0.bam~
+
+COPY ~garrick-tt/eff/gtt#s0.eff~ ~override/gtt#s0.eff~
+
+COPY ~garrick-tt/spl/gtt#s0a.spl~ ~override/gtt#s0a.spl~
+      SAY NAME1 @4
+COPY ~garrick-tt/spl/gtt#s0b.spl~ ~override/gtt#s0b.spl~
+
+// Ajout de la chanson de l'ivrogne
+
+COPY ~garrick-tt/bam/gtt#s1.bam~ ~override/gtt#s1.bam~
+
+COPY ~garrick-tt/spl/gtt#s1a.spl~ ~override/gtt#s1a.spl~
+      SAY NAME1 @6
+COPY ~garrick-tt/spl/gtt#s1b.spl~ ~override/gtt#s1b.spl~
+
+// Ajout de la ballade du nain Fou
+
+COPY ~garrick-tt/bam/gtt#s2.bam~ ~override/gtt#s2.bam~
+
+COPY ~garrick-tt/spl/gtt#s2a.spl~ ~override/gtt#s2a.spl~
+      SAY NAME1 @7
+COPY ~garrick-tt/spl/gtt#s2b.spl~ ~override/gtt#s2b.spl~
+
+// Ajout de la petite flûte et de sa grande soeur
+
+COPY ~garrick-tt/bam/gtt#fl.bam~ ~override/gtt#fl.bam~
+
+COPY ~garrick-tt/itm/gtt#fl.itm~ ~override/gtt#fl.itm~
+	SAY NAME1 @8
+	SAY NAME2 @8
+	SAY UNIDENTIFIED_DESC @9
+	SAY DESC @9
+	
+COPY ~garrick-tt/itm/gtt#fl2.itm~ ~override/gtt#fl2.itm~
+	SAY NAME1 @10
+	SAY NAME2 @10
+	SAY UNIDENTIFIED_DESC @11
+	SAY DESC @11
+
+// Ajout du violon
+
+COPY ~garrick-tt/bam/gtt#vio.bam~ ~override/gtt#vio.bam~
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        COPY ~garrick-tt/spl/gtt#vio_bgee.spl~ ~override/gtt#vio.spl~
+        COPY ~garrick-tt/cre/gtt#sha.cre~ ~override/gtt#sha.cre~
+END ELSE BEGIN
+        COPY ~garrick-tt/spl/gtt#vio.spl~ ~override/gtt#vio.spl~
+END
+
+COPY ~garrick-tt/itm/gtt#vio.itm~ ~override/gtt#vio.itm~
+	SAY NAME1 @12
+	SAY NAME2 @14
+	SAY UNIDENTIFIED_DESC @13
+	SAY DESC @15
+
+COPY ~garrick-tt/itm/gtt#vvv.itm~ ~override/gtt#vvv.itm~
+	SAY NAME1 @16
+	SAY NAME2 @16
+	SAY UNIDENTIFIED_DESC @17
+	SAY DESC @17
+
+// Ajout de la boucle d'oreille
+
+COPY ~garrick-tt/bam/gtt#bo.bam~ ~override/gtt#bo.bam~
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        COPY ~garrick-tt/itm/gtt#bo_bgee.itm~ ~override/gtt#bo.itm~
+	        SAY NAME1 @18
+	        SAY NAME2 @18
+	        SAY UNIDENTIFIED_DESC @19
+	        SAY DESC @19
+END ELSE BEGIN
+        COPY ~garrick-tt/itm/gtt#bo_bgt.itm~ ~override/gtt#bo.itm~
+	        SAY NAME1 @18
+	        SAY NAME2 @18
+	        SAY UNIDENTIFIED_DESC @19
+	        SAY DESC @19
+END
+
+// Ajout du sort "Baiser de la dryade"
+
+COPY ~garrick-tt/spl/gtt#bds.spl~ ~override/gtt#bds.spl~
+      SAY NAME1 @20
+COPY ~garrick-tt/spl/gtt#bdb.spl~ ~override/gtt#bdb.spl~
+      SAY NAME1 @20
+COPY ~garrick-tt/spl/gtt#bd.spl~ ~override/gtt#bd.spl~
+      SAY NAME1 @20
+      SAY UNIDENTIFIED_DESC @21
+      
+COPY ~garrick-tt/eff/gtt#bds.eff~ ~override/gtt#bds.eff~
+COPY ~garrick-tt/eff/gtt#bdb.eff~ ~override/gtt#bdb.eff~
+
+// Ajout du sort "Bénédiction de Larriaz"
+
+COPY ~garrick-tt/spl/gtt#sir.spl~ ~override/gtt#sir.spl~
+      SAY NAME1 @300
+
+// Ajout du sort "Volonté d'Umberlie"
+
+COPY ~garrick-tt/spl/gtt#vu.spl~ ~override/gtt#vu.spl~
+      SAY NAME1 @22
+      
+// Ajout des sorts d'Enriack (Talos)
+COPY ~garrick-tt/spl/gtt#bou.spl~ ~override/gtt#bou.spl~
+        SAY NAME1 @-501
+COPY ~garrick-tt/spl/gtt#ecl.spl~ ~override/gtt#ecl.spl~
+        SAY NAME1 @-502
+
+// Ajout de la Pierre du désert
+COPY ~garrick-tt/bam/gtt#gde.bam~ ~override/gtt#gde.bam~
+COPY ~garrick-tt/itm/gtt#gde.itm~ ~override/gtt#gde.itm~
+	SAY NAME1 @-520
+	SAY NAME2 @520
+	SAY UNIDENTIFIED_DESC @521
+	SAY DESC @522
+
+/////////////////////////////////////////////////////
+// Ajout des dialogues
+/////////////////////////////////////////////////////
+
+// dialogue avec l'ivrogne
+COMPILE ~garrick-tt/d/gosse.d~ EVALUATE_BUFFER
+
+// dialogue avec Perleflamme
+COMPILE ~garrick-tt/d/perleflamme.d~ EVALUATE_BUFFER
+
+// dialogues avec la dryade
+COMPILE ~garrick-tt/d/dryade.d~ EVALUATE_BUFFER
+
+EXTEND_TOP ~%DryadFalls%.bcs~ ~garrick-tt/baf/dryadfalls.baf~ EVALUATE_BUFFER
+
+// dialogues pour la Ballade du Nain Fou
+COMPILE ~garrick-tt/d/durlag.d~ EVALUATE_BUFFER
+
+EXTEND_TOP ~%GARRICK_BCS%.bcs~ ~garrick-tt/baf/garrick_bcs.baf~ EVALUATE_BUFFER // garrick_bcs.baf contient également des ajouts de script pour Garrick autre que ceux concernant la Ballade du Nain Fou
+
+// remarque au Temple du Matin
+COMPILE ~garrick-tt/d/templedumatin.d~ EVALUATE_BUFFER
+
+// remarque sur la carte du phare
+COMPILE ~garrick-tt/d/phare.d~ EVALUATE_BUFFER
+
+// remarques violon
+COMPILE ~garrick-tt/d/violon.d~ EVALUATE_BUFFER
+
+COMPILE ~garrick-tt/baf/gtt#map.baf~ EVALUATE_BUFFER
+
+// dialogue aubergiste Nashkel
+COMPILE ~garrick-tt/d/nashkel.d~ EVALUATE_BUFFER
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        EXTEND_TOP ~ar4801.bcs~ ~garrick-tt/baf/ar4801.baf~ EVALUATE_BUFFER
+END ELSE BEGIN
+        EXTEND_TOP ~ar3701.bcs~ ~garrick-tt/baf/ar3701.baf~ EVALUATE_BUFFER
+END
+
+COPY ~garrick-tt/sto/gtt#nas.sto~ ~override~
+
+COPY ~garrick-tt/cre/gtt#ch1.cre~ ~override~
+COPY ~garrick-tt/cre/gtt#f1.cre~ ~override~
+COPY ~garrick-tt/cre/gtt#fa1.cre~ ~override~
+
+// dialogue avec Larriaz
+COMPILE ~garrick-tt/d/larriaz.d~ EVALUATE_BUFFER
+
+// remarque après Aec'Letec
+COMPILE ~garrick-tt/d/aecletec.d~ EVALUATE_BUFFER
+
+// explication des chansons
+OUTER_SET nbdiaggarrcharname = STATE_WHICH_SAYS 3614 IN ~bg1npc/tra/%s/X#PCINIT.tra~ FROM garrij
+COMPILE ~garrick-tt/d/chansons.d~ EVALUATE_BUFFER
+
+// dialogues avec Tenya
+COMPILE ~garrick-tt/d/tenya.d~ EVALUATE_BUFFER // 1
+COPY_EXISTING ~tenya.bcs~ ~override/tenya.bcs~
+DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY CASE_SENSITIVE EXACT_MATCH ~GlobalLT("TenyaHit","GLOBAL",2)~ ~GlobalLT("TenyaHit","GLOBAL",2)
+        !Kit(Player1,GODTALOS)~
+END
+COMPILE ~garrick-tt/d/tenya2.d~ EVALUATE_BUFFER // 2
+
+// BGEE change les conditions d'apparition de Tenya à la Porte, il faut donc adapter
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+		COMPILE ~garrick-tt/d/pumberl.d~ EVALUATE_BUFFER
+END
+
+// ajout d'Enriack
+COPY ~garrick-tt/cre/gtt#enri.cre~ ~override/gtt#enri.cre~
+        SAY NAME1 @500
+        SAY NAME2 @500
+COMPILE ~garrick-tt/baf/gtt#enri.baf~ EVALUATE_BUFFER
+COMPILE ~garrick-tt/d/gtt#enri.d~ EVALUATE_BUFFER
+EXTEND_TOP ~%NBaldursGate_ThreeOldKegs_L3%.bcs~ ~garrick-tt/baf/nbaldursgate_threeoldkegs_l3.baf~ EVALUATE_BUFFER
+
+// on ajoute la version perso du serviteur aérien
+COPY ~garrick-tt/cre/gtt#ser.cre~ ~override/gtt#ser.cre~
+        SAY NAME1 @-500
+        SAY NAME2 @-500
+
+// dialogue avec Silence, concernant la Pierre du Désert
+COMPILE ~garrick-tt/d/pierredesert.d~ EVALUATE_BUFFER
+
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+        // dialogue avec Belt, pour la fin de BG1
+        COMPILE ~garrick-tt/d/belt.d~ EVALUATE_BUFFER
+
+        // Transforme le "Garrick" de BG2 en "Gorrick"
+        STRING_SET ~27838~ @581
+        STRING_SET ~27839~ @582
+        STRING_SET ~27840~ @583
+        STRING_SET ~27870~ @584
+        STRING_SET ~27875~ @585
+        STRING_SET ~27905~ @586
+        STRING_SET ~27843~ @587
+        STRING_SET ~27835~ @588
+        STRING_SET ~27837~ @589
+        STRING_SET ~27901~ @590
+        STRING_SET ~27906~ @591
+        STRING_SET ~27863~ @592
+        STRING_SET ~27834~ @593
+        STRING_SET ~27864~ @594
+        COPY_EXISTING ~garrick.cre~ ~override~
+	        SAY NAME1 @580
+	        SAY NAME2 @580
+END
+
+// dialogue avec Garrick dans SoD
+ACTION_IF FILE_EXISTS_IN_GAME ~bd0010.are~ THEN BEGIN
+        EXTEND_TOP ~BDGARRIC.bcs~ ~garrick-tt/baf/bdgarric_bcs.baf~ EVALUATE_BUFFER
+        COMPILE ~garrick-tt/d/garrick_sod.d~ EVALUATE_BUFFER
+        EXTEND_TOP ~BD0109.bcs~ ~garrick-tt/baf/bd0109.baf~ EVALUATE_BUFFER
+END
+
+// Patche directement le dlg pour pouvoir modifier les dialogues ajoutés par le BG1NPC
+COPY_EXISTING ~garrij.dlg~ ~override~
+DECOMPILE_AND_PATCH BEGIN
+	// Ajoute des variables pour savoir si Garrick a eu l'armure de barde rajoutée par le BG1NPC (1/2)
+	REPLACE_TEXTUALLY CASE_SENSITIVE EXACT_MATCH ~SetGlobal("X#PostMyrChat","GLOBAL",2)~ ~SetGlobal("X#PostMyrChat","GLOBAL",2) SetGlobal("gtt#armuregarrick","GLOBAL",1)~
+END
+
+COPY_EXISTING ~halbaz.dlg~ ~override~
+DECOMPILE_AND_PATCH BEGIN
+	// Ajoute des variables pour savoir si Garrick a eu l'armure de barde rajoutée par le BG1NPC (2/2)
+	REPLACE_TEXTUALLY CASE_SENSITIVE EXACT_MATCH ~GiveItemCreate("X#GARCH2",Player1,1,0,0)~ ~GiveItemCreate("X#GARCH2",Player1,1,0,0) SetGlobal("gtt#armuregarrick","GLOBAL",2)~
+END
+
+// on met Tenya à un niveau plus élevé
+COPY_EXISTING ~TENYA.cre~ ~override~
+              ~TENYA2.cre~ ~override~
+        WRITE_BYTE 0x234 15 // niveau 15 pour la première classe
+
+/////////////////////////////////////////////////////
+// Ajout des cutscenes
+/////////////////////////////////////////////////////
+
+// Cutscene des sirènes
+EXTEND_TOP ~%GARRICK_BCS%.bcs~ ~garrick-tt/baf/sirenes.baf~ EVALUATE_BUFFER
+
+COMPILE ~garrick-tt/baf/cutssi.baf~ EVALUATE_BUFFER
+
+// Cutscene de l'auberge de Nashkel
+COMPILE ~garrick-tt/baf/cutjna.baf~ EVALUATE_BUFFER
+// patch pour enlever la musique d'auberge par défaut dans l'auberge de Nashkel (met les champs song à 0) (la musique est remise par le script ar3701.baf / ar4801.baf)
+COPY_EXISTING ~%Nashkel_Inn%.are~ ~override/%Nashkel_Inn%.are~
+WRITE_LONG 0xe2c ~0x0000~
+WRITE_LONG 0xe30 ~0x0000~
+
+/////////////////////////////////////////////////////
+// Ajout de la carte
+/////////////////////////////////////////////////////
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+        COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.mos~ ~override/gtt#01.mos~
+        COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.are~ ~override/gtt#01.are~
+	        SAY 0x4b0 @240
+END ELSE BEGIN
+        COPY ~garrick-tt/maps/gtt#01/gtt#01.mos~ ~override/gtt#01.mos~
+        COPY ~garrick-tt/maps/gtt#01/gtt#01.are~ ~override/gtt#01.are~
+	        SAY 0x4b0 @240
+END
+COPY ~garrick-tt/maps/gtt#01/gtt#01.tis~ ~override~
+COPY ~garrick-tt/maps/gtt#01/gtt#01.wed~ ~override~
+COPY ~garrick-tt/maps/gtt#01/gtt#01HT.bmp~ ~override~
+COPY ~garrick-tt/maps/gtt#01/gtt#01LM.bmp~ ~override~
+COPY ~garrick-tt/maps/gtt#01/gtt#01SR.bmp~ ~override~
+
+/////////////////////////////////////////////////////
+// Patch du WORLDMAP.WMP pour ajouter la
+// "rencontre aléatoire forcée"
+/////////////////////////////////////////////////////
+
+// nouveau code, plus flexible et supporte les fichiers worldmap.wmp modifiés par d'autres mods
+
+COPY_EXISTING ~worldmap.wmp~ ~override/worldmap.wmp~
+
+READ_LONG 0x30 "area-count"
+READ_LONG 0x34 "area-offset"
+
+READ_LONG 0x38 "link-offset"
+READ_LONG 0x3C "link-count"
+
+FOR (i = 0 ; i < "%area-count%" ; i = i+1) BEGIN
+	READ_ASCII ("%area-offset%" + (i * 240)) "area-name" (6)
+	PATCH_IF ("%area-name%" STRING_EQUAL_CASE ~%Nashkel%~) BEGIN
+		READ_LONG ("%area-offset%" + (i * 240) + 80) "area-3700-north-link-number"
+		SET "area-3700-north-link-offset" = ("%link-offset%" + ("%area-3700-north-link-number%" * 216))
+		SET "area-3700-random-encounter-0-for-north-link-offset" = ("%area-3700-north-link-offset%" + 44)
+		WRITE_ASCII "%area-3700-random-encounter-0-for-north-link-offset%" ~GTT#01~
+	END		
+END
+BUT_ONLY_IF_IT_CHANGES
+
+// compatibilité avec Worldmap (modifie le fichier map_mods_links.tbl installé par BGT pour Worldmap, et l'un des fichiers du mod Worldmap)
+
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+	ACTION_IF FILE_EXISTS ~worldmap/map_mods_links.tbl~ THEN BEGIN
+			COPY ~worldmap/map_mods_links.tbl~  ~worldmap~
+			REPLACE_TEXTUALLY EXACT_MATCH ~AR3700    N         AR3200      EXIT3700    2         4          N        N        N        N        N        0~ ~AR3700    N         AR3200      EXIT3700    2         4          GTT#01   N        N        N        N        0~
+	END ELSE BEGIN
+			FAIL @600
+	END
+END
+
+ACTION_IF FILE_EXISTS ~bp-bgt_worldmap/revised/tbl/new_map_mods_links_bgt.tbl~ THEN BEGIN
+        COPY ~bp-bgt_worldmap/revised/tbl/new_map_mods_links_bgt.tbl~  ~bp-bgt_worldmap/revised/tbl~
+        REPLACE_TEXTUALLY EXACT_MATCH ~AR3700    N         AR3200      EXIT3700    2         4          AR4801   AR4701   AR5300   AR4901   AR4700   10~ ~AR3700    N         AR3200      EXIT3700    2         4          GTT#01   N   N   N   N   10~
+END
+
+/////////////////////////////////////////////////////
+// Ajout des musiques
+/////////////////////////////////////////////////////
+
+LAF HANDLE_AUDIO
+  INT_VAR
+    music = 0
+END

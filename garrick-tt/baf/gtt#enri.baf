@@ -1,0 +1,318 @@
+// parle au premier membre du groupe qu'il voit
+IF
+  Detect([PC])
+  Range(Lastseenby(Myself),15)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Lastseenby(Myself))
+END
+
+// si l'ennemi est au-dessus du niveau 7 OU qu'on est en-dessous de 35% de PV, sanctuaire
+IF
+	See(Nearestenemyof(Myself))
+	!CheckStat(Myself,1,SANCTUARY)
+	Or(2)
+	LevelGT(Player1,7)
+	HPPercentLT(Myself,35)
+	HaveSpell(CLERIC_SANCTUARY)
+THEN
+	RESPONSE #100
+	Spell(Myself,CLERIC_SANCTUARY)
+END
+
+// si on est sous les 20% de PV, on utilise potions
+IF
+    HPPercentLT(Myself,20)
+    HasItem("potn52",Myself)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+
+// si l'ennemi est proche et est un clerc ou un mage et qu'on est pas sous sanctuaire, lance silence sur 5 mètres
+IF
+  See(Nearestenemyof(Myself))
+  !CheckStat(Myself,1,SANCTUARY)
+  HaveSpell(CLERIC_SILENCE_15_FOOT)
+  !Range(Nearestenemyof(Myself),12)
+  Or(2)
+  See([PC.GENERAL_ITEM.0.CLERIC])
+  See([PC.GENERAL_ITEM.0.MAGE])
+THEN
+  RESPONSE #100
+    Spell([PC.GENERAL_ITEM.0.CLERIC],CLERIC_SILENCE_15_FOOT)
+END
+
+// on dissipe la magie si on voit un mage et si on est pas sous sanctuaire
+IF
+  See(Nearestenemyof(Myself))
+  !CheckStat(Myself,1,SANCTUARY)
+  HaveSpell(CLERIC_DISPEL_MAGIC)
+  !Range(Nearestenemyof(Myself),12)
+  See([PC.GENERAL_ITEM.0.MAGE])
+THEN
+  RESPONSE #100
+    Spell([PC.GENERAL_ITEM.0.MAGE],CLERIC_DISPEL_MAGIC)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  !CheckStat(Myself,1,SANCTUARY)
+  HaveSpell(CLERIC_DISPEL_MAGIC)
+  !Range(Nearestenemyof(Myself),12)
+  See([PC.GENERAL_ITEM.0.CLERIC_MAGE])
+THEN
+  RESPONSE #100
+    Spell([PC.GENERAL_ITEM.0.CLERIC_MAGE],CLERIC_DISPEL_MAGIC)
+END
+
+// si on est sous les 20% de PV, on utilise potions
+IF
+    HPPercentLT(Myself,20)
+    HasItem("potn52",Myself)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+  
+// on puise dans la puissance divine
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_DRAW_UPON_HOLY_MIGHT)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
+END
+
+// si l'ennemi est au-dessus du niveau 7 OU qu'on est en-dessous de 35% de PV, sanctuaire
+IF
+	See(Nearestenemyof(Myself))
+	!CheckStat(Myself,1,SANCTUARY)
+	Or(2)
+	LevelGT(Player1,7)
+	HPPercentLT(Myself,35)
+	HaveSpell(CLERIC_SANCTUARY)
+THEN
+	RESPONSE #100
+	Spell(Myself,CLERIC_SANCTUARY)
+END
+
+// si on est sous les 20% de PV, on utilise potions
+IF
+    HPPercentLT(Myself,20)
+    HasItem("potn52",Myself)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+  
+// si on est en-dessous de 50% de PV et protegé par un sanctuaire, on se soigne
+IF
+  HPPercentLT(Myself,50)
+  CheckStat(Myself,1,SANCTUARY)
+  HaveSpell(CLERIC_CURE_MEDIUM_WOUNDS)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+END
+
+// si on est en-dessous de 50% de PV et protegé par un sanctuaire, on se soigne
+IF
+  HPPercentLT(Myself,50)
+  CheckStat(Myself,1,SANCTUARY)
+  HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+// si on est pas sous sanctuaire, injonction
+IF
+  See(Nearestenemyof(Myself))
+  !CheckStat(Myself,1,SANCTUARY)
+  HaveSpell(CLERIC_COMMAND)
+  !StateCheck(Nearestenemyof(Myself),STATE_SLEEPING)
+  !StateCheck(Nearestenemyof(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(Nearestenemyof(Myself),CLERIC_COMMAND)
+END
+
+// si l'ennemi est au-dessus du niveau 7 OU qu'on est en-dessous de 35% de PV, sanctuaire
+IF
+	See(Nearestenemyof(Myself))
+	!CheckStat(Myself,1,SANCTUARY)
+	Or(2)
+	LevelGT(Player1,7)
+	HPPercentLT(Myself,35)
+	HaveSpell(CLERIC_SANCTUARY)
+THEN
+	RESPONSE #100
+	Spell(Myself,CLERIC_SANCTUARY)
+END
+
+// si on est sous les 20% de PV, on utilise potions
+IF
+    HPPercentLT(Myself,20)
+    HasItem("potn52",Myself)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+
+// on immobilise les personnes si on est pas sous sanctuaire
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !CheckStat(Myself,1,SANCTUARY)
+  !StateCheck(Nearestenemyof(Myself),STATE_SLEEPING)
+  !StateCheck(Nearestenemyof(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(Nearestenemyof(Myself),CLERIC_HOLD_PERSON)
+END
+
+// si l'ennemi est au-dessus du niveau 7 OU qu'on est en-dessous de 35% de PV, sanctuaire
+IF
+	See(Nearestenemyof(Myself))
+	!CheckStat(Myself,1,SANCTUARY)
+	Or(2)
+	LevelGT(Player1,7)
+	HPPercentLT(Myself,35)
+	HaveSpell(CLERIC_SANCTUARY)
+THEN
+	RESPONSE #100
+	Spell(Myself,CLERIC_SANCTUARY)
+END
+
+// si on est sous les 20% de PV, on utilise potions
+IF
+    HPPercentLT(Myself,20)
+    HasItem("potn52",Myself)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+
+// on anime les morts
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_ANIMATE_DEAD)
+END
+
+// si l'ennemi est au-dessus du niveau 7 OU qu'on est en-dessous de 35% de PV, sanctuaire
+IF
+	See(Nearestenemyof(Myself))
+	!CheckStat(Myself,1,SANCTUARY)
+	Or(2)
+	LevelGT(Player1,7)
+	HPPercentLT(Myself,35)
+	HaveSpell(CLERIC_SANCTUARY)
+THEN
+	RESPONSE #100
+	Spell(Myself,CLERIC_SANCTUARY)
+END
+
+// si on est sous les 20% de PV, on utilise potions
+IF
+    HPPercentLT(Myself,20)
+    HasItem("potn52",Myself)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+
+// manteau de terreur
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_CLOAK_OF_FEAR)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CLOAK_OF_FEAR)
+END
+
+// si l'ennemi est au-dessus du niveau 7 OU qu'on est en-dessous de 35% de PV, sanctuaire
+IF
+	See(Nearestenemyof(Myself))
+	!CheckStat(Myself,1,SANCTUARY)
+	Or(2)
+	LevelGT(Player1,7)
+	HPPercentLT(Myself,35)
+	HaveSpell(CLERIC_SANCTUARY)
+THEN
+	RESPONSE #100
+	Spell(Myself,CLERIC_SANCTUARY)
+END
+
+// si on est sous les 20% de PV, on utilise potions
+IF
+    HPPercentLT(Myself,20)
+    HasItem("potn52",Myself)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+
+// sort de Marteau spirituel
+IF
+  See(Nearestenemyof(Myself))
+  !HaveSpell(CLERIC_HOLD_PERSON)
+  HaveSpell(CLERIC_SPIRITUAL_HAMMER)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_SPIRITUAL_HAMMER)
+END
+
+// si on est sous les 50% de PV et sous sanctuaire, on utilise potions aussi
+IF
+    HPPercentLT(Myself,50)
+    HasItem("potn52",Myself)
+    CheckStat(Myself,1,SANCTUARY)
+  THEN
+    RESPONSE #100
+      DisplayStringHead(Myself,%AVALE_UNE_POTION%)
+      UseItem("potn52",Myself)
+      Continue()
+  END
+
+// si on est sous sanctuaire et qu'on a plus de 49% de nos PV, Domination mentale sur l'ennemi le plus proche
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_MENTAL_DOMINATION)
+  CheckStat(Myself,1,SANCTUARY)
+  HPPercentGT(Myself,49)
+  !StateCheck(Nearestenemyof(Myself),STATE_SLEEPING)
+  !StateCheck(Nearestenemyof(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(Nearestenemyof(Myself),CLERIC_MENTAL_DOMINATION)
+END
+
+// en dernier : on attaque
+IF
+  !CheckStat(Myself,1,SANCTUARY)
+  !HaveSpell(CLERIC_HOLD_PERSON)
+  See(Nearestenemyof(Myself))
+THEN
+  RESPONSE #100
+    Attack(Nearestenemyof(Myself))
+END
+

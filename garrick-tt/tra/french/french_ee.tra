@@ -1,0 +1,76 @@
+// les descriptions d'objets changent pour BGEE (BGEE génère automatiquement les parties "utilisable par" / "non utilisable par" des descriptions des objets)
+@9 = ~Cette petite flûte à bec a été fabriquée dans la lointaine Éternelle Rencontre.
+Achetée par Perleflamme Cheveux-d'Elfe il y a des années, elle l'a accompagné dans ses nombreux voyages à travers Féérune.
+
+Malgré sa simplicité apparente, elle possède des pouvoirs magiques et permet au voyageur d'être toujours bien reçu lorsqu'il en joue.
+
+PARAMETRES :
+
+Permet de jeter "Amitié" une fois par jour.~
+@11 = ~Cette petite flûte à bec a été fabriquée dans la lointaine Éternelle Rencontre.
+Achetée par Perleflamme Cheveux-d'Elfe il y a des années, elle l'a accompagné dans ses nombreux voyages à travers Féérune. La dryade des Pics Brumeux a enroulé l'un de ses cheveux autour de la perce de cette flûte pour remercier Garrick d'avoir sauvé son arbre.
+
+Il semble que sa présence modifie les capacités de l'instrument, même si tu ne comprends pas très bien comment le cheveu parvient à tenir ainsi.
+
+PARAMETRES :
+
+Permet de jeter "Peau d'écorce" deux fois par jour.~
+@15 = ~Cet instrument est également connu sous le nom de " Violon de Suyf ", mais on l'appelle rarement ainsi chez les musiciens, pour qui l'évocation de Nikolaï Suyf porte malheur. Né dans le Vaste, près de Haut-Haspur, Nikolaï était le fils d'un marchand de fournitures pour bateaux. La région étant un important point de passage, Nikolaï découvrit bien vite diverses cultures. C'est ainsi qu'il fit la connaissance de Relev Finerivière, musicien elfe qui lui fit découvrir le violon et lui apprit à en jouer plusieurs années durant. Relev avait tout de suite vu que Nikolaï était incroyablement doué et que l'agilité de ses doigts n'avait d'égale que sa vivacité d'esprit et la passion que lui inspirait le vaste monde. Mais l'elfe savait aussi que l'enfant était orgueilleux et arrogant. Malgré cela, Relev lui enseigna tout ce qu'il savait.
+
+Après l'assassinat de Relev par une bande d'orques, Nikolaï travailla le violon seul. Malgré ses voyages, il revenait toujours aux montagnes isolées où il avait vu le jour. Il devint célèbre dans le Vaste, le sud de la mer de Lune et la Sembie pour son talent et la passion de ses concerts. Et puis, un jour, Trembel Ghon, fier-à-bras de Calaunt, apprit l'existence du jeune prodige. Trembel et son gang franchirent le col du Sang Elfique, s'arrêtant à l'auberge de l'Elfe en Armure où ils demandèrent à Nikolaï, qui dînait avec son père, de jouer pour eux.
+
+Nikolaï refusa. Traitant Trembel et ses hommes de rustres puants, il tenta de partir en conservant sa dignité, mais le malfrat piqua son orgueil en affirmant que le jeune homme avait peur de jouer et de se faire expulser de l'auberge pour son incompétence. Nikolaï rétorqua que son talent était si grand qu'il pouvait même ramener les morts à la vie. Aussitôt, Trembel se saisit du père du musicien et lui planta son poignard dans le cœur. Les villageois qui tentèrent d'intervenir se firent eux aussi massacrer par les bandits. 
+
+Trembel toisa Nikolaï après un ultime regard pour son père mort. " Alors, tu ne dis plus rien, le musicaillon ? ", fit-il méchamment. Pour seule réponse, Nikolaï prit son violon et se mit à jouer un air que nul n'avait jamais entendu... et que nul n'entendrait plus jamais. Il joua avec une passion et une ferveur débridées, à tel point que les témoins affirmèrent plus tard qu'il avait l'air d'un dément, se contorsionnant d'une manière qui n'avait rien de naturelle. Au terme de cette mélodie, Trembel et ses hommes se retrouvèrent pétrifiés d'horreur lorsque l'âme des pauvres bougres qu'ils avaient assassinés sortit de leur corps pour se jeter sur eux. Vidés de leur énergie par les spectres de leurs victimes, les brigands connurent une mort atroce. Nikolaï continua à jouer et à danser dans les rues et les prés de la région, jusqu'à ce que tous les hommes, femmes, enfants et animaux enterrés dans les environs sortent de leur tombe et se rassemblent autour de lui. Le jeune homme et son lugubre cortège disparurent dans une lointaine vallée, au cœur d'un épais brouillard qui se résorba aussi vite qu'il était apparu.
+
+Selon la légende, le fantôme de Nikolaï Suyf revient dans sa contrée natale par les nuits de brouillard et joue d'un violon spectral tandis que les morts dansent à sa suite.
+
+CARACTERISTIQUES :
+
+Convoque 1d4 ombres attaquant la cible choisie, une fois par jour.~
+@19 = ~Cette boucle d'oreille a été offerte à Garrick par Tenya, la prêtresse d'Umberlie, pour le remercier de son aide.
+Elle est habitée par un petit esprit lié au Plan élémentaire de l'eau, ce qui explique ses pouvoirs. Il semble que ce dernier se soit particulièrement attaché à Garrick, et il n'hésite pas à le conseiller si besoin.
+
+PARAMETRES :
+
+Objet maudit : diminue d'un point la sagesse.
+Augmente d'un point l'intelligence.
+
+Augmente les connaissances du porteur.
+Permet de lancer trois fois "Sanctuaire".~
+@122 = ~C'est bien une flûte d'Éternelle Rencontre que je vois sur votre cheminée ?~
+@125 = ~Oui, nous autres les elfes sommes généralement doués pour les Arts, quels qu'ils soient. J'ai d'ailleurs pu faire entendre les mélodies de cette flûte sur une grande partie de la Côte des Épées, à mon époque. Malheureusement, ma rapidité et ma technique ne sont plus ce qu'elles étaient, et je n'ai plus guère l'occasion d'en jouer maintenant.~
+@135 = ~Oui, toi. À moins qu'il n'y ait un autre Garrick caché ici ?~
+@153 = ~Je te remercie, mon garçon, du fond du cœur. Je vous souhaite bonne chance dans vos voyages, à tous. Faites attention sur la route, d'accord ?~
+@172 = ~Je... je dois avouer ne pas le savoir, belle dame. Les elfes de la lointaine Éternelle Rencontre l'ont fabriquée, et j'ignore quelle est leur manière de procéder avec les arbres.~
+@191 = ~Quand on pense qu'il reste dans les mémoires comme un nain avide qui a froidement massacré les siens, obsédé par ses richesses... alors qu'il a enduré mille souffrances ! Il est de mon devoir de lui rendre justice. Je commence dès à présent l'écriture d'une œuvre pour honorer sa mémoire.~
+@193 = ~Ça y est ! J'ai trouvé la dernière rime ! Ma chanson sur Durlag est terminée ! Je l'ai intitulé "La Ballade du Nain Fou". Je dois avouer ne pas être mécontent de moi ! Voulez-vous l'écouter ?~
+@274 = ~Bonjour. Mon ami m'a justement rapporté votre violon hier. Tenez, le voilà. Une très belle œuvre, si je puis me permettre !~
+@293 = ~Ah, ça a rudement bien marché, ça oui ! Les gens sont contents, et ça f'sait longtemps qu'j'avais pas fait une bonne recette comme ça, grâce à vous. Mille mercis Messires ! Ça va vous valoir une nuit à l'œil, ça oui.  Et une ristourne sur l'hydromel et l'vin d'Sang pour la soirée. Venez m'voir quand vous voudrez dormir, j'vous préparerai les chambres moi-même.~
+@296 = ~Soyez raisonnable et ne sortez pas ce soir. À ce qu'on dit, il se passe un tas de choses bizarres la nuit.~
+@347 = ~*rire*. Eh bien, Garrick, c'est très gentil de vous soucier de moi. Mais mes sœurs de la Porte m'accueilleront à bras ouverts. Et Umberlie est parfaitement capable de défendre les siens, même sans l'aide d'un beau barde à la langue bien pendue.~
+// DOIT correspondre à #27444 du journal de BGEE pour être effacé correctement quand la quête est terminée
+@371 = ~Les pêcheurs et la prêtresse
+
+La "prêtresse" que l'on m'a demandé de tuer n'a pas plus de 12 ans. Elle dit que les pêcheurs qui m'emploient ont tué sa mère. Je vais me battre contre eux en son nom.~
+@412 = ~Notre première rencontre ne vous a vraiment rien appris, n'est-ce pas ? Combien de créatures avez-vous attaquées à vue, sans même savoir quelles étaient leurs intentions, juste pour ce qu'elles *ÉTAIENT* ? Combien de Xvarts, femmes et enfants compris, *massacrés* lors des raids sur leurs villages par les gens bien-pensants comme VOUS ? Combien de filles d'Umberlie exterminées sur les Côtes à cause de leur *CHANT*, ou capturées par les "pauvres" et "innocents" pêcheurs pour *abuser* de leurs charmes ? Vous parlez des kobolds... et si les mineurs, en creusant, étaient tombé sur leurs habitations à EUX, et qu'ils avaient dû se défendre pour survivre ?~
+@437 = ~Vous êtes... vous... tsss. J'aurais dû vous accompagner, cela aurait pu nous éviter cette débâcle. À cause de vous, la Reine des Eaux a perdu l'une de ses filles. Vous allez être puni pour ça, <CHARNAME>. J'espère que vous allez mieux servir Umberlie à l'avenir, car la déesse n'est pas connue pour sa patience.~
+@452 = ~Je suppose qu'il va falloir s'occuper de ce prêtre nous-même... Umberlie est vraiment à cours de personnel pour être obligée de faire réaliser ses basses œuvres par les premiers aventuriers venus !~
+@457 = ~Passons maintenant aux détails pratiques. Enriack réside actuellement à l'auberge des Trois Vieilles Chopes, où il attend d'embarquer pour Eauprofonde. Il ne doit PAS poser ne serait-ce qu'un pied sur son navire, vous m'avez bien comprise, <CHARNAME> ? Après ce qu'il a fait à notre Église, il est hors de question qu'il aille narguer Umberlie directement sur son élément favori. Allez le chercher et éliminez-le.~
+@468 = ~Dommage pour vous. Étant donné le service que vous avez rendu à Umberlie, je vous autorise à conserver les objets appartenant à Enriack. Mais vous n'obtiendrez rien de plus. Partez maintenant.~
+// DOIT correspondre à #1827 du journal de BGEE pour être effacé correctement quand la quête est terminée
+@491 = ~Le fils de Tremain
+
+J'ai recueilli le corps de l'enfant dans le temple d'Umberlie. C'est une chance que Tenya ait été là, même si cela ne change rien au fait que l'on se soit d'abord servi de moi.~
+@501 = ~J'espère que vous avez une TRÈS bonne raison pour être entré dans ma chambre sans ma permission.~ ~J'espère que vous avez une TRÈS bonne raison pour être entrée dans ma chambre sans ma permission.~
+@522 = ~Les sorts de divination n'ont pas donné grand-chose sur cette pierre.
+
+D'après la légende, elle aurait appartenu à un éfrit du Plan Élémentaire du Feu, qui s'en servait pour décorer son cimeterre magique favori. On raconte que cet éfrit aurait été capturé par un mage Sha'ir et condamné à le servir pendant 100 ans. Afin d'alléger sa peine, l'éfrit aurait négocié une durée de captivité moins longue en échange de son cimeterre.
+Le Sha'ir aurait gardé l'arme durant des années, jusqu'à ce que, en manque d'argent, il finisse par le vendre.
+
+Tu n'as aucune idée de comment cette gemme s'est retrouvée ici, ni quels pourraient bien être ses pouvoirs, si toutefois elle en possède.~
+@526 = ~Ça dépend. De quelles pierres vous parlez ?~
+@529 = ~Mon ami assure qu'elle vient d'une contrée lointaine du Sud, appelée Zakhara. D'après lui, c'est une terre aride et essentiellement désertique. On dit qu'on y trouve quantité de richesses, et qu'il est facile d'y apercevoir un génie ! À moins d'attraper le mauvais œil, ahahah !~
+@532 = ~Bien sûr, bien sûr. Tenez, la voilà. Étrange, n'est-ce pas ? Voyez la pureté de ses traits, ses couleurs fabuleuses, tout en elle respire l'exotisme ! Vraiment fascinant, n'est-ce pas ?~
+@562 = ~Vous m'avez apporté un *cadeau* ? À moi ?~
+@568 = ~Je n'en doute pas. À bientôt, Garrick.~

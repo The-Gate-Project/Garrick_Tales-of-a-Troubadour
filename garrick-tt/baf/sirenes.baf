@@ -1,0 +1,53 @@
+//si garrick voit Sil ET s'il est invisible
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	See("SIL")
+	Or(2)
+	StateCheck("Garrick",STATE_INVISIBLE)
+	StateCheck("Garrick",STATE_IMPROVEDINVISIBILITY)
+	Global("gtt#cutscenesirenes","GLOBAL",0)
+	AreaCheck("%Lighthouse%")
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#cutscenesirenes","GLOBAL",1)
+	ClearAllActions()
+	StartCutSceneMode()
+	StartCutScene("cutssi")
+END
+
+// après la cutscene, on donne la chanson
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	Global("gtt#cutscenesirenes","GLOBAL",2)
+	AreaCheck("%Lighthouse%")
+	!HaveSpellRES("gtt#sno")
+	InMyArea(Player1)
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#ChansonSirenes","GLOBAL",1)
+	AddSpecialAbility("gtt#sno")
+    AddSpecialAbility("gtt#s0a")
+    DisplayStringHead(Myself,@213)
+    SetGlobal("gtt#cutscenesirenes","GLOBAL",3)
+    SetGlobal("gtt#tutosirenes","GLOBAL",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+	InParty("Garrick")
+	!Dead("Garrick")
+	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	Global("gtt#cutscenesirenes","GLOBAL",2)
+	AreaCheck("%Lighthouse%")
+	HaveSpellRES("gtt#sno")
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#ChansonSirenes","GLOBAL",1)
+    AddSpecialAbility("gtt#s0a")
+    DisplayStringHead(Myself,@213)
+    SetGlobal("gtt#cutscenesirenes","GLOBAL",3)
+END
