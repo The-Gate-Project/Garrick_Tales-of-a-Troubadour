@@ -9,16 +9,25 @@
 [Link to original Mod Download](https://mirandir.baldursgateworld.fr/garrick-tt/)
 
 
-## Description:
+## Description :
 ------------
 
-Garrick: Tales of a Troubadour is a little mod for Baldur’s Gate Trilogy and Baldur's Gate: Enhanced Edition which aims to make the character of Garrick more interesting to play, adding new dialogues, new situations and encounters as well as additional songs proper to the bard of Beregost. For this reason it is based on the content introduced by BG1NPC and completes it.
+Garrick: Tales of a Troubadour is a little mod for Baldurâ€™s Gate Trilogy and Baldur's Gate: Enhanced Edition which aims to make the character of Garrick more interesting to play, adding new dialogues, new situations and encounters as well as additional songs proper to the bard of Beregost. For this reason it is based on the content introduced by BG1NPC and completes it.
 I hope that it will let you, reader, appreciate this character who, despite his reputation of useless gullible or baggage carrier, comes with good options of role-play, for who knows how to exploit him.
 
 Sit by the fire, forget the worries of the road, and listen to the tales of the troubador...
 
 
-## Install:
+## Compatibility :
+------------
+
+Please note that Garrick: Tales of a Troubadour requires the mod [BG1NPC](https://github.com/Gibberlings3/BG1NPC). 
+
+Thanks to K4thos, this version can be installed after EET.
+
+
+
+## Install :
 --------
 
 Extract archive contents into your game directory
@@ -26,7 +35,7 @@ Run Setup-garrick-tt.exe
 Follow the prompt
 
 
-## Version History:
+## Version History :
 ----------------
 
 1.27:
@@ -76,6 +85,6 @@ Follow the prompt
     The earring of Tenya can now be worn by the various bard kits over the base class ;
     The dialogue between Firebead Elvenhair and Garrick now triggers after completing the elf's quest ;
     Drunkard's Ditty makes no longer lose wisdom but charisma and dexterity instead ;
-    Garrick : tales of a troubador is now compatible with the option « Revised travel times and area visibility » of Worldmap mod.
+    Garrick : tales of a troubador is now compatible with the option Â« Revised travel times and area visibility Â» of Worldmap mod.
 
 1.00: initial release
