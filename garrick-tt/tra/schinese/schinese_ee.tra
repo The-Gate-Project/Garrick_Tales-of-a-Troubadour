@@ -1,0 +1,44 @@
+// The EE engine automatically generates the usable/unusable block of item descriptions, so we need some slightly modified descriptions for them
+@9 = ~This little recorder was made in distant Evermeet.
+It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent.
+
+Despite it's apparent mundane nature, this flute has magical powers and allows the player to be well received by their audience when played.
+
+STATISTICS:
+
+Can cast "Friends" once per day.~
+@11 = ~This little recorder was made in distant Evermeet.
+It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent. A dryad from the Cloud Peaks gave one hair from her head to Garrick, for helping her save her tree, who tied it around the flute after he cracked it by mistake. The magical hair grants abilities to the user.
+
+STATISTICS:
+
+Can cast "Barkskin" twice per day.~
+@15 = ~This instrument is also known as "Tallow's Violin," but that moniker is rarely spoken among musicians, as mentioning the name of Nikolai Tallow is considered bad luck. Nikolai was born in The Vast, near High Haspur, the son of a chandler. Because of the intermittent traffic through the region, Nikolai was introduced to many different cultures. One of the travelers he met was an elven musician named Relev Thinriver. Relev introduced Nikolai to the violin and taught him for several years as he wandered through the area. Relev knew that Nikolai was an incredibly gifted child, with quick fingers, a keen mind, and a passion for all things in the world. Relev also recognized that Nikolai was exceedingly proud and arrogant. In spite of Nikolai's shortcomings, Relev taught him everything he knew.
+
+After Relev was killed by a band of orcs, Nikolai began to practice on his own throughout the Vast. Despite his travels, he always returned to the isolate peaks of his mountain birthplace. He became famed throughout the Vast, the southern Moonsea and Sembia for his incredible talent and passionate performances. Eventually, news of the proud young virtuoso spread to the ears of a nearby thug from Calaunt named Tremble Ghon. When Tremble and his gang traveled through the Elvenblood Pass, they stopped at the Elf in Armor Inn and demanded a performance from Nikolai, who happened to be present and eating dinner with his father at the time.
+
+Nikolai refused to perform for Tremble and his men. He called them stinking oafs and attempted to leave with dignity. Tremble assaulted Nikolai's pride by claiming that Nikolai was afraid of performing because he'd be heckled out of the inn for his incompetence. Nikolai shot back that his skill with the violin was so great that he could raise the dead from their graves. Satisfied with a proposed challenge, Tremble immediately grabbed Nikolai's father and stabbed him in the heart. When a number of other villagers attempted to intervene, they were also killed by the bandits.
+
+Tremble defiantly stood over Nikolai's dead father and said, "Where's your big mouth now, fiddle player?" Without a word, Nikolai pulled his violin and bow out from underneath his arms and began to play a melody that none of the residents of High Haspur had ever heard before, and no one in Faerun would ever hear again. Nikolai played with unbridled passion and fervor. Onlookers later remarked that he appeared to be a madman, thrashing about in ways that people didn't think were possible. At the climax of his frenzied piece, Tremble and his gang watched in horror as the souls of the men and women they had just killed rose from their corpses and dove, shrieking, at their murderers. The bandits died horrible deaths, chilled by the shadows of their victims. Nikolai himself continued playing, dancing through the streets and back pastures of his alpine home until every man, woman, child, and beast ever buried in the region rose from its resting place and milled about until Nikolai and his music disappeared into a far off valley, shrouded in a mysterious fog that vanished as quickly as it had appeared.
+
+Legends say that on misty nights, the ghost of Nikolai Tallow returns to his homeland, playing a phantom violin with a host of dancing dead trailing behind him in the moonlight.
+
+STATISTICS:
+
+Summons 1D4 Shadows to attack a target, once per day.~
+@19 = ~This earring was offered to Garrick by Tenya, the priestess of Umberlee, as gratitude for his help.
+It is inhabitated by a small spirit from the Elemental Plane of Water, which would explain its powers. It seems that the spirit is particularly attached to Garrick.
+
+STATISTICS:
+
+Cursed item: decreases wisdom by 1 point.
+Increases intelligence by 1 point.
+
+Increases knowledge of the wearer.
+It allows to cast "Sanctuary" three times.~
+// #27444 in BGEE
+@371 = ~The Fishermen and the Priestess
+The "priestess" I was sent to kill is no more than a child of perhaps twelve years. She says the fishermen who hired me killed her mother. I shall go confront them on her behalf.~
+// #1827 in BGEE
+@491 = ~Tremain's Son
+I have retrieved the child's body from the Umberlee temple. It was a stroke of luck that Tenya was there, though I feel no better about being used before.~
