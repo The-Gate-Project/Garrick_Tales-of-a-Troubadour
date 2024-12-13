@@ -5,8 +5,8 @@
 //
 //
 @4 = ~Siren's Melody~
-@5 = ~Battle Song~
-@6 = ~Drunkard's Ditty~
+@5 = ~战歌~
+@6 = ~醉汉小调~
 @7 = ~Ballad of the Mad Dwarf~
 @8 = ~Little Flute~
 @9 = ~This little recorder was made in distant Evermeet.
@@ -30,11 +30,11 @@ Can cast "Barkskin" twice per day.
 Only Usable By:
  Bard~
 // #16779 in Icewind Dale
-@12 = ~Violin~
+@12 = ~小提琴~
 // #16781 in Icewind Dale
-@13 = ~Violins are bowed, stringed instruments having four strings, a shallow body, shoulders at right angles to the neck, a fingerboard without frets, and a curved bridge.  They are typically played by pulling a bow across the strings, but can also be plucked.  Elves are particularly fond of violins and their craftsmen produce some of the finest specimens in the world.~
+@13 = ~小提琴是一种弓形的弦乐器，有四根弦，琴身较浅，肩部与颈部成直角，指板没有花纹，琴马是弯曲的。通常用琴弓拉琴弦的方式来演奏，不过也可以用拨琴弦的方式。精灵非常喜欢这种乐器，他们的工匠可以做出世上最好的小提琴。~
 // #16782 in Icewind Dale
-@14 = ~Viol of the Hollow Men~
+@14 = ~Viol of the Hollow Men空洞之人的柔音提琴~
 // #16782 in Icewind Dale
 @15 = ~This instrument is also known as "Tallow's Violin," but that moniker is rarely spoken among musicians, as mentioning the name of Nikolai Tallow is considered bad luck. Nikolai was born in The Vast, near High Haspur, the son of a chandler. Because of the intermittent traffic through the region, Nikolai was introduced to many different cultures. One of the travelers he met was an elven musician named Relev Thinriver. Relev introduced Nikolai to the violin and taught him for several years as he wandered through the area. Relev knew that Nikolai was an incredibly gifted child, with quick fingers, a keen mind, and a passion for all things in the world. Relev also recognized that Nikolai was exceedingly proud and arrogant. In spite of Nikolai's shortcomings, Relev taught him everything he knew.
 
@@ -51,7 +51,15 @@ STATISTICS:
 Summons 1D4 Shadows to attack a target, once per day.
 
 Only Usable By:
- Bard~
+ Bard这乐器就是有名的“泰洛的提琴”，但乐师们很少用这个称呼，因为提到尼可拉·泰洛的名字是不吉利的。尼可拉生在瀚土，是高哈斯帕附近一个蜡烛商的儿子。因为必须周期性的在那个区域里旅行，尼可拉有机会见到许多不同的文化。他遇到一个叫瑞雷夫·细河的精灵音乐家。当瑞雷夫在那区域闲晃的几年里，他让尼可拉接触了小提琴。瑞雷夫发现尼可拉是一个十分有天赋的小孩，有快速的手指，敏捷的心思，和一颗对事物热情的心。瑞雷夫也发现尼可拉十分的骄傲自大。尽管尼可拉有这个缺点，瑞雷夫仍然教导他所有他知道的事情。
+在瑞雷夫被一群兽人所杀后，尼可拉开始一个人在瀚土游历。不过他总是会回到山间的出生地。他不可思议的技术和热情的表演开始传遍整个瀚土、月海南方和桑比亚。终于，关于一个骄傲的年轻音乐家的消息传到了附近一个来自卡罗特的山贼头子雷豹·高恩的耳中。当雷豹跟他那一群山贼穿过精灵之血小径时，在精灵盔甲旅馆里遇见刚好跟父亲在吃晚餐的尼可拉。他们当然要求尼可拉为他们演奏一曲。
+尼可拉拒绝了雷豹。他称呼他们为恶臭的畸形儿，并以高贵的姿态开始离去。雷豹讥笑尼可拉不敢表演是因为怕他的无能被传出去。尼可拉回嘴说他的小提琴技术可以让死人从坟墓里爬出来听他演奏。听到了这个挑战，雷豹立刻抓住尼可拉的父亲，一刀刺进他的心口。一些试图阻止的村民也都被强盗杀了。
+雷豹挑战的站在尼可拉死掉的父亲旁说道，“你的大嘴巴现在在哪里呀，小提琴手？”尼可拉一声不响地从腋下拿出提琴，开始演奏一种高哈斯帕的居民从来没听过，而任何费伦的人也永远不会再听到的旋律。尼可拉用疯狂的情绪演奏着。一些旁观者后来认为其实那时尼可拉已经疯了，因为没有任何正常人能那样演奏。在他狂乱曲调的最顶点，雷豹和他的手下们毛骨悚然的看见刚刚他们杀死的人的灵魂从尸体升起，尖叫，围绕着那些凶手。那些强盗都死的非常凄惨，全被鬼魂给冰冻了。尼可拉仍然继续演奏着，跳舞般的走过街道，走向他生长的高山。到最后所有的尸体，不论是男人，女人，小孩，甚至野兽都从他们安息的地方爬起来，直到尼可拉跟他的音乐消失在一个遥远的山谷里一阵突然出现的迷雾中。
+传说在多雾的夜晚，尼可拉·泰洛的鬼魂会回到他的故乡，演奏着幽灵小提琴，后面则跟着一串跳舞的死尸。
+数据资料：
+每天可以召唤1D4个阴影来攻击目标
+限下列人物使用：
+吟游诗人~
 @16 = ~Broken violin~
 @17 = ~This violin has obviously seen better days. Its strings are cut or missing, and its wood is broken and damaged in many places.
 Yet you notice the presence of small runes on the edge of the instrument - the violin is (was?) magical without a doubt.
@@ -87,36 +95,36 @@ If cast on an ally, the spell heals 8 damage points or and heals any injury on t
 //
 
 // New song
-@100 = ~NOTE: Garrick has learned a new song. To use it, select it from the special abilities menu, then use the default button to activate the bard song. To return to the default bard song, select "Battle Song" in the special abilities menu.~
+@100 = ~注意：加瑞克已学会新的歌曲，可在特殊能力选单中使用，点击默认按钮激活诗人歌曲。要切换至默认诗人歌曲，请选择特殊能力中的“战歌”。~
 
 // Dialog with Gosse - Friendly Arm Inn
-@101 = ~BURP!!... hey hey hey!... look, a bard! Hip! Have you come to play us a song, then? *uurrrghhh*~
-@102 = ~Uh... Well Sir, I must admit that...~
-@103 = ~Ah, this is... urp! This is... what? Nice... need some music myself!~
-@104 = ~Sir, I'm afraid I do not have time for you. My companions and I...~
-@105 = ~'ait, I'a going to show you if you don't know... sit down, take the mug *BURP!* and... and... and... liiisten carefully to old Gosse. How is it... al-already?~
-@106 = ~I'm sorry sir but I must decli-...~
-@107 = ~Be silent and DRINK, I tell you!~
-@108 = ~(While serving Garrick again, the man starts singing what seems to be a largely incoherent song. From what you manage to gather, it is about the salacious adventures of a bear who after paying a visit to a Xvart, gets lost on the way back.)~
-@109 = ~I, uh, I have to say it wash... wash... WAS! very... interesting, my good fellow *hic*. But I'll have to leave you n-n-no-o-w. Now, where did I put my parchments...~
-@110 = ~Don't trust bears, bard! They are more horny than anyone can imagine! And VISSO... VI-... VISHOE! No, VICIOUS!~
-@111 = ~I will *Hic* be careful!~
-@112 = ~New song available: Drunkard's Ditty~
-@113 = ~Well, if you insist... *Garrick empties the beer mug in one go*.~
+@101 = ~嗝！！……嘿嘿嘿！……看啊，一个吟游诗人！嗨！来为我们唱一曲吧，啊？*嗝*~
+@102 = ~哦……好的先生，我必须承认……~
+@103 = ~啊，这……嗝！这是……什么意思？好吧……我要自己来点音乐！~
+@104 = ~先生，恐怕我没时间为你演奏，我和同伴们……~
+@105 = ~等等，你要是不会那我来……坐下，拿着杯子*嗝*接……接……接下来……仔细听老哥唱。怎样……好吗？~
+@106 = ~抱歉先生我必须拒……~
+@107 = ~别说了，我让你喝！~
+@108 = ~（那人又给加瑞克倒了一杯，唱了首特别不着边际的歌。你努力听才明白，讲的是一头熊去拜访法特怪，回去时迷路了发生的下流冒险故事。）~
+@109 = ~啊，我，我得说这故事争……争……真！有……意思，老哥*嗝*。但我一……奥……要走了，走了，我的羊皮纸放哪了……~
+@110 = ~别相信熊，吟游诗人！它们比任何人想象的都好色！而且花……荒……荒人！不，荒淫！~
+@111 = ~我会*嗝*小心的！~
+@112 = ~学会新歌曲：醉汉小调~
+@113 = ~好吧，如你所愿……*加瑞克一口干了一大杯酒*~
 
 // Dialog with Firebead
 
-@120 = ~Sir, if I may...~
-@121 = ~Yes, young man?~
-@122 = ~That flute... isn't it of elvish make? From Evermeet?~
-@123 = ~Huh? Oh yes! Yes, indeed. But how did you know?~
-@124 = ~I am especially interested in instruments of elven make... The small characteristic runes on the side are impossible to miss. The craftsmanship is exquisite! None can match the ingenuity of the elves when one considers art, and music is no exception! I only wish that I could play as well as you elves do, sir!~
-@125 = ~Yes, we generally do excel at the Arts, don't we? I remember when I could pry beautiful melodies from this very flute. I was famous, after a fashion, all over the Sword Coast! Ahhh, youth! Such a blessed time. Unfortunately, my agility and technique are not what they were. I could not even dream of playing as I used to...~
-@126 = ~Oh! I'm really sorry, sir. What a loss for this world! Not being able to hear you play!~
+@120 = ~先生，请问……~
+@121 = ~怎么了，年轻人？~
+@122 = ~那支笛子……是精灵制作的吧？来自永聚岛？~
+@123 = ~啊？哦，没错！的确是。可是你怎么知道？~
+@124 = ~我对精灵制作的乐器特别感兴趣……所以绝不会看错边上那独特的小符文。还有这精致的做工！精灵的艺术造诣真是独一无二，音乐也不例外！真希望我的演奏能跟你们精灵一样出色，先生！~
+@125 = ~没错，我们普遍擅长艺术，不是吗？记得我当年就是用这支笛子吹奏出美妙的旋律，在整个剑湾还算小有名气！啊，年轻人，那是多么幸福的时光啊！可惜我的灵巧和技艺已经不复当年，现在做梦都不敢想还能像以前那样演奏了……~
+@126 = ~啊！真是遗憾，先生。不能再听到您的演奏，真是这个世界的损失！~
 // Kagain
-@127 = ~Oh, yes, SUCH a tragedy...~
+@127 = ~啊，是的，真是灾难……~
 @128 = ~Your concern touches me, my boy. What is your name? Are you a musician as well?~
-@129 = ~Indeed, sir! I am Garrick, I used to play in the acting troupe: the Dale Wind Troubadours. We presented our shows in several major cities, including Neverwinter and Baldur's Gate. That was before I met <CHARNAME>, of course!~
+@129 = ~Indeed, sir! I am Garrick, I used to play in the acting troupe: the Dale Wind Troubadours. We presented our shows in several major cities, including Neverwinter and Baldur's Gate. That was before I met <CHARNAME>, of course!山谷之风吟游剧团~
 @130 = ~You seem to have already traveled far for such a young age. What instrument do you play?~
 @131 = ~Well, my favorite is the lyre, accompanied by my dulcet tones! But I also learnt to play the violin, and am able to play several breath instruments. But none of this quality, alas... *sigh*.~
 @132 = ~(Firebead smiles) Well Garrick, I am delighted to have met such a delightful young man with a great interest in art! I miss the sound of this flute... I miss the sound of my youth... Would you be willing to play me something?~
