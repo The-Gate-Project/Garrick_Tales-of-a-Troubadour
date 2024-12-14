@@ -34,28 +34,13 @@ Only Usable By:
 // #16781 in Icewind Dale
 @13 = ~小提琴是一种弓形的弦乐器，有四根弦，琴身较浅，肩部与颈部成直角，指板没有花纹，琴马是弯曲的。通常用琴弓拉琴弦的方式来演奏，不过也可以用拨琴弦的方式。精灵非常喜欢这种乐器，他们的工匠可以做出世上最好的小提琴。~
 // #16782 in Icewind Dale
-@14 = ~Viol of the Hollow Men空洞之人的柔音提琴~
+@14 = ~空洞之人的柔音提琴~
 // #16782 in Icewind Dale
-@15 = ~This instrument is also known as "Tallow's Violin," but that moniker is rarely spoken among musicians, as mentioning the name of Nikolai Tallow is considered bad luck. Nikolai was born in The Vast, near High Haspur, the son of a chandler. Because of the intermittent traffic through the region, Nikolai was introduced to many different cultures. One of the travelers he met was an elven musician named Relev Thinriver. Relev introduced Nikolai to the violin and taught him for several years as he wandered through the area. Relev knew that Nikolai was an incredibly gifted child, with quick fingers, a keen mind, and a passion for all things in the world. Relev also recognized that Nikolai was exceedingly proud and arrogant. In spite of Nikolai's shortcomings, Relev taught him everything he knew.
-
-After Relev was killed by a band of orcs, Nikolai began to practice on his own throughout the Vast. Despite his travels, he always returned to the isolate peaks of his mountain birthplace. He became famed throughout the Vast, the southern Moonsea and Sembia for his incredible talent and passionate performances. Eventually, news of the proud young virtuoso spread to the ears of a nearby thug from Calaunt named Tremble Ghon. When Tremble and his gang traveled through the Elvenblood Pass, they stopped at the Elf in Armor Inn and demanded a performance from Nikolai, who happened to be present and eating dinner with his father at the time.
-
-Nikolai refused to perform for Tremble and his men. He called them stinking oafs and attempted to leave with dignity. Tremble assaulted Nikolai's pride by claiming that Nikolai was afraid of performing because he'd be heckled out of the inn for his incompetence. Nikolai shot back that his skill with the violin was so great that he could raise the dead from their graves. Satisfied with a proposed challenge, Tremble immediately grabbed Nikolai's father and stabbed him in the heart. When a number of other villagers attempted to intervene, they were also killed by the bandits.
-
-Tremble defiantly stood over Nikolai's dead father and said, "Where's your big mouth now, fiddle player?" Without a word, Nikolai pulled his violin and bow out from underneath his arms and began to play a melody that none of the residents of High Haspur had ever heard before, and no one in Faerun would ever hear again. Nikolai played with unbridled passion and fervor. Onlookers later remarked that he appeared to be a madman, thrashing about in ways that people didn't think were possible. At the climax of his frenzied piece, Tremble and his gang watched in horror as the souls of the men and women they had just killed rose from their corpses and dove, shrieking, at their murderers. The bandits died horrible deaths, chilled by the shadows of their victims. Nikolai himself continued playing, dancing through the streets and back pastures of his alpine home until every man, woman, child, and beast ever buried in the region rose from its resting place and milled about until Nikolai and his music disappeared into a far off valley, shrouded in a mysterious fog that vanished as quickly as it had appeared.
-
-Legends say that on misty nights, the ghost of Nikolai Tallow returns to his homeland, playing a phantom violin with a host of dancing dead trailing behind him in the moonlight.
-
-STATISTICS:
-
-Summons 1D4 Shadows to attack a target, once per day.
-
-Only Usable By:
- Bard这乐器就是有名的“泰洛的提琴”，但乐师们很少用这个称呼，因为提到尼可拉·泰洛的名字是不吉利的。尼可拉生在瀚土，是高哈斯帕附近一个蜡烛商的儿子。因为必须周期性的在那个区域里旅行，尼可拉有机会见到许多不同的文化。他遇到一个叫瑞雷夫·细河的精灵音乐家。当瑞雷夫在那区域闲晃的几年里，他让尼可拉接触了小提琴。瑞雷夫发现尼可拉是一个十分有天赋的小孩，有快速的手指，敏捷的心思，和一颗对事物热情的心。瑞雷夫也发现尼可拉十分的骄傲自大。尽管尼可拉有这个缺点，瑞雷夫仍然教导他所有他知道的事情。
-在瑞雷夫被一群兽人所杀后，尼可拉开始一个人在瀚土游历。不过他总是会回到山间的出生地。他不可思议的技术和热情的表演开始传遍整个瀚土、月海南方和桑比亚。终于，关于一个骄傲的年轻音乐家的消息传到了附近一个来自卡罗特的山贼头子雷豹·高恩的耳中。当雷豹跟他那一群山贼穿过精灵之血小径时，在精灵盔甲旅馆里遇见刚好跟父亲在吃晚餐的尼可拉。他们当然要求尼可拉为他们演奏一曲。
-尼可拉拒绝了雷豹。他称呼他们为恶臭的畸形儿，并以高贵的姿态开始离去。雷豹讥笑尼可拉不敢表演是因为怕他的无能被传出去。尼可拉回嘴说他的小提琴技术可以让死人从坟墓里爬出来听他演奏。听到了这个挑战，雷豹立刻抓住尼可拉的父亲，一刀刺进他的心口。一些试图阻止的村民也都被强盗杀了。
-雷豹挑战的站在尼可拉死掉的父亲旁说道，“你的大嘴巴现在在哪里呀，小提琴手？”尼可拉一声不响地从腋下拿出提琴，开始演奏一种高哈斯帕的居民从来没听过，而任何费伦的人也永远不会再听到的旋律。尼可拉用疯狂的情绪演奏着。一些旁观者后来认为其实那时尼可拉已经疯了，因为没有任何正常人能那样演奏。在他狂乱曲调的最顶点，雷豹和他的手下们毛骨悚然的看见刚刚他们杀死的人的灵魂从尸体升起，尖叫，围绕着那些凶手。那些强盗都死的非常凄惨，全被鬼魂给冰冻了。尼可拉仍然继续演奏着，跳舞般的走过街道，走向他生长的高山。到最后所有的尸体，不论是男人，女人，小孩，甚至野兽都从他们安息的地方爬起来，直到尼可拉跟他的音乐消失在一个遥远的山谷里一阵突然出现的迷雾中。
-传说在多雾的夜晚，尼可拉·泰洛的鬼魂会回到他的故乡，演奏着幽灵小提琴，后面则跟着一串跳舞的死尸。
+@15 = ~这件乐器就是著名的“泰洛的小提琴”，但乐师们很少用这个称呼，因为提到尼可拉·泰洛的名字是不吉利的。尼可拉生在瀚土，是高哈斯帕附近一个蜡烛商的儿子。因为时常往来于各地，尼可拉接触到了许多不同的文化。他遇到一个叫瑞雷夫·细河的精灵音乐家。瑞雷夫让尼可拉接触了小提琴，并在旅行时教了尼可拉几年。瑞雷夫发现尼可拉是一个十分有天赋的小孩，手指灵活且心智敏锐，对世上所有事物都满怀热情。瑞雷夫也发现尼可拉十分的骄傲自大。尽管尼可拉有这个缺点，瑞雷夫仍然倾囊相授。
+在瑞雷夫被一群兽人所杀后，尼可拉开始一个人在瀚土游历。不旅行的时候，他就会回到出生之地那与世隔绝的山峰。他凭借不可思议的天赋和热情的表演，在瀚土、月海南部和山比亚闻名遐迩。后来，附近的一个恶棍，来自卡朗特的川暴·高恩，听说了这位骄傲年轻音乐家的传闻。有一次川暴一伙路过精灵之血小径，在精灵盔甲旅馆里刚好遇到跟父亲吃晚餐的尼可拉，就要求尼可拉演奏一曲。
+尼可拉拒绝为川暴一伙演奏，并称他们为恶臭的白痴，骄傲地意欲离开。川暴声称尼可拉不敢表演是因为无能，怕被酒馆的人嘲笑，这伤害了尼可拉的自尊。尼可拉回应说他的小提琴技艺可以让死人从坟墓里爬出来听他演奏。川暴对这样的挑战很满意，立刻抓住尼可拉的父亲，一刀刺进他的心口。一些试图阻止的村民也都被强盗所杀。
+川暴站在尼可拉已死的父亲旁挑衅道，“兑现你的大话吧，小提琴手？”尼可拉一声不响地从腋下拿出小提琴开始演奏，这旋律不仅高哈斯帕的居民从来没听过，任何费伦的人也永远不会再听到。尼可拉用疯狂的情绪演奏着。一些旁观者后来认为其实那时尼可拉已经疯了，因为没有人能像他那样剧烈地摇摆。在他狂乱曲调的最顶点，川暴和他的手下们毛骨悚然地看见刚被杀死之人的灵魂从尸体升起、尖叫、围绕着凶手。那些强盗都死得非常凄惨，全被鬼魂吓得魂飞魄散。尼可拉仍然继续演奏着，跳舞般的走过街道，走向他生长的高山。到最后所有的尸体，不论是男人，女人，小孩，甚至野兽都从他们安息的地方爬起来，直到尼可拉跟他的音乐裹挟着稍纵即逝的迷雾，消失在遥远的山谷中。
+传说在多雾的夜晚，尼可拉·泰洛的鬼魂会回到他的故乡，演奏着幽灵小提琴，后面则跟着一大群死灵在月光下曼舞。
 数据资料：
 每天可以召唤1D4个阴影来攻击目标
 限下列人物使用：
@@ -123,18 +108,18 @@ If cast on an ally, the spell heals 8 damage points or and heals any injury on t
 @126 = ~啊！真是遗憾，先生。不能再听到您的演奏，真是这个世界的损失！~
 // Kagain
 @127 = ~啊，是的，真是灾难……~
-@128 = ~Your concern touches me, my boy. What is your name? Are you a musician as well?~
-@129 = ~Indeed, sir! I am Garrick, I used to play in the acting troupe: the Dale Wind Troubadours. We presented our shows in several major cities, including Neverwinter and Baldur's Gate. That was before I met <CHARNAME>, of course!山谷之风吟游剧团~
-@130 = ~You seem to have already traveled far for such a young age. What instrument do you play?~
-@131 = ~Well, my favorite is the lyre, accompanied by my dulcet tones! But I also learnt to play the violin, and am able to play several breath instruments. But none of this quality, alas... *sigh*.~
-@132 = ~(Firebead smiles) Well Garrick, I am delighted to have met such a delightful young man with a great interest in art! I miss the sound of this flute... I miss the sound of my youth... Would you be willing to play me something?~
+@128 = ~你的关心让我很感动，孩子。你叫什么名字？也是位乐师吗？~
+@129 = ~是的，先生！我叫加瑞克，曾经在剧团演奏，山谷之风吟游剧团。我们在好多大城市做过演出，包括无冬城和博德之门。当然，那是遇到<CHARNAME>之前的事了！~
+@130 = ~看起来你年纪轻轻就去过很远的地方了。你会演奏什么乐器？~
+@131 = ~啊，我最喜欢七弦琴，为我悦耳的声音伴奏！不过我也学过演奏小提琴，还有几种吹奏乐器也可以，但从未试过这么精致的，唉……*叹气*。~
+@132 = ~（法尔比笑了笑）好呀加瑞克，我真高兴能遇到你这么讨人喜欢的年轻人，还对艺术有这么大的兴趣！我很怀念这支笛子的声音……我的青春之音……你愿为我演奏一曲吗？~
 // Viconia
-@133 = ~Oh! By Shar! Not this again...~
-@134 = ~Uh... me, sir? Are you sure?~
-@135 = ~Yes, yes, you! Unless there is another Garrick hidden somewhere around here?~
-@136 = ~No... no, sir, I don't see any other Garrick. Do you want to listen to something in particular?~
-@137 = ~No, my boy, play whatever you like! It will be good enough for me to hear the sweet tunes of the flute again.~
-@138 = ~Okay. Well I... I will begin.~
+@133 = ~啊！莎尔在上！不要再来一次了……~
+@134 = ~嗯……我吗，先生？你确定？~
+@135 = ~是啊，是啊，就是你！难道这里还藏在另一个加瑞克不成？~
+@136 = ~不……不，先生，没有别的加瑞克。你有什么特别想听的吗？~
+@137 = ~没有，孩子，你随意就行！能再次听到这支笛子的甜美声音，对我来说就足够了。~
+@138 = ~好的。那我……我要开始了。~
 @139 = ~(Garrick takes the little flute, his hands uncertain, his face unsure as he puts it to his lips. He begins to play, at first calm and relaxing, then picking up more rhythm. Hesitant at first, Garrick begins to gain confidence, he picks up speed and you feel as if his hands have more fingers than they should. The refrain of his music is particularly heady, and you feel as if you have heard this melody before, but you cannot remember when or where.)~
 @140 = ~(Whatever it was supposed to be, Garrick starts to improvise, adding notes as he goes along to the melody. It is a truly beautiful and somewhat original piece, with alternating slow and fast beats. Your mind seems to wander with the haid of the music, and you start to ponder over recent events. Gorion was a careful, methodical father and he loved you in his own fashion, you do not remember him being particularly fond of music.)~
 @141 = ~(Of course, it is supposed that he had very little time for such things... most of his free time was focused on mastering the arcane arts... unfortunately, even his considerable prowess was insufficient to save him from the assassin. In fact, upon reflection, he seemed quite insensitive to-)~
