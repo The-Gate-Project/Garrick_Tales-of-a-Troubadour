@@ -8,17 +8,14 @@
 @5 = ~战歌~
 @6 = ~醉汉小调~
 @7 = ~Ballad of the Mad Dwarf~
-@8 = ~Little Flute~
-@9 = ~This little recorder was made in distant Evermeet.
-It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent.
-
-Despite it's apparent mundane nature, this flute has magical powers and allows the player to be well received by their audience when played.
-
-STATISTICS:
-
-Can cast "Friends" once per day.
-Usable By:
- Bard~
+@8 = ~小笛子~
+@9 = ~这支小竖笛出自遥远的永聚岛。
+很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方，
+这支笛子虽然看起来平淡无奇，但却具有魔法能量，能让吹奏者更受听众欢迎。
+数据资料：
+每天可以施展一次友好术
+限下列人物使用：
+吟游诗人~
 @10 = ~Dryad Hair Flute~
 @11 = ~This little recorder was made in distant Evermeet.
 It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent. A dryad from the Cloud Peaks gave one hair from her head to Garrick, for helping her save her tree, who tied it around the flute after he cracked it by mistake. The magical hair grants abilities to the user.
@@ -112,32 +109,32 @@ If cast on an ally, the spell heals 8 damage points or and heals any injury on t
 @129 = ~是的，先生！我叫加瑞克，曾经在剧团演奏，山谷之风吟游剧团。我们在好多大城市做过演出，包括无冬城和博德之门。当然，那是遇到<CHARNAME>之前的事了！~
 @130 = ~看起来你年纪轻轻就去过很远的地方了。你会演奏什么乐器？~
 @131 = ~啊，我最喜欢七弦琴，为我悦耳的声音伴奏！不过我也学过演奏小提琴，还有几种吹奏乐器也可以，但从未试过这么精致的，唉……*叹气*。~
-@132 = ~（法尔比笑了笑）好呀加瑞克，我真高兴能遇到你这么讨人喜欢的年轻人，还对艺术有这么大的兴趣！我很怀念这支笛子的声音……我的青春之音……你愿为我演奏一曲吗？~
+@132 = ~（法尔比笑了笑）好呀加瑞克，我真高兴能遇到你这么讨人喜欢的年轻人，还对艺术有这么大的兴趣！我很怀念这支笛子的声音……我的青春之声……你愿为我演奏一曲吗？~
 // Viconia
 @133 = ~啊！莎尔在上！不要再来一次了……~
 @134 = ~嗯……我吗，先生？你确定？~
 @135 = ~是啊，是啊，就是你！难道这里还藏在另一个加瑞克不成？~
 @136 = ~不……不，先生，没有别的加瑞克。你有什么特别想听的吗？~
-@137 = ~没有，孩子，你随意就行！能再次听到这支笛子的甜美声音，对我来说就足够了。~
+@137 = ~没有，孩子，你随意就行！能再次听到这支笛子的美妙声音，对我来说就足够了。~
 @138 = ~好的。那我……我要开始了。~
-@139 = ~(Garrick takes the little flute, his hands uncertain, his face unsure as he puts it to his lips. He begins to play, at first calm and relaxing, then picking up more rhythm. Hesitant at first, Garrick begins to gain confidence, he picks up speed and you feel as if his hands have more fingers than they should. The refrain of his music is particularly heady, and you feel as if you have heard this melody before, but you cannot remember when or where.)~
-@140 = ~(Whatever it was supposed to be, Garrick starts to improvise, adding notes as he goes along to the melody. It is a truly beautiful and somewhat original piece, with alternating slow and fast beats. Your mind seems to wander with the haid of the music, and you start to ponder over recent events. Gorion was a careful, methodical father and he loved you in his own fashion, you do not remember him being particularly fond of music.)~
-@141 = ~(Of course, it is supposed that he had very little time for such things... most of his free time was focused on mastering the arcane arts... unfortunately, even his considerable prowess was insufficient to save him from the assassin. In fact, upon reflection, he seemed quite insensitive to-)~
-@142 = ~(Your thoughts are interrupted by when the music stops playing and Firebead starts to applaud Garrick's skills.) Well done, my boy, well done! You seem to have real talent!~
-@143 = ~(Garrick blushes.) T-thank you, sir, I can honestly say that I have never played so well before. To be honest, I thought it was the flute's skill more than mine. I'm not...~
-@144 = ~Nonsense, my boy, nonsense! There's no need to be modest! One should be proud of ones talents! You played beautifully. A true treat for the ears!~
+@139 = ~（加瑞克看起来仍有些犹豫，颤抖着双手接过小笛子，将它放到唇间。他吹了起来，音乐最初平静而令人放松，之后开始加快节奏。不像一开始迟疑不决，加瑞克找到了自信，开始加快速度，你感觉他的手指好像多出来不少。乐曲的副歌尤其令人着迷，你感觉之前似乎听过这旋律，但又想不起是在何时何地听到的。）~
+@140 = ~（不管那是什么旋律，加瑞克已经开始即兴创作了，他在其中增加了更多音节。原版乐曲中加入快慢交替的节拍后真是好听。你的思绪随着音乐的节律游走，开始考虑最近发生的事情。你的父亲葛立安是个细致且有条理的人，并以他自己的方式爱着你，你记得他并不特别钟爱音乐。）~
+@141 = ~（当然，可以料想他没有多少精力研究这种事情……大部分时间都用来精进魔法技艺了……可惜即便付出这么多努力依然未能幸免遇刺。其实细细想来，他似乎有点迟钝——）~
+@142 = ~（音乐停止，你的思绪被打断了，法尔比开始赞扬加瑞克的技艺。）太棒了，孩子，太棒了！看来你真的很有天赋！~
+@143 = ~（加瑞克脸红了。）谢——谢谢，先生，实话说我从未有过这么出色的演奏，真的，我想这是笛子的功劳，而不是我的。我没……~
+@144 = ~别这样，孩子，别这样！没必要谦虚！人理应为自己的天赋而自豪！你演奏得很好，我们的耳朵都很享受！~
 // Jaheira
-@145 = ~Thank you for this musical break, Garrick. It was really beautiful.~
-@146 = ~Yes, really beautiful...~
-@147 = ~Ah, what memories this brings back! Garrick, this flute deserves to express itself through you... and you through it! It does nothing but collect dust in my possession... It will serve you much better than it does me. You would honour me by agreeing to take it, to play it, and delight your audiences!~
-@148 = ~What? Me, sir?! But this is an elven flute, from Evermeet! I can-~
-@149 = ~You cannot say no, my boy, take it, and make an old man happy!~
-@150 = ~Well, I...~
-@151 = ~It is settled then. I entrust it to you. Take good care of it, yes? It has faithfully served me my whole life. I would not want that anything bad to happen to it.~
-@152 = ~I... I... Okay, sir, you can count on me. I will be extremely careful! I will watch over it day and night, I -~
-@153 = ~I thank you, my boy, with all heart. I wish you luck in your travels, to all of you. May luck always be with you on your journey.~
+@145 = ~谢谢你用音乐给我们带来短暂的休息，加瑞克，真的很好听。~
+@146 = ~是的，真的好听……~
+@147 = ~啊，好怀念啊！加瑞克，这支笛子就应该通过你来发声……你也应该通过它来表达自己！它放在我这只能积灰罢了……你比我更适合拥有它。拿着它去演奏吧，给你的听众带来快乐，这样我也会感到荣幸的。~
+@148 = ~什么？我吗，先生？这可是精灵的笛子，来自永聚岛的！我怎能——~
+@149 = ~你不可以拒绝，孩子，拿着它，这样才能让老人家高兴！~
+@150 = ~好吧，我……~
+@151 = ~那就这么定了，我就把它托付于你了。好好照看它，好吗？它忠实地陪伴了我一生，我可不希望它出什么问题。~
+@152 = ~我……我……好的，先生，你可以信赖我。我会特别小心的！我会时时刻刻都注意着它，我——~
+@153 = ~我发自内心感谢你，孩子。祝你一路顺风，还有你们所有人，愿你们旅途中运气常伴。~
 // Imoen
-@154 = ~I can't believe that was really Garrick playing! <CHARNAME>, he can stay with us forever, right?~
+@154 = ~我真不敢相信那是加瑞克在演奏！<CHARNAME>，他可以一直跟我们在一起，是吧？~
 
 // Dryad 1
 
