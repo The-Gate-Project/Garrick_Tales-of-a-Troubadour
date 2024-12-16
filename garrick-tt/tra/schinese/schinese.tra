@@ -8,7 +8,7 @@
 @5 = ~战歌~
 @6 = ~醉汉小调~
 @7 = ~Ballad of the Mad Dwarf~
-@8 = ~小笛子~
+@8 = ~小竖笛~
 @9 = ~这支小竖笛出自遥远的永聚岛。
 很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方，
 这支笛子虽然看起来平淡无奇，但却具有魔法能量，能让吹奏者更受听众欢迎。
@@ -16,22 +16,19 @@
 每天可以施展一次友好术
 限下列人物使用：
 吟游诗人~
-@10 = ~Dryad Hair Flute~
-@11 = ~This little recorder was made in distant Evermeet.
-It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent. A dryad from the Cloud Peaks gave one hair from her head to Garrick, for helping her save her tree, who tied it around the flute after he cracked it by mistake. The magical hair grants abilities to the user.
-
-STATISTICS:
-
-Can cast "Barkskin" twice per day.
-
-Only Usable By:
- Bard~
+@10 = ~树精之发小竖笛~
+@11 = ~这支小竖笛出自遥远的永聚岛。
+很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方。一位云雾峰的树精给了加瑞克一根头发作为拯救树木的谢礼，将其系在他不小心碰裂的笛子上。这根魔法头发会赋予使用者特殊能力。
+数据资料：
+每天可以施展两次树皮术
+限下列人物使用：
+吟游诗人~
 // #16779 in Icewind Dale
 @12 = ~小提琴~
 // #16781 in Icewind Dale
 @13 = ~小提琴是一种弓形的弦乐器，有四根弦，琴身较浅，肩部与颈部成直角，指板没有花纹，琴马是弯曲的。通常用琴弓拉琴弦的方式来演奏，不过也可以用拨琴弦的方式。精灵非常喜欢这种乐器，他们的工匠可以做出世上最好的小提琴。~
 // #16782 in Icewind Dale
-@14 = ~空洞之人的柔音提琴~
+@14 = ~幽灵小提琴~
 // #16782 in Icewind Dale
 @15 = ~这件乐器就是著名的“泰洛的小提琴”，但乐师们很少用这个称呼，因为提到尼可拉·泰洛的名字是不吉利的。尼可拉生在瀚土，是高哈斯帕附近一个蜡烛商的儿子。因为时常往来于各地，尼可拉接触到了许多不同的文化。他遇到一个叫瑞雷夫·细河的精灵音乐家。瑞雷夫让尼可拉接触了小提琴，并在旅行时教了尼可拉几年。瑞雷夫发现尼可拉是一个十分有天赋的小孩，手指灵活且心智敏锐，对世上所有事物都满怀热情。瑞雷夫也发现尼可拉十分的骄傲自大。尽管尼可拉有这个缺点，瑞雷夫仍然倾囊相授。
 在瑞雷夫被一群兽人所杀后，尼可拉开始一个人在瀚土游历。不旅行的时候，他就会回到出生之地那与世隔绝的山峰。他凭借不可思议的天赋和热情的表演，在瀚土、月海南部和山比亚闻名遐迩。后来，附近的一个恶棍，来自卡朗特的川暴·高恩，听说了这位骄傲年轻音乐家的传闻。有一次川暴一伙路过精灵之血小径，在精灵盔甲旅馆里刚好遇到跟父亲吃晚餐的尼可拉，就要求尼可拉演奏一曲。
@@ -60,16 +57,15 @@ It allows to cast "Sanctuary" three times.
 
 Usable Only By:
  Garrick~
-@20 = ~Kiss of the Dryad~
-@21 = ~Kiss of the Dryad (Necromancy)
-Level: 2
-Range: 3 meters
-Duration: Permanent
-Casting Time: 5
-Area of Effect: Target creature
-Saving Throw: None
-This spell allows the caster to bring down the wrath of the forest protector, the Dryad on the target, dealing 8 damage points.
-If cast on an ally, the spell heals 8 damage points or and heals any injury on the body of the target creature. This healing does not affect non-corporeal beings or or the undead or those from another plane.~
+@20 = ~树精之吻~
+@21 = ~树精之吻（死灵系）
+等级：2
+有效距离：3米
+持续时间：永久
+施法时间：5
+影响范围：目标生物
+豁免检定：无
+这个法术允许施法者将森林保护者——树精的愤怒作用于目标，造成8点伤害。若作用于友方目标，法术会治疗8点生命值并治愈目标的所有伤口，此治疗效果对非实体生物、不死生物和其它位面生物无效。~
 @22 = ~Will of Umberlee~
 
 //
@@ -138,21 +134,21 @@ If cast on an ally, the spell heals 8 damage points or and heals any injury on t
 
 // Dryad 1
 
-@170 = ~It's we who thank you, woodland creature. The mere chance at being able to contemplate your beauty is a reward enough for us. My flute will be inspired by it for weeks to come!~
-@171 = ~Your words are pleasing to hear, human. But I would not have you sing my praises with an instrument made from the death of a tree...~
-@172 = ~I... I must admit I do not know the origins of this flute, fair lady. The elves of distant Evermeet crafted it, I do not know how or where they harvest their wood...~
-@173 = ~Elves are more sensible towards nature than most... Evermeet, you say? Can I see this flute?~
-@174 = ~It is made from the wood of a pear tree. It seems the tree had already died before it's wood was used... there was no pain for it, no suffering... The elves are most kind... It is proper only to use wood from a tree that has completed it's life cycle... and died.~
-@175 = ~That is good to know. It comforts me that it wasn't necessary to cut down a beautiful pear tree so that I could play my music. My songs will be even more beautiful!~
-@176 = ~(The dryad smiles) It is rare to see such a sensible human. Most members of your species are mostly obsessed with material pursuits... Allow me to gift you this...~
-@177 = ~(The dryad removes one of her hairs from her head and gives it to Garrick.) Here. The wood of the flute is old, and there is crack on the inside which yo do not see. Tie this around it in this fashion. It will help in more ways than you can imagine. And when you travel, do not forget the gifts the Forest has provided for your music. Take care, bard.~
+@170 = ~是我们该谢谢你，林地生灵。就算只能凝视你的美丽，对我们来说也是足够的奖赏了，接下来几周我的笛声也会受到启发的。~
+@171 = ~你的话语还算合我心意，人类。但我不希望你歌颂我时，用的是以一棵树的死亡为代价制作的乐器……。~
+@172 = ~我……我必须承认，我不太清楚这支笛子的由来，美丽的女士。这是遥远的永聚岛精灵制作的，我不知道他们获取木材的方式或地方……~
+@173 = ~精灵通常会比其他种族更加明智地对待自然……你说的是永聚岛？我能看看这支笛子吗？~
+@174 = ~这是梨树做的，看起来这棵树在被作为木材使用前已经死了……没有痛苦，没有折磨……精灵是最仁慈的……这样做是正确的，只将已完成生命循环……并死去的树作为木材使用。~
+@175 = ~那太好了，得知为了演奏音乐不必砍倒一棵美丽的梨树，这让我感到宽慰，我的歌声也会更加美妙了！~
+@176 = ~（树精笑了笑）很少见到如此明白事理的人类，你们同类的大部分成员都沉迷于物质追求……请允许我把这个赠予你……~
+@177 = ~（树精从头上拔下一根头发交给加瑞克。）给，这支笛子所用的木材有些陈旧了，里面有你看不到的裂缝。用这种方式把它系上去，不要忘记森林赠予你音乐的礼物。保重，吟游诗人。~
 
 // Dryad 2
-@180 = ~Greetings, mortals.~
-@181 = ~Bard, I have thought about you a great deal since we last met. I have something for you... it is a piece of skin on which a human mage wrote a song for me that he said "magical". The poor fool was completely obsessed with me... and I had done nothing to encourage the feeling. The behaviour of mortals will never cease to confound me!~
-@182 = ~If you wish, I can sing you this song. It seems to have incantations for a spell woven into the words. Perhaps it will be of more use to than it was to me.~
-@183 = ~Yes, ma'am! Let me just grab a pen and a scroll.~
-@184 = ~New spell: Kiss of the Dryad~
+@180 = ~你好，凡人。~
+@181 = ~吟游诗人，自从上次见面后，我想了很多关于你的事。我有样东西给你……这是一片人类法师的皮肤，他为我写了一首所谓的“魔法”歌曲。这个可怜的傻瓜完全被我迷住了……在我完全没有引诱他的情况下。凡人的行为永远让我无法理解！~
+@182 = ~如果你愿意，我可以唱给你听，它的歌词似乎是某种法术咒语，或许对你更有用。~
+@183 = ~好的，女士！我去拿笔和卷轴。~
+@184 = ~学会新法术：树精之吻~
 
 // Garrick writes The Ballad of the Mad Dwarf
 @190 = ~This story is particularly tragic, and I am not sorry to see the end of it. After a lifetime of adventures, attempted assassinations by doppelgangers, murder, death and killing over and over and over again... the faces of loved ones... No wonder Durlag went mad. The misfortunes of the poor dwarf would draw tears from a fiend from the deepest parts of the Nine Hells!~
