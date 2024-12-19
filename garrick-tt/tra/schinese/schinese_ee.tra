@@ -1,31 +1,30 @@
 // The EE engine automatically generates the usable/unusable block of item descriptions, so we need some slightly modified descriptions for them
-@9 = ~This little recorder was made in distant Evermeet.
-It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent.
+@9 = ~这支小竖笛出自遥远的永聚岛。
+很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方。
 
-Despite it's apparent mundane nature, this flute has magical powers and allows the player to be well received by their audience when played.
+这支笛子虽然看起来平淡无奇，但却具有魔法能量，能让吹奏者更受听众欢迎。
 
-STATISTICS:
+数据资料：
 
-Can cast "Friends" once per day.~
-@11 = ~This little recorder was made in distant Evermeet.
-It was purchased and brought to Faerun by Firebead Elvenhair many years ago, and it has accompanied him on his many travels across the continent. A dryad from the Cloud Peaks gave one hair from her head to Garrick, for helping her save her tree, who tied it around the flute after he cracked it by mistake. The magical hair grants abilities to the user.
+每天可以施展一次友好术~
+@11 = ~这支小竖笛出自遥远的永聚岛。
+很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方。一位云雾峰的树精给了加瑞克一根头发作为拯救树木的谢礼，将其系在他不小心碰裂的笛子上。这根魔法头发会赋予使用者特殊能力。
 
-STATISTICS:
+数据资料：
 
-Can cast "Barkskin" twice per day.~
-@15 = ~This instrument is also known as "Tallow's Violin," but that moniker is rarely spoken among musicians, as mentioning the name of Nikolai Tallow is considered bad luck. Nikolai was born in The Vast, near High Haspur, the son of a chandler. Because of the intermittent traffic through the region, Nikolai was introduced to many different cultures. One of the travelers he met was an elven musician named Relev Thinriver. Relev introduced Nikolai to the violin and taught him for several years as he wandered through the area. Relev knew that Nikolai was an incredibly gifted child, with quick fingers, a keen mind, and a passion for all things in the world. Relev also recognized that Nikolai was exceedingly proud and arrogant. In spite of Nikolai's shortcomings, Relev taught him everything he knew.
+每天可以施展两次树皮术~
+@15 = ~这件乐器就是著名的“泰洛的小提琴”，但乐师们很少用这个称呼，因为提到尼可拉·泰洛的名字是不吉利的。尼可拉生在瀚土，是高哈斯帕附近一个蜡烛商的儿子。因为时常往来于各地，尼可拉接触到了许多不同的文化。他遇到一个叫瑞雷夫·细河的精灵音乐家。瑞雷夫让尼可拉接触了小提琴，并在旅行时教了尼可拉几年。瑞雷夫发现尼可拉是一个十分有天赋的小孩，手指灵活且心智敏锐，对世上所有事物都满怀热情。瑞雷夫也发现尼可拉十分的骄傲自大。尽管尼可拉有这个缺点，瑞雷夫仍然倾囊相授。
 
-After Relev was killed by a band of orcs, Nikolai began to practice on his own throughout the Vast. Despite his travels, he always returned to the isolate peaks of his mountain birthplace. He became famed throughout the Vast, the southern Moonsea and Sembia for his incredible talent and passionate performances. Eventually, news of the proud young virtuoso spread to the ears of a nearby thug from Calaunt named Tremble Ghon. When Tremble and his gang traveled through the Elvenblood Pass, they stopped at the Elf in Armor Inn and demanded a performance from Nikolai, who happened to be present and eating dinner with his father at the time.
+在瑞雷夫被一群兽人所杀后，尼可拉开始一个人在瀚土游历。不旅行的时候，他就会回到出生之地那与世隔绝的山峰。他凭借不可思议的天赋和热情的表演，在瀚土、月海南部和山比亚闻名遐迩。后来，附近的一个恶棍，来自卡朗特的川暴·高恩，听说了这位骄傲年轻音乐家的传闻。有一次川暴一伙路过精灵之血小径，在精灵盔甲旅馆里刚好遇到跟父亲吃晚餐的尼可拉，就要求尼可拉演奏一曲。
+尼可拉拒绝为川暴一伙演奏，并称他们为恶臭的白痴，骄傲地意欲离开。川暴声称尼可拉不敢表演是因为无能，怕被酒馆的人嘲笑，这伤害了尼可拉的自尊。尼可拉回应说他的小提琴技艺可以让死人从坟墓里爬出来听他演奏。川暴对这样的挑战很满意，立刻抓住尼可拉的父亲，一刀刺进他的心口。一些试图阻止的村民也都被强盗所杀。
 
-Nikolai refused to perform for Tremble and his men. He called them stinking oafs and attempted to leave with dignity. Tremble assaulted Nikolai's pride by claiming that Nikolai was afraid of performing because he'd be heckled out of the inn for his incompetence. Nikolai shot back that his skill with the violin was so great that he could raise the dead from their graves. Satisfied with a proposed challenge, Tremble immediately grabbed Nikolai's father and stabbed him in the heart. When a number of other villagers attempted to intervene, they were also killed by the bandits.
+川暴站在尼可拉已死的父亲旁挑衅道，“兑现你的大话吧，小提琴手？”尼可拉一声不响地从腋下拿出小提琴开始演奏，这旋律不仅高哈斯帕的居民从来没听过，任何费伦的人也永远不会再听到。尼可拉用疯狂的情绪演奏着。一些旁观者后来认为其实那时尼可拉已经疯了，因为没有人能像他那样剧烈地摇摆。在他狂乱曲调的最顶点，川暴和他的手下们毛骨悚然地看见刚被杀死之人的灵魂从尸体升起、尖叫、围绕着凶手。那些强盗都死得非常凄惨，全被鬼魂吓得魂飞魄散。尼可拉仍然继续演奏着，跳舞般的走过街道，走向他生长的高山。到最后所有的尸体，不论是男人，女人，小孩，甚至野兽都从他们安息的地方爬起来，直到尼可拉跟他的音乐裹挟着稍纵即逝的迷雾，消失在遥远的山谷中。
 
-Tremble defiantly stood over Nikolai's dead father and said, "Where's your big mouth now, fiddle player?" Without a word, Nikolai pulled his violin and bow out from underneath his arms and began to play a melody that none of the residents of High Haspur had ever heard before, and no one in Faerun would ever hear again. Nikolai played with unbridled passion and fervor. Onlookers later remarked that he appeared to be a madman, thrashing about in ways that people didn't think were possible. At the climax of his frenzied piece, Tremble and his gang watched in horror as the souls of the men and women they had just killed rose from their corpses and dove, shrieking, at their murderers. The bandits died horrible deaths, chilled by the shadows of their victims. Nikolai himself continued playing, dancing through the streets and back pastures of his alpine home until every man, woman, child, and beast ever buried in the region rose from its resting place and milled about until Nikolai and his music disappeared into a far off valley, shrouded in a mysterious fog that vanished as quickly as it had appeared.
+传说在多雾的夜晚，尼可拉·泰洛的鬼魂会回到他的故乡，演奏着幽灵小提琴，后面则跟着一大群死灵在月光下曼舞。
 
-Legends say that on misty nights, the ghost of Nikolai Tallow returns to his homeland, playing a phantom violin with a host of dancing dead trailing behind him in the moonlight.
+数据资料：
 
-STATISTICS:
-
-Summons 1D4 Shadows to attack a target, once per day.~
+每天可以召唤1D4个阴影来攻击目标~
 @19 = ~This earring was offered to Garrick by Tenya, the priestess of Umberlee, as gratitude for his help.
 It is inhabitated by a small spirit from the Elemental Plane of Water, which would explain its powers. It seems that the spirit is particularly attached to Garrick.
 

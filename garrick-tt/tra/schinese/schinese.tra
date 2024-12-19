@@ -4,23 +4,29 @@
 @-3 = ~本模组需要BG1NPC。~
 //
 //
-@4 = ~Siren's Melody~
+@4 = ~海妖女之歌~
 @5 = ~战歌~
 @6 = ~醉汉小调~
-@7 = ~Ballad of the Mad Dwarf~
+@7 = ~疯矮人之歌~
 @8 = ~小竖笛~
 @9 = ~这支小竖笛出自遥远的永聚岛。
-很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方，
+很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方。
+
 这支笛子虽然看起来平淡无奇，但却具有魔法能量，能让吹奏者更受听众欢迎。
+
 数据资料：
+
 每天可以施展一次友好术
 限下列人物使用：
 吟游诗人~
 @10 = ~树精之发小竖笛~
 @11 = ~这支小竖笛出自遥远的永聚岛。
 很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方。一位云雾峰的树精给了加瑞克一根头发作为拯救树木的谢礼，将其系在他不小心碰裂的笛子上。这根魔法头发会赋予使用者特殊能力。
+
 数据资料：
+
 每天可以施展两次树皮术
+
 限下列人物使用：
 吟游诗人~
 // #16779 in Icewind Dale
@@ -31,18 +37,25 @@
 @14 = ~幽灵小提琴~
 // #16782 in Icewind Dale
 @15 = ~这件乐器就是著名的“泰洛的小提琴”，但乐师们很少用这个称呼，因为提到尼可拉·泰洛的名字是不吉利的。尼可拉生在瀚土，是高哈斯帕附近一个蜡烛商的儿子。因为时常往来于各地，尼可拉接触到了许多不同的文化。他遇到一个叫瑞雷夫·细河的精灵音乐家。瑞雷夫让尼可拉接触了小提琴，并在旅行时教了尼可拉几年。瑞雷夫发现尼可拉是一个十分有天赋的小孩，手指灵活且心智敏锐，对世上所有事物都满怀热情。瑞雷夫也发现尼可拉十分的骄傲自大。尽管尼可拉有这个缺点，瑞雷夫仍然倾囊相授。
+
 在瑞雷夫被一群兽人所杀后，尼可拉开始一个人在瀚土游历。不旅行的时候，他就会回到出生之地那与世隔绝的山峰。他凭借不可思议的天赋和热情的表演，在瀚土、月海南部和山比亚闻名遐迩。后来，附近的一个恶棍，来自卡朗特的川暴·高恩，听说了这位骄傲年轻音乐家的传闻。有一次川暴一伙路过精灵之血小径，在精灵盔甲旅馆里刚好遇到跟父亲吃晚餐的尼可拉，就要求尼可拉演奏一曲。
+
 尼可拉拒绝为川暴一伙演奏，并称他们为恶臭的白痴，骄傲地意欲离开。川暴声称尼可拉不敢表演是因为无能，怕被酒馆的人嘲笑，这伤害了尼可拉的自尊。尼可拉回应说他的小提琴技艺可以让死人从坟墓里爬出来听他演奏。川暴对这样的挑战很满意，立刻抓住尼可拉的父亲，一刀刺进他的心口。一些试图阻止的村民也都被强盗所杀。
+
 川暴站在尼可拉已死的父亲旁挑衅道，“兑现你的大话吧，小提琴手？”尼可拉一声不响地从腋下拿出小提琴开始演奏，这旋律不仅高哈斯帕的居民从来没听过，任何费伦的人也永远不会再听到。尼可拉用疯狂的情绪演奏着。一些旁观者后来认为其实那时尼可拉已经疯了，因为没有人能像他那样剧烈地摇摆。在他狂乱曲调的最顶点，川暴和他的手下们毛骨悚然地看见刚被杀死之人的灵魂从尸体升起、尖叫、围绕着凶手。那些强盗都死得非常凄惨，全被鬼魂吓得魂飞魄散。尼可拉仍然继续演奏着，跳舞般的走过街道，走向他生长的高山。到最后所有的尸体，不论是男人，女人，小孩，甚至野兽都从他们安息的地方爬起来，直到尼可拉跟他的音乐裹挟着稍纵即逝的迷雾，消失在遥远的山谷中。
+
 传说在多雾的夜晚，尼可拉·泰洛的鬼魂会回到他的故乡，演奏着幽灵小提琴，后面则跟着一大群死灵在月光下曼舞。
+
 数据资料：
+
 每天可以召唤1D4个阴影来攻击目标
+
 限下列人物使用：
 吟游诗人~
-@16 = ~Broken violin~
-@17 = ~This violin has obviously seen better days. Its strings are cut or missing, and its wood is broken and damaged in many places.
-Yet you notice the presence of small runes on the edge of the instrument - the violin is (was?) magical without a doubt.
-Maybe it is possible to find someone who can fix it.~
+@16 = ~破损的小提琴~
+@17 = ~很明显这把小提琴曾有过更好的时光，现在琴弦不是断了就是没了，很多地方的木料也破损严重。
+然而你注意到乐器边缘的小符文——毫无疑问这把小提琴是（曾经是？）附有魔法的。
+也许有人能修复它。~
 @18 = ~Earring of Tenya~
 @19 = ~This earring was offered to Garrick by Tenya, the priestess of Umberlee, as gratitude for his help.
 It is inhabitated by a small spirit from the Elemental Plane of Water, which would explain its powers. It seems that the spirit is particularly attached to Garrick.
@@ -140,7 +153,7 @@ Usable Only By:
 @173 = ~精灵通常会比其他种族更加明智地对待自然……你说的是永聚岛？我能看看这支笛子吗？~
 @174 = ~这是梨树做的，看起来这棵树在被作为木材使用前已经死了……没有痛苦，没有折磨……精灵是最仁慈的……这样做是正确的，只将已完成生命循环……并死去的树作为木材使用。~
 @175 = ~那太好了，得知为了演奏音乐不必砍倒一棵美丽的梨树，这让我感到宽慰，我的歌声也会更加美妙了！~
-@176 = ~（树精笑了笑）很少见到如此明白事理的人类，你们同类的大部分成员都沉迷于物质追求……请允许我把这个赠予你……~
+@176 = ~（树精笑了笑）很少见到如此明白事理的人类，大部分你们的同类都沉迷于攫取资源……请允许我把这个赠予你……~
 @177 = ~（树精从头上拔下一根头发交给加瑞克。）给，这支笛子所用的木材有些陈旧了，里面有你看不到的裂缝。用这种方式把它系上去，不要忘记森林赠予你音乐的礼物。保重，吟游诗人。~
 
 // Dryad 2
@@ -151,44 +164,44 @@ Usable Only By:
 @184 = ~学会新法术：树精之吻~
 
 // Garrick writes The Ballad of the Mad Dwarf
-@190 = ~This story is particularly tragic, and I am not sorry to see the end of it. After a lifetime of adventures, attempted assassinations by doppelgangers, murder, death and killing over and over and over again... the faces of loved ones... No wonder Durlag went mad. The misfortunes of the poor dwarf would draw tears from a fiend from the deepest parts of the Nine Hells!~
-@191 = ~And when you think he will be remembered as a greedy dwarf who murdered his loved ones without remorse and was obsessed with wealth... I mean he endured more suffering in one lifetime than anyone could in a thousand! It is my duty to correct this injustice. I will write a song in honour of his memory!~
+@190 = ~真是凄惨啊，看到故事结局让我松了口气。一生经历了各种冒险和变形怪的暗杀，还有无休止的谋杀、死亡、杀戮……爱人的面容……难怪杜拉格疯掉了。这位可怜矮人的遭遇会让九层地狱最深处的邪魔都掉泪的。~
+@191 = ~可是设想下人们会认为他是个沉迷于财富的贪婪矮人，杀掉自己的爱人却没有任何悔恨……我的意思是，一千个人里面也没有一个人在一生中承受这么多痛苦！我有义务纠正这种不公，我要写一首歌以纪念他的故事！~
 // Yeslick
-@192 = ~That is a very good idea, Garrick. Perhaps it will help Durlag's soul to find the rest it deserves.~
-@193 = ~That's it! I have done it! My song in honour of Durlag is complete! I call it "The Ballad of the Mad Dwarf". I must admit I am pretty pleased with it! Do you wish to hear it?~
+@192 = ~好主意，加瑞克。也许这会帮助杜拉格的灵魂得以安息。~
+@193 = ~好了！完成了！纪念杜拉格的歌曲完成了！我称其为“疯矮人之歌”，我得承认我对这首歌相当满意！你们想听听吗？~
 // Yeslick
-@194 = ~Bravo, Garrick. I am eager to hear what you have compiled.~
-@195 = ~<CHARNAME>?~
-@196 = ~Very well. We will listen to you, Garrick.~
-@197 = ~One, two, three!~
-@198 = ~Do you think we have nothing better to do than listen to your music? Really?~
-@199 = ~Uh... well... but I... Good. Okay, let's continue then. Sigh...~
-@200 = ~New song available: Ballad of the Mad Dwarf~
+@194 = ~好啊，加瑞克，我已经等不及要听你的作曲了。~
+@195 = ~<CHARNAME>，你觉得呢？~
+@196 = ~很好，我们会听你唱的，加瑞克。~
+@197 = ~一、二、三！~
+@198 = ~你觉得我们没什么更好的事可做，只能听你唱歌吗？你确定？~
+@199 = ~哦……好……但我……行。没问题，我们继续旅行吧。唉……~
+@200 = ~学会新歌曲：疯矮人之歌~
 
 // Cutscene - sirens
-@210 = ~...~
-@211 = ~Whisper: their song is so enchanting. It is hard to imagine that behind such beauty and synergy lies the death of countless sailors... eaten... yech!~
-@212 = ~What an amazing show. Thank you, Tymora, for this opportunity!~
-@213 = ~New song available: Siren's Melody~
+@210 = ~……~
+@211 = ~低语：她们的歌声真迷人，难以想象这样美丽的和声导致无数水手死亡……被吃掉……噫！~
+@212 = ~令人惊叹的表演，感谢太摩拉给我这个机会！~
+@213 = ~学会新歌曲：海妖女之歌~
 
 // Sirens - Morning Temple
-@220 = ~Mermaids are such beautiful creatures. They say that their beauty and their song can drive even the wisest of men, mad. We should stay here and listen to their song for a bit, if we have time. But adventure is a demanding mistress, alas...!~
+@220 = ~美人鱼这种生物是如此美丽，据说她们的美丽和歌喉甚至能让最理智的人疯狂。我们如果有时间应该待在这听她们唱一会，可是冒险就像是苛刻的女主人，唉……~
 
 // Sirens - Lighthouse
-@230 = ~Maybe we'll see mermaids! But I suppose they will be more aggressive here than by the Morning Temple.~
+@230 = ~我们可能会见到美人鱼！不过我估计这里的会比晨歌神殿的更有攻击性。~
 
 // "random" map
-@240 = ~The body of this man was in poor condition even before the wolves start to devour it. It will be difficult to learn how he died.~
+@240 = ~这人的躯体残破不堪，即便还没被狼群吃掉，还是难以看出他是怎么死的。~
 // Faldorn
-@241 = ~This is strange. This man looks like a barbarian... from Icewind Dale, far to the north! There are no distinguishing marks for me to identify what tribe he belongs to. I wonder what he was doing so far from home... Father Oak! What has forced him to come down this far south?~
+@241 = ~真奇怪，这人看起来像是野蛮人……来自冰风谷，极北之地！我没看到明显的标记能表明他所归属的部落。我想知道他在离家这么远的地方干什么。橡树之父啊！是什么驱使他来到这么遥远的南方！~
 // Garrick sees the violin
-@242 = ~Oh, no! Look at this! This violin has been massacred! Who would do such a thing to an instrument?! Look at the quality of the wood?! And these small runes that run along it- <CHARNAME>, this is no trivial thing... this violin is precious. We must do something to repair it! Leaving it like this would be an unspeakable crime!~
+@242 = ~哦，不！看看这个！这把小提琴坏掉了！竟有人对一把乐器做这样的事？！看看这木材质地？！还有上面这些小符文——<CHARNAME>，这可不是平常物件……是一把珍贵的小提琴。我们必须想办法修复它！把它留在这将是莫大的罪行。~
 
 // Dialog with Thalantyr about the violin
-@250 = ~We found a violin recently... in a very bad shape. Do you think you can fix it?~
-@251 = ~A violin, you say? Show it to me.~
-@252 = ~(Thalantyr examines the violin.) Ah, it must have been a beautiful instrument once. Unfortunately, I have no expertise in repairing violins, and even less so if they are magical, as this one clearly is. You'll have to find someone more skilled than I. And before you ask, no, I do not know anyone who can fix this.~
-@253 = ~What a pity. Thanks anyway for your help.~
+@250 = ~我们最近发现了一把小提琴……破损很严重。你觉得能修复它吗？~
+@251 = ~你说，小提琴？给我看看。~
+@252 = ~（泰蓝提尔检查了小提琴。）啊，这肯定曾是件漂亮的乐器。不幸的是，我没有修复小提琴的专业知识，更不用说附有魔法的，很明显这把就是这样的。你得去找比我更专业的人，另外不用问了，不，我不知道谁能把它修好。~
+@253 = ~真遗憾。不管怎样还要谢谢你。~
 
 // Dialog with Toubazar Drin about the violin
 @260 = ~My companions and I have an old violin, it is magical, but it is in a very poor state. Do you know anyone who might be able to fix it?~
