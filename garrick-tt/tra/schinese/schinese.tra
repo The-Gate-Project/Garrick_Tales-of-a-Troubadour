@@ -7,7 +7,7 @@
 @4 = ~海妖女之歌~
 @5 = ~战歌~
 @6 = ~醉汉小调~
-@7 = ~疯矮人之歌~
+@7 = ~疯矮人叙事曲~
 @8 = ~小竖笛~
 @9 = ~这支小竖笛出自遥远的永聚岛。
 很多年前法尔比·爱文海将其买下，带着它游历了费伦大陆的许多地方。
@@ -100,7 +100,7 @@ Usable Only By:
 @109 = ~啊，我，我得说这故事争……争……真！有……意思，老哥*嗝*。但我一……奥……要走了，走了，我的羊皮纸放哪了……~
 @110 = ~别相信熊，吟游诗人！它们比任何人想象的都好色！而且花……荒……荒人！不，荒淫！~
 @111 = ~我会*嗝*小心的！~
-@112 = ~学会新歌曲：醉汉小调~
+@112 = ~新歌曲可使用：醉汉小调~
 @113 = ~好吧，如你所愿……*加瑞克一口干了一大杯酒*~
 
 // Dialog with Firebead
@@ -161,14 +161,14 @@ Usable Only By:
 @181 = ~吟游诗人，自从上次见面后，我想了很多关于你的事。我有样东西给你……这是一片人类法师的皮肤，他为我写了一首所谓的“魔法”歌曲。这个可怜的傻瓜完全被我迷住了……在我完全没有引诱他的情况下。凡人的行为永远让我无法理解！~
 @182 = ~如果你愿意，我可以唱给你听，它的歌词似乎是某种法术咒语，或许对你更有用。~
 @183 = ~好的，女士！我去拿笔和卷轴。~
-@184 = ~学会新法术：树精之吻~
+@184 = ~新法术可使用：树精之吻~
 
 // Garrick writes The Ballad of the Mad Dwarf
 @190 = ~真是凄惨啊，看到故事结局让我松了口气。一生经历了各种冒险和变形怪的暗杀，还有无休止的谋杀、死亡、杀戮……爱人的面容……难怪杜拉格疯掉了。这位可怜矮人的遭遇会让九层地狱最深处的邪魔都掉泪的。~
 @191 = ~可是设想下人们会认为他是个沉迷于财富的贪婪矮人，杀掉自己的爱人却没有任何悔恨……我的意思是，一千个人里面也没有一个人在一生中承受这么多痛苦！我有义务纠正这种不公，我要写一首歌以纪念他的故事！~
 // Yeslick
 @192 = ~好主意，加瑞克。也许这会帮助杜拉格的灵魂得以安息。~
-@193 = ~好了！完成了！纪念杜拉格的歌曲完成了！我称其为“疯矮人之歌”，我得承认我对这首歌相当满意！你们想听听吗？~
+@193 = ~好了！完成了！纪念杜拉格的歌曲完成了！我称其为“疯矮人叙事曲”，我得承认我对这首歌相当满意！你们想听听吗？~
 // Yeslick
 @194 = ~好啊，加瑞克，我已经等不及要听你的作曲了。~
 @195 = ~<CHARNAME>，你觉得呢？~
@@ -176,97 +176,97 @@ Usable Only By:
 @197 = ~一、二、三！~
 @198 = ~你觉得我们没什么更好的事可做，只能听你唱歌吗？你确定？~
 @199 = ~哦……好……但我……行。没问题，我们继续旅行吧。唉……~
-@200 = ~学会新歌曲：疯矮人之歌~
+@200 = ~新歌曲可使用：疯矮人叙事曲~
 
 // Cutscene - sirens
 @210 = ~……~
-@211 = ~低语：她们的歌声真迷人，难以想象这样美丽的和声导致无数水手死亡……被吃掉……噫！~
+@211 = ~低语：她们的歌声真迷人，难以想象就是这样美丽的和声导致无数水手死亡……被吃掉……噫！~
 @212 = ~令人惊叹的表演，感谢太摩拉给我这个机会！~
-@213 = ~学会新歌曲：海妖女之歌~
+@213 = ~新歌曲可使用：海妖女之歌~
 
 // Sirens - Morning Temple
-@220 = ~美人鱼这种生物是如此美丽，据说她们的美丽和歌喉甚至能让最理智的人疯狂。我们如果有时间应该待在这听她们唱一会，可是冒险就像是苛刻的女主人，唉……~
+@220 = ~海妖女这种生物是如此美丽，据说她们的美丽和歌喉甚至能让最理智的人疯狂。我们如果有时间应该待在这听她们唱一会，可是冒险就像是苛刻的女主人，唉……~
 
 // Sirens - Lighthouse
-@230 = ~我们可能会见到美人鱼！不过我估计这里的会比晨歌神殿的更有攻击性。~
+@230 = ~我们可能会见到海妖女！不过我估计这里的会比晨歌神殿的更有攻击性。~
 
 // "random" map
 @240 = ~这人的躯体残破不堪，即便还没被狼群吃掉，还是难以看出他是怎么死的。~
 // Faldorn
 @241 = ~真奇怪，这人看起来像是野蛮人……来自冰风谷，极北之地！我没看到明显的标记能表明他所归属的部落。我想知道他在离家这么远的地方干什么。橡树之父啊！是什么驱使他来到这么遥远的南方！~
 // Garrick sees the violin
-@242 = ~哦，不！看看这个！这把小提琴坏掉了！竟有人对一把乐器做这样的事？！看看这木材质地？！还有上面这些小符文——<CHARNAME>，这可不是平常物件……是一把珍贵的小提琴。我们必须想办法修复它！把它留在这将是莫大的罪行。~
+@242 = ~哦，不！看看这个！这把小提琴坏掉了！竟有人对一把乐器做这样的事？！看看这木材质地？！还有上面这些小符文——<CHARNAME>，这可不是寻常物件……是一把珍贵的小提琴。我们必须想办法修复它！把它留在这将是莫大的罪行。~
 
 // Dialog with Thalantyr about the violin
 @250 = ~我们最近发现了一把小提琴……破损很严重。你觉得能修复它吗？~
 @251 = ~你说，小提琴？给我看看。~
-@252 = ~（泰蓝提尔检查了小提琴。）啊，这肯定曾是件漂亮的乐器。不幸的是，我没有修复小提琴的专业知识，更不用说附有魔法的，很明显这把就是这样的。你得去找比我更专业的人，另外不用问了，不，我不知道谁能把它修好。~
+@252 = ~（泰蓝提尔检查了小提琴。）啊，这肯定曾是件漂亮的乐器。不幸的是，我没有修复小提琴的专业知识，更不用说附有魔法的，很明显这把就是这样。你得去找比我更专业的人，另外也不必再问，对，我不知道谁能把它修好。~
 @253 = ~真遗憾。不管怎样还要谢谢你。~
 
 // Dialog with Toubazar Drin about the violin
-@260 = ~My companions and I have an old violin, it is magical, but it is in a very poor state. Do you know anyone who might be able to fix it?~
-@261 = ~Show it to me... Ah... well, your violin has seen better days, that much is certain. I am sorry my friends, I do not have the skill to repair musical instruments... but I do know someone who will be able to... yes, I think he will be able to do it... But there is a downside... he is an artist and his work is not cheap... given the state of the violin, I can tell you that he will ask for 20.000 gold pieces, and not a piece less!~
-@262 = ~That is very expensive, but I accept. Here's your 20.000 gold pieces.~
-@263 = ~Thank you. I will take it for repairs to my friend, today. Should take about... ten days, I think.~
-@264 = ~That is too expensive! I refuse to pay such high sums for a musical instrument!~
-@265 = ~It's your choice, and your instrument. Come back if you change your mind.~
-@266 = ~I do not have the means to pay that much gold at the moment.~
-@267 = ~Well, come back once you have the gold, if you are still interested that is.~
-@268 = ~About my violin...~
-@269 = ~My friend has not yet completed the repairs. I told you ten days, right?~
-@270 = ~Yes, I remember, you want to get it fixed. Do you have the 20.000 gold?~
-@271 = ~Yes, here it is.~
-@272 = ~No.~
-@273 = ~You're wasting your time, friend... and mine. Come back when you are ready.~
-@274 = ~Hello there. My friend just brought back your violin. Look... here it is. A work of art, if I may say so!~
+@260 = ~我和伙伴们有把老旧的小提琴，上面附有魔法，但是破损严重，你知道有人能修复它吗？~
+@261 = ~给我看看……啊……没错，可以确定这曾是把光鲜亮丽的小提琴。抱歉朋友，我没有修复乐器的技能……不过我确实认识能修复它的人……是的，我觉得他能做到……但坏消息是……他是位艺术家，所以服务也不便宜……按照这把小提琴的状况，我可以肯定他会要20000枚金币，而且一个都不能少！~
+@262 = ~是很贵，但我接受。给你20000枚金币。~
+@263 = ~谢谢你，我今天就拿给朋友去修，大概需要……十天，我认为。~
+@264 = ~太贵了！我不会为一件乐器付出这么多！~
+@265 = ~那是你的选择，乐器给你，如果改变主意了可以再来找我。~
+@266 = ~我现在没法付这么多钱。~
+@267 = ~好的，有钱了你可以再来找我，如果依然感兴趣的话。~
+@268 = ~关于我的小提琴……~
+@269 = ~我朋友还没完成修复工作。我告诉过你需要十天的，对吧？~
+@270 = ~是的，我想起来了，你想把它修好。有20000枚金币了吗？~
+@271 = ~有了，给你。~
+@272 = ~没有。~
+@273 = ~朋友，你在浪费自己的时间……还有我的。准备好再来找我。~
+@274 = ~你好。我的朋友刚把你的小提琴拿回来。看……在这。我想说这真是一件艺术品！~
 // Garrick
-@275 = ~He speaks truth, <CHARNAME>. The instrument is divine, I feel the magic pulsating from it... look, touch the bow, you'll feel it too!~
+@275 = ~他说得没错，<CHARNAME>。这件乐器拥有神力，我感到了它的魔法脉动……看，摸摸琴弓，你也会感受到的！~
 
 // Nashkel - Innkeeper
-@280 = ~You and your companions have made a right holy mess in my inn, master bard!~
-@281 = ~We were just minding our own business, innkeeper. We do not know why that woman attacked us.~
-@282 = ~Bah! Whatever you say... Are you going to stay long in Nashkel?~
-@283 = ~I do not know. Our party is here to investigate the problems in your mines.~
-@284 = ~Ah! Then you will not be staying here for too long then! You are not the first to attempt to investigate the mines and you won't be the last: Many a fool has gone into the depths and not come out! I would not go if I were in your place! They say the dead have come to life and stalk the shafts... They say there are demons down there... or worse... What with all these problems, and war brewing with Baldur's Gate the mood in the city is very bleak indeed.~
-@285 = ~How fortunate indeed then that I have a bard standing in front of me.... a chance to liven things up a bit! What do you say, Master bard? Will you perform in my inn tonight? The people really need a pick-me-up... and something new and fresh would do just that! Come now, consider it payment for the damage you have caused... and the dead body that I have to dispose of! Not to mention bear witness on your behalf to the law when it comes to investigate what happened!~
-@286 = ~Ummmm... I don't know. What do you think <CHARNAME>?~
-@287 = ~I think it's a good idea. A little popularity with the local populace could come in useful someday.~
-@288 = ~No, Garrick. This will draw unwanted attention to ourselves. We have assassins on our trail... and that will complicate our work in the mines unnecessarily. My apologies, innkeeper, but we really don't have time for this...~
-@289 = ~Humph! As you wish!~
-@290 = ~Hurrah!~
-@291 = ~(Applause!)~
-@292 = ~Yes, bravo!~
-@293 = ~Ah, such a good audience, yes?! People are happy, they are laughing and it's been long time coming under this roof! A success, a great success, thanks to you! Many thanks, noble sirs! Your stay for tonight is free, yes? And you shall have a discount on the food and drink for the evening! Come, let me show you to your rooms, I will prepare them myself while you eat!~
-@294 = ~Mom, is that a real bard?~
-@295 = ~Shhh, it is starting!~
-@296 = ~Be reasonable! Don't leave tonight! People say strange things are happening after nightfall...~
-@297 = ~What do you have for me today?~
-@298 = ~I do not need anything right now.~
+@280 = ~你的同伴把我的旅店弄得一团糟，吟游诗人先生！~
+@281 = ~老板，我们就是在专注于自己的事务，也不知道那个女人为何攻击我们。~
+@282 = ~呸！随你怎么说……你们打算在那西凯常驻吗？~
+@283 = ~我不确定，我们是到这调查矿井问题的。~
+@284 = ~啊！那你们不会在这待太久的！你们不是第一拨要调查矿井的人，也不会是最后一拨：因为太多的傻瓜深入矿井有去无回了！我要是你才不会去呢！听说那里有死人重生到处游走……下面还有恶魔……甚至更糟的东西……所有这些问题，还有即将跟博德之门开战的消息，都让镇上弥漫着悲观情绪。~
+@285 = ~不过万幸的是我面前站着一位吟游诗人……一个可以稍微提振士气的机会！你觉得怎样，吟游诗人先生？愿意今晚在旅店来场表演吗？人们确实需要提振下精神……这种新鲜事情肯定有用！来吧，你就把这当作所造成损失的赔偿好了……而且我还得处理那具死尸！更不用说在执法机构调查时为你作证了！~
+@286 = ~嗯嗯……，我不太确定，<CHARNAME>你觉得怎样？~
+@287 = ~我觉得不错，受到当地居民欢迎有朝一日会有好处。~
+@288 = ~不，加瑞克。这会为我们招来不必要的关注。我们旅途中已经碰到不少刺客了……这还会让矿井调查工作更加麻烦。我很抱歉，旅馆老板，我们真没时间干这事……~
+@289 = ~哼！随你便吧！~
+@290 = ~好哇！~
+@291 = ~（鼓掌）~
+@292 = ~好，真棒！~
+@293 = ~啊，效果真不错，是吧？！大家都很高兴，欢声笑语的，这里很久没有这样了！成功，太成功了，谢谢你！非常感谢，尊贵的先生们！你们今晚可以免费留宿，，还有食物和饮料，也给你们打折！请先去用餐，我会亲自把你们的房间准备好！~
+@294 = ~妈妈，那真是位吟游诗人吗？~
+@295 = ~嘘，马上开始了！~
+@296 = ~理智点！今晚别出去！据说夜幕降临后会有奇怪的事情发生……~
+@297 = ~你今天给我准备了什么？~
+@298 = ~我现在什么都不需要。~
 
 // Dialog with Larriaz
-@300 = ~Larriaz's Blessings~
-@301 = ~Larriaz, I... I had the opportunity to listen to the songs of your sisters... south of Candlekeep. If it is any comfort, I will sing with you...~
-@302 = ~You... you... will you do this for Larriaz, human? Why?~
-@303 = ~If it is your desire, yes. I just want to ease your suffering... If you don't want our help we will leave you in peace.~
-@304 = ~Wha-... Larriaz accepts your offer... you may sing with Larriaz, human.~
-@305 = ~(Garrick softly sings the song he heard the mermaids sing before.)~
-@306 = ~Thank you... for not letting Larriaz die alone... May the Sea remember the kindness you have shown it's daughters, wherever you are... and repay you in kind...~
+@300 = ~莱莉丝的祝福~
+@301 = ~莱莉丝，我……我碰巧听过你们姐妹的歌声……在烛堡南方。如果它能带来些许慰藉，我会为你歌唱……~
+@302 = ~你……你……你要为莱莉丝歌唱，人类？为什么？~
+@303 = ~是的，如果你希望的话。我只是想减轻你的痛苦……如果你不需要帮助，我们会离开并还你安宁。~
+@304 = ~什……莱莉丝接受你的帮助，你可以为我歌唱，人类。~
+@305 = ~（加瑞克轻声唱出以前听过的海妖女之歌。）~
+@306 = ~谢谢你……没有让莱莉丝孤独的死去……愿大海铭记你向它的女儿展示的仁慈，无论你在哪里……都会回报你的善……~
 
 // Garrick, after Aec'Letec
-@310 = ~By the gods, I never thought it would be possible! We have defeated a powerful fiend, and prevented it from spreading death and destruction on Faerun! It is a day of celebration, <CHARNAME>! I will sing of our exploit in all the inns and taverns of the Coast!~
+@310 = ~众神在上，我从未设想能做成这样的事！我们击败了一个强大的邪魔，阻止了它将死亡和破坏传遍费伦！今天值得庆祝，<CHARNAME>！我要在剑湾所有的旅店和酒馆歌颂我们的壮举！~
 
 // Garrick explains his songs
-@320 = ~Garrick, tell me something about some of the songs that you know?~
-@321 = ~Which song do you wish to know about, <CHARNAME>?~
-@322 = ~The "Battle Song".~
-@323 = ~The "Siren's Melody".~
-@324 = ~The "Drunkard's Ditty".~
-@325 = ~The "Ballad of the Mad Dwarf".~
-@326 = ~This is the traditional battle song... it is known to almost every self-respecting bard in this part of Faerun. It inspires courage in those who hear it.~
-@327 = ~Ah, it is rather difficult to perform, especially for a male. It is difficult to mimic the tones and notes of the mermaids, but I think I can do it quite well. This song allows the singer to influence the minds of those who wish to harm us. It's effect is of a short duration, though.~
-@328 = ~ Uh... yes. Well, it's... let's just say it's a song I learnt from a drunk at the Friendly Arm. I adapted some of the lines and the tunes for my own song... What was its name... Hmm... I'm not sure that the words are suitable for the most ears. It whips up my allies into a frenzy! Unfortunately, that means the people affected are not ready for intellectual pursuits while the effects last.~
-@329 = ~Beautiful lyrics, aren't they? I composed it following our expedition to the Tower of Durlag, the dwarf... I had hoped to help make his true story known to the world... I know Durlag appreciates it from the great beyond because when I sing it, a curse affects our enemies!~
-@330 = ~Very well. Thank you, Garrick.~
+@320 = ~加瑞克，能跟我谈谈你掌握的歌曲吗？~
+@321 = ~你想了解哪首歌，<CHARNAME>？~
+@322 = ~“战歌”。~
+@323 = ~“海妖女之歌”。~
+@324 = ~“醉汉小调”。~
+@325 = ~“疯矮人叙事曲”。~
+@326 = ~这是传统的战歌……费伦几乎每个称职的吟游诗人都会这首歌，它能鼓舞聆听者的士气。~
+@327 = ~啊，这首歌相当难唱，对男性尤其如此。模仿海妖女的音调和音色很难，但我觉得我能做得很好。这首歌可以让吟唱者影响敌人的心智，不过只能持续一小会。~
+@328 = ~ 唔……好的。那么，这……这么说吧，这是我从友善之臂旅店的一个醉汉那里学来的。我调整了部分歌词和曲调，把它变成了自己的歌……歌曲名字……嗯……这歌词可能不太适合大众口味。它会激发同伴内心的狂热情绪！不幸的是，这意味着被影响的人在效果持续时不适合进行脑力活动。~
+@329 = ~很棒的歌词，是吧？这首歌是在我们完成杜拉格之塔的探险后编写的，那个矮人……我希望他的真实故事能够为世人所知……我能感到杜拉格来自遥远天边的感激，因为当我吟唱这首歌时，我们的敌人会受到诅咒！~
+@330 = ~很好，谢谢你，加瑞克。~
 
 // Dialog with Tenya - 1
 @340 = ~<CHARNAME>, it seems that the situation is much more complex than we have been led to believe. Damsel, we will do everything we can to help you, you have my word!~
@@ -347,9 +347,9 @@ The "priestess" I was sent to kill is no more than a child of perhaps twelve yea
 @427 = ~Fishing for a mermaid
 
 Tenya, the priestess of Umberlee, has asked us to find a mermaid who has been caught and brought ashore by fishermen. She has asked us to start at the docks. The mermaid cannot survive for long outside of water so we must make haste.~
-@428 = ~Fishing for a mermaid
+@428 = ~Fishing for a mermaid寻找海妖女/海妖女的捕获
 
-Unfortunately, Larriaz, the captured mermaid, died and there was nothing that could be done to prevent it. I hope Tenya... or Umberlee will not blame us...~
+Unfortunately, Larriaz, the captured mermaid, died and there was nothing that could be done to prevent it. I hope Tenya... or Umberlee will not blame us...不幸的是，被抓的海妖女死了，没有什么可以阻止这发生。希望坦雅……或安博里不要责怪我们。~
 @429 = ~There is no way I'm helping you, Tenya. Umberlee can find herself another pawn! I have bigger "fish" to fry!~
 @430 = ~You have chosen to displease Umberlee. Now you will suffer the consequences, FOOLS!
 
