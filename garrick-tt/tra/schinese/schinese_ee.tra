@@ -25,19 +25,19 @@
 数据资料：
 
 每天可以召唤1D4个阴影来攻击目标~
-@19 = ~This earring was offered to Garrick by Tenya, the priestess of Umberlee, as gratitude for his help.
-It is inhabitated by a small spirit from the Elemental Plane of Water, which would explain its powers. It seems that the spirit is particularly attached to Garrick.
+@19 = ~这个耳环是安博里女牧师坦雅送给加瑞克的，作为对他帮助的回报。
+耳环里有个水元素位面的小型魂灵，这是它的力量来源。这个魂灵似乎是专属于加瑞克的。
 
-STATISTICS:
+数据资料：
 
-Cursed item: decreases wisdom by 1 point.
-Increases intelligence by 1 point.
+诅咒物品：降低1点智慧。
+增加1点智力。
 
-Increases knowledge of the wearer.
-It allows to cast "Sanctuary" three times.~
+增加穿戴者的知识。
+可施展三次圣域术。~
 // #27444 in BGEE
-@371 = ~The Fishermen and the Priestess
-The "priestess" I was sent to kill is no more than a child of perhaps twelve years. She says the fishermen who hired me killed her mother. I shall go confront them on her behalf.~
+@371 = ~渔民和女祭司
+我要杀掉的“女祭司”只不过是个十二岁的小孩。她说雇佣我的渔民杀了她的母亲，我应该代表她去跟渔民对质。~
 // #1827 in BGEE
 @491 = ~Tremain's Son
 I have retrieved the child's body from the Umberlee temple. It was a stroke of luck that Tenya was there, though I feel no better about being used before.~

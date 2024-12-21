@@ -56,20 +56,20 @@
 @17 = ~很明显这把小提琴曾有过更好的时光，现在琴弦不是断了就是没了，很多地方的木料也破损严重。
 然而你注意到乐器边缘的小符文——毫无疑问这把小提琴是（曾经是？）附有魔法的。
 也许有人能修复它。~
-@18 = ~Earring of Tenya~
-@19 = ~This earring was offered to Garrick by Tenya, the priestess of Umberlee, as gratitude for his help.
-It is inhabitated by a small spirit from the Elemental Plane of Water, which would explain its powers. It seems that the spirit is particularly attached to Garrick.
+@18 = ~坦雅的耳环~
+@19 = ~这个耳环是安博里女牧师坦雅送给加瑞克的，作为对他帮助的回报。
+耳环里有个水元素位面的小型魂灵，这是它的力量来源。这个魂灵似乎是专属于加瑞克的。
 
-STATISTICS:
+数据资料：
 
-Cursed item: decreases wisdom by 1 point.
-Increases intelligence by 1 point.
+诅咒物品：降低1点智慧。
+增加1点智力。
 
-Increases knowledge of the wearer.
-It allows to cast "Sanctuary" three times.
+增加穿戴者的知识。
+可施展三次圣域术。
 
-Usable Only By:
- Garrick~
+限下列人物使用：
+加瑞克~
 @20 = ~树精之吻~
 @21 = ~树精之吻（死灵系）
 等级：2
@@ -79,7 +79,7 @@ Usable Only By:
 影响范围：目标生物
 豁免检定：无
 这个法术允许施法者将森林保护者——树精的愤怒作用于目标，造成8点伤害。若作用于友方目标，法术会治疗8点生命值并治愈目标的所有伤口，此治疗效果对非实体生物、不死生物和其它位面生物无效。~
-@22 = ~Will of Umberlee~
+@22 = ~安博里的意志~
 
 //
 // Dialogs
@@ -269,50 +269,50 @@ Usable Only By:
 @330 = ~很好，谢谢你，加瑞克。~
 
 // Dialog with Tenya - 1
-@340 = ~<CHARNAME>, it seems that the situation is much more complex than we have been led to believe. Damsel, we will do everything we can to help you, you have my word!~
+@340 = ~<CHARNAME>，看起来情况比他们想让我们相信的要复杂得多。姑娘，我们会尽力帮你，我保证！~
 // after the quest with fishermen
-@341 = ~Sweet damsel, the fishermen are dead. Your mother is avenged. Do you know what you're going to do now?~
-@342 = ~Sweet damsel, we have found the Bowl that was stolen from you. I hope your mother will find rest now. I will pray to the gods that she does, with your permission. Do you know what you're going to do now?~
-@343 = ~Ah! Umberlee is mother now, and she is very, very happy. What will I do? Well... I'll get to Baldur's Gate, I guess.~
-@344 = ~But how are you going to live without your mother, without anyone, at your tender age? You cannot be serious! We cannot let you go like that. Please, take some gold at least, it will help you survive for a while.~
-@345 = ~(Tenya smiles) You seem very nice. What is your name? Why do you offer gold to a stranger?~
-@346 = ~I am Garrick, notable bard of the Sword Coast! I only wish to help you, humbly. If I can do anything else to help you, especially d-~
-@347 = ~(Tenya laughs.) Well, Garrick, that's very kind of you. But my sisters will welcome me with open arms. And Umberlee is perfectly capable of defending her daughters, even without the help of a handsome bard with a sharp wit!~
-@348 = ~(Garrick blushes) B-b-but I thought that-~
-@349 = ~However, your kindness deserves a reward. (Tenya removes the earring she wears on her left ear and hands it to Garrick.) Here... for you... with my gratitude. May it remind you always of me.~
-@350 = ~I... your... I... your eyes are so blue. This is very weird and -~
-@351 = ~(Tenya whispers softly) Do you know where the Water Queen's House is, Garrick?~
-@352 = ~W-what? Well, I... yes, I've already seen it at the Gate. You-~
-@353 = ~If you wish to see me again... I will be there... waiting... impatiently.~
-@354 = ~I... yes, me... too. You... you're not really a young girl, is not it?~
-@355 = ~(strange laugh) Not really, no. You and your companions were perfect, and the Water Queen will reward you... in time.~
-@356 = ~(Garrick seems to be lost in thoughts.)~
-@357 = ~Garrick, are you alright? What was that all about?~
-@358 = ~I.... I do not know, <CHARNAME>. Do you think she cast a spell on me?!~
+@341 = ~可爱的姑娘，那些渔民死了，你妈妈的仇已报。那么接下来你打算做什么？~
+@342 = ~可爱的姑娘，我们找到了你被偷走的钵。现在希望你妈妈能够安息。如果你允许的话，我会向众神祈祷。那么接下来你打算做什么？~
+@343 = ~啊！安博里就是妈妈，她非常非常高兴。我打算做什么？嗯……我觉得应该是去博德之门。~
+@344 = ~但是以你这么小的年纪，没有妈妈又没有别人陪伴，要如何生活呢？你不是认真的吧！我们不能让你这样走，来，不管怎样拿着这些金币，这能帮你支撑一段时间。~
+@345 = ~（坦雅笑了）你这人好像还不错，叫什么名字？为什么要给陌生人金币？~
+@346 = ~我是加瑞克，剑湾著名的吟游诗人！我只是想帮你，如果我还能做些什么的话，尤其是——~
+@347 = ~（坦雅又笑了）好吧，加瑞克，你真是个好人。但是姐妹们会热情欢迎我的。而且安博里绝对有能力保护她的女儿们，用不着某个帅气又幽默的吟游诗人帮忙！~
+@348 = ~（加瑞克脸红了）但——但——但是我觉得——~
+@349 = ~不过，你的好心应该得到回报。（坦雅摘下左耳的耳环递给加瑞克。）拿着……给你的……代表我的谢意，希望它能让你时常想起我。~
+@350 = ~我……你的……我……你的眼睛真蓝，这很奇怪——~
+@351 = ~（坦雅低声细语道）你知道水后神殿在哪吗，加瑞克？~
+@352 = ~什——什么？啊，我……知道，在博德之门见过。你——~
+@353 = ~你要是还想见我的话……我会在那……急切地……等着你。~
+@354 = ~我……好的，我……也是。你……你实际上并不是个小女孩，是吧？~
+@355 = ~（怪笑）是的，并不是。你和同伴做得很好，水后会奖赏你们的……迟早。~
+@356 = ~（加瑞克似乎陷入了沉思。）~
+@357 = ~加瑞克，你还好吗？这都是怎么回事？~
+@358 = ~我……我不知道，<CHARNAME>。你们觉得她是不是对我施了法术？！~
 // Imoen
-@359 = ~I don't know, but it was a rather disturbing laugh!~
+@359 = ~我不知道，但那个怪笑相当令人不安！~
 // Kagain
-@360 = ~Don't feel she needed her magic... *snicker*...~
+@360 = ~不觉得她需要用魔法……*暗笑*……~
 // Eldoth
-@361 = ~You're really stupid. I refuse to be killed because of the actions of this moron!~
+@361 = ~你真傻，我可不想因为这个笨蛋的举动而被杀掉！~
 // Minsc
-@362 = ~I hope Boo will kindly explain this, because I did not understand everything. Boo?~
-@363 = ~*squeak!*~
-@364 = ~Uh. Thanks, Boo.~
+@362 = ~我希望布布能解释一下，因为我不可能什么都知道。布布？~
+@363 = ~*吱吱！*~
+@364 = ~哦，谢谢，布布。~
 // Jaheira
-@365 = ~You'd better watch out, Garrick. And you too, <CHARNAME>. Maybe this Tenya isn't what she claims to be.~
+@365 = ~你最好当心些，加瑞克。还有你也是，<CHARNAME>。这个坦雅可能并不像她自称的那样。~
 // Xan
-@366 = ~We are doomed! After all that we have done, now we attract the attention of Umberlee! We should just lie down and wait for death...~
-@367 = ~I'd really like for you to stop your whining just once, Garrick. Shut up now!~
-@368 = ~I don't know, Garrick. I hope not.~
-@369 = ~No idea. But that was very clever, Garrick. I think having a god as an ally might prove useful. I count on you to develop this relationship.~
-@370 = ~<CHARNAME>?~
+@366 = ~完蛋了！我们做完那些事引起了安博里的注意！老老实实等死吧……~
+@367 = ~我真希望你不要再唧唧歪歪了，加瑞克。马上闭嘴！~
+@368 = ~我不知道，加瑞克。希望没有。~
+@369 = ~不太清楚。但你表现得很机灵，加瑞克。我认为能得到一位神明的支持会很有帮助。我期待你继续发展这段关系。~
+@370 = ~<CHARNAME>，你觉得呢？~
 // BGT Original - Journal entry
 // @800029 + @6286 in BGT for english lang.
-@371 = ~The priestess of Umberlee.
+@371 = ~安博里女祭司。
 
-The "priestess" I was sent to kill is no more than a child of perhaps twelve years.  She says the fishermen who hired me killed her mother.  I shall go confront them on her behalf.~
-@372 = ~See you soon, Garrick.~
+我要杀掉的“女祭司”只不过是个十二岁的小孩。她说雇佣我的渔民杀了她的母亲，我应该代表她去跟渔民对质。~
+@372 = ~回见了，加瑞克。~
 
 // Tenya 2 - The Gate
 @399 = ~We wish to see the Priestess Tenya.~
