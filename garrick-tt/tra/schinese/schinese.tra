@@ -288,7 +288,7 @@
 @355 = ~（怪笑）是的，并不是。你和同伴做得很好，水后会奖赏你们的……迟早。~
 @356 = ~（加瑞克似乎陷入了沉思。）~
 @357 = ~加瑞克，你还好吗？这都是怎么回事？~
-@358 = ~我……我不知道，<CHARNAME>。你们觉得她是不是对我施了法术？！~
+@358 = ~我……我不知道，<CHARNAME>。你们觉得她是不是对我施了魔法？！~
 // Imoen
 @359 = ~我不知道，但那个怪笑相当令人不安！~
 // Kagain
@@ -315,20 +315,20 @@
 @372 = ~回见了，加瑞克。~
 
 // Tenya 2 - The Gate
-@399 = ~We wish to see the Priestess Tenya.~
-@400 = ~Greetings, Garrick. Welcome to the House of Umberlee. I am delighted to see you.~
-@401 = ~Hello, Tenya. I'm... very glad to see you, I guess.~
-@402 = ~You... guess? Ahuh... I-... We'll talk later... I must inform you that the Water Queen has plans for you... big plans... Oh where are my manners! Greetings to you too, <CHARNAME>. I pray that the goddess Umberlee watches over you. This is the House of Umberlee, and she watches all... especially you.~
-@403 = ~I am confused... are you trying to assure me or threaten me, little priestess?~
-@404 = ~As for me, I'm not sure whether it is good news that Umberlee has "big plans" for me.~
-@405 = ~(Tenya ignores your remark.) Garrick, you have no reason to worry. Let me tell you what it is.~
-@406 = ~"Especially me"? Why is that?~
-@407 = ~People like you who wreak havoc and destruction, and leave many dead in your wake... Is it not fitting for the gods to keep an eye on you?~
-@408 = ~I am not sure I like the thought of being watched by Umberlee. Especially if she has plans for me...~
-@409 = ~Garrick, you have no reason to worry. Let me tell you what it is.~
-@410 = ~Adventurers of your kind... are always ready to defend, with the sword if necessary, your notion of what is "good", always ready to slay "evil" in the name of your "higher" morality. As if you had the ability to judge that sort of thing! As if your opinion has made universal truths to be applied to everything and everyone or everywhere.~
-@411 = ~I do what I think is right, yes. Unlike your moral code, mine has saved the people of this loast from bandit attacks, miners from perishing by kobolds, freed slaves condemned to work till they die...~
-@412 = ~Has our first meeting taught you nothing? How many creatures have you attacked on sight, without even knowing what their intentions were?! Just for what they WERE? How many Xvart, females and young, have you MASSACRED during raids on their villages?! How many daughters of Umberlee have been exterminated on the Coast because of just their SINGING?! Or captured by the "poor" and "innocent" fishermen and raped for their charms? You speak of kobolds... if the miners hadn't dug into THEIR homes, they wouldn't have had to defend themselves?! To survive?!~
+@399 = ~我们想见坦雅女神官。~
+@400 = ~向你致意，加瑞克。欢迎来到安博里神殿，很高兴见到你。~
+@401 = ~你好，坦雅。我也……很高兴见到你，我觉得。~
+@402 = ~你……觉得？啊哈……我——……我们以后再谈……我必须告知你，水后要委派任务给你……大任务……啊我不能这么失礼！也要向你致意，<CHARNAME>，并祈求女神安博里注视你。这里是安博里神殿，她会注视所有人……特别是你。~
+@403 = ~我不太明白……你这是要说服我还是威胁我，小神官？~
+@404 = ~在我看来，很难讲被安博里委派任务是否是好消息。~
+@405 = ~（坦雅没理你。）加瑞克，你不用担心，我来告诉你是什么任务。~
+@406 = ~“特别是我”？为什么？~
+@407 = ~像你这样的人，肆意破坏和毁灭，让许多人死于非命……受到神明关注不是理所应当吗？~
+@408 = ~我不确定是否喜欢被安博里关注，特别是她还有任务委派我……~
+@409 = ~加瑞克，你不用担心，我来告诉你是什么任务。~
+@410 = ~像你这样的冒险者……总是以“更高”的道德标准惩“恶”扬“善”，必要时还会拔剑相向！就好像你们能判断所有事情的性质！就好像你们的观点是普遍真理，适用于任何人、任何事、任何地方。~
+@411 = ~是的，我认为正确的就会去做。与你不同，我以此道德标准帮助剑湾人民挫败了强盗的袭击，阻止了狗头人对矿井的污染，解救了被强迫劳动至死的奴隶……~
+@412 = ~我们的初次见面还没教会你什么吗？有多少生灵你一见面就攻击，甚至都不清楚它们的意图？！难道因为它们只是生物？有多少法特怪雌性和幼崽，在你洗劫它们村庄时被屠杀？又有多少安博里的女儿被消灭，仅仅因为她们的歌声？甚或是被“穷困”、“无知”的渔民捕获，因为美色而被强奸？还有你所说的狗头人……如果不是矿井挖到了它们家园，又怎么会奋起反抗？！不都是为了生存吗？！~
 @413 = ~You are young and understand little. If I were as blood thirsty and as mindless as you say I am, you would have been dead in our first meeting... I would have dropped you without a thought. As for attacking creatures without knowing their intentions, I have never attacked anything that didn't attack first... that includes the Xvart.~
 @414 = ~The kobolds were brought there by a villain... there homes were nowhere near the area. And, for the sake of argument, even if they were, perhaps they should have tried negotiating with the miners instead of killing them. That is what sentient species DO!~
 @415 = ~All your arguments are very pretty... I'm sure you have tried yourself to negotiate with the kobolds before to kill them all? And you have conducted investigations to be sure to deliver justice. Or... maybe not? Does that not bother your conscience?~
@@ -338,22 +338,22 @@
 @419 = ~This is a waste of time... Garrick, over to you...~
 @420 = ~Either what we hold to be right and good and true is right and good and true for everyone, everything, everywhere... or it is not. There is no such thing as subjective morality. If your argument is accepted then you would allow these creatures to mercilessly kill people for pleasure... or food, or gold! It is a simple matter: Which holocaust should be chosen? Because neither can live with the other. I did not hear you complain when I dealt with the fishermen...~
 @421 = ~(Tenya glares at you with her wide blue eyes. She says nothing, but you see disapproval in her eyes.)~
-@422 = ~The Water Queen appeared to me last night to tell me that one of her children had been captured by a family of fishermen, just off the Gate. According to our... informants, their boat returned to the dock this early morning. You must find her before it's too late. These monsters are capable of anything, and the daughter of Umberlee cannot survive very long outside of the sea.~
+@422 = ~昨天晚上水后在我面前现身，告诉我她的一个孩子被一伙渔民捕获了，就在博德之门外面。据我们的……知情人所说，今天一早他们的船回到了码头。你必须找到她，否则就太迟了。这些禽兽什么事都干得出来，安博里的女儿离开大海活不了多久的。~
 // Edwin
-@423 = ~As if these two idiots were able to do anything. I guess I'm going to have to do everything myself... again...~
-@424 = ~What is a daughter of Umberlee, exactly?~
-@425 = ~Umberlee has many children, Garrick. In this case, she is a mermaid. But we do not have time to talk! When you have found her, tell her that you have been sent by the will of Umberlee, she will know what that means and accept your aid.~
-@426 = ~Okay, let's go.~
-@427 = ~Fishing for a mermaid
+@423 = ~就像这两个白痴什么都能做似的，估计还得我亲力亲为……又是这样……~
+@424 = ~这个安博里的女儿具体是什么生物？~
+@425 = ~安博里有很多孩子，加瑞克。这个事件中是一个海妖女。但我们没时间细说了！你找到她后就说是安博里的意志带你前来的，她会明白什么意思并接受你的帮助！~
+@426 = ~好的，我们这就去。~
+@427 = ~寻找被捕的海妖女
 
-Tenya, the priestess of Umberlee, has asked us to find a mermaid who has been caught and brought ashore by fishermen. She has asked us to start at the docks. The mermaid cannot survive for long outside of water so we must make haste.~
-@428 = ~Fishing for a mermaid寻找海妖女/海妖女的捕获
+坦雅，安博里的女神官，让我们寻找一个被渔民捕获并带上岸的海妖女。她让我们从码头开始搜寻，海妖女离开水无法长期存活，所以我们必须尽快。~
+@428 = ~寻找被捕的海妖女
 
-Unfortunately, Larriaz, the captured mermaid, died and there was nothing that could be done to prevent it. I hope Tenya... or Umberlee will not blame us...不幸的是，被抓的海妖女死了，没有什么可以阻止这发生。希望坦雅……或安博里不要责怪我们。~
-@429 = ~There is no way I'm helping you, Tenya. Umberlee can find herself another pawn! I have bigger "fish" to fry!~
-@430 = ~You have chosen to displease Umberlee. Now you will suffer the consequences, FOOLS!
+不幸的是，被捕的海妖女死了，没有什么可以阻止这发生。希望坦雅……或安博里不要责怪我们。~
+@429 = ~我不可能帮你，坦雅。让安博里再去找个无名小卒吧，我的餐盘等着更大的鱼呢！~
+@430 = ~你选择激怒安博里，那就接受惩罚吧，傻瓜！
 
-Oh Umberlee, Queen of the Seas! Give me the power to protect myself, your child, and to face your opponents! May your Wrath fall upon them, and the Sea itself rise up to destroy them!~
+啊，海之女皇安博里！请赐予我力量，让您的孩子保卫自己，直面敌人！愿您的怒火将其吞噬，愿海浪升起将其毁灭！~
 @431 = ~I hope you have good news... Yes? Stop wasting time if you don't!~
 @432 = ~I hope you have good news...~
 @433 = ~I do not have good news: the mermaid is dead. We could not do anything.~
