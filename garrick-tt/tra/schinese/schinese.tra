@@ -328,16 +328,16 @@
 @409 = ~加瑞克，你不用担心，我来告诉你是什么任务。~
 @410 = ~像你这样的冒险者……总是以“更高”的道德标准惩“恶”扬“善”，必要时还会拔剑相向！就好像你们能判断所有事情的性质！就好像你们的观点是普遍真理，适用于任何人、任何事、任何地方。~
 @411 = ~是的，我认为正确的就会去做。与你不同，我以此道德标准帮助剑湾人民挫败了强盗的袭击，阻止了狗头人对矿井的污染，解救了被强迫劳动至死的奴隶……~
-@412 = ~我们的初次见面还没教会你什么吗？有多少生灵你一见面就攻击，甚至都不清楚它们的意图？！难道因为它们只是生物？有多少法特怪雌性和幼崽，在你洗劫它们村庄时被屠杀？又有多少安博里的女儿被消灭，仅仅因为她们的歌声？甚或是被“穷困”、“无知”的渔民捕获，因为美色而被强奸？还有你所说的狗头人……如果不是矿井挖到了它们家园，又怎么会奋起反抗？！不都是为了生存吗？！~
-@413 = ~You are young and understand little. If I were as blood thirsty and as mindless as you say I am, you would have been dead in our first meeting... I would have dropped you without a thought. As for attacking creatures without knowing their intentions, I have never attacked anything that didn't attack first... that includes the Xvart.~
-@414 = ~The kobolds were brought there by a villain... there homes were nowhere near the area. And, for the sake of argument, even if they were, perhaps they should have tried negotiating with the miners instead of killing them. That is what sentient species DO!~
-@415 = ~All your arguments are very pretty... I'm sure you have tried yourself to negotiate with the kobolds before to kill them all? And you have conducted investigations to be sure to deliver justice. Or... maybe not? Does that not bother your conscience?~
-@416 = ~Indeed, it does... Not because I killed them... but because I had to...~
-@417 = ~Does that not make you the same as the creatures that you exterminate? Perhaps even worse? Perhaps under the cover of your so-called morality, you hit randomly, justifying your actions to yourself and others by the idea that you are on the "good side", which exists only in your imagination.~
-@418 = ~Does this argument not ring any bells in your mind, <CHARNAME>?~
-@419 = ~This is a waste of time... Garrick, over to you...~
-@420 = ~Either what we hold to be right and good and true is right and good and true for everyone, everything, everywhere... or it is not. There is no such thing as subjective morality. If your argument is accepted then you would allow these creatures to mercilessly kill people for pleasure... or food, or gold! It is a simple matter: Which holocaust should be chosen? Because neither can live with the other. I did not hear you complain when I dealt with the fishermen...~
-@421 = ~(Tenya glares at you with her wide blue eyes. She says nothing, but you see disapproval in her eyes.)~
+@412 = ~我们的初次见面还没教会你什么吗？有多少生灵你一见面就攻击，甚至都不清楚它们的意图？！难道因为它们只是生物？有多少法特怪雌性和幼崽，在你洗劫它们村庄时被屠杀？又有多少安博里的女儿被消灭，仅仅因为她们的歌声？甚或是被“穷困”、“无知”的渔民捕获，因为美色而被强奸？还有你所说的狗头人……如果不是矿工挖到了它们家园，又怎么会奋起反抗？！不都是为了生存吗？！~
+@413 = ~你还年轻什么都不懂。我要是像你说的那么嗜血和无情，初次见面时你就死了……应该会毫不犹豫地了结掉你。至于你所说的不清楚对方意图就攻击，我拔剑相向都是因为对方先出手……包括法特怪在内。~
+@414 = ~那些狗头人是一个恶棍带过来的……它们的家园不在这片。还有，退一步说，即便像你说的那样，它们应该也会先跟矿工交涉，而不是直接动武。有心智的种族都会这么做！~
+@415 = ~你这些观点相当……那我是不是可以确定，你是先跟那些狗头人交涉再把它们全部杀掉的了？你调查后确认自己是在伸张正义。如果……不是呢？那会让你良心不安吗？~
+@416 = ~是的，会的……不是因为我杀了它们……而是因为我不得不杀它们……~
+@417 = ~这不就跟你消灭的生物一样了吗？甚至更糟？或许你只是以所谓道德的名义，随意评判自己和别人的行为，仅仅因为你把自己想象成了“善良阵营”。~
+@418 = ~这还不能让你心中有所警醒吗，<CHARNAME>？~
+@419 = ~真是浪费时间……加瑞克，还是说你的任务吧……~
+@420 = ~我们坚持的真善美原则要么适用于所有人、所有事情、所有地方，要么完全不适用。不存在自我定义的道德这种东西。要是按照你的观点，这些生物为了享乐、食物或者金钱而肆意杀人也是可以接受的了！所以这是很简单的选择屠杀哪一方的问题，因为双方不能和平共处。我处理掉那些渔民时可没听到你抱怨……~
+@421 = ~（坦雅用她蓝色的大眼睛瞪着你，什么也没说，但你能从中看出她并不赞同你的说法。）~
 @422 = ~昨天晚上水后在我面前现身，告诉我她的一个孩子被一伙渔民捕获了，就在博德之门外面。据我们的……知情人所说，今天一早他们的船回到了码头。你必须找到她，否则就太迟了。这些禽兽什么事都干得出来，安博里的女儿离开大海活不了多久的。~
 // Edwin
 @423 = ~就像这两个白痴什么都能做似的，估计还得我亲力亲为……又是这样……~
@@ -354,24 +354,23 @@
 @430 = ~你选择激怒安博里，那就接受惩罚吧，傻瓜！
 
 啊，海之女皇安博里！请赐予我力量，让您的孩子保卫自己，直面敌人！愿您的怒火将其吞噬，愿海浪升起将其毁灭！~
-@431 = ~I hope you have good news... Yes? Stop wasting time if you don't!~
-@432 = ~I hope you have good news...~
-@433 = ~I do not have good news: the mermaid is dead. We could not do anything.~
-@434 = ~WHAT?! I entrusted you with a SIMPLE task! Even for someone with YOUR miserable skills! And you still find a way to ruin everything! What have you DONE?!~
-@435 = ~Tenya, calm down. We did everything we could, but the mermaid would not listen. If it is any consolation to Umberlee, I did my best to ease her passing.~
-@436 = ~We arrived too late. She had stayed too long out of water, we were unable to save her. She did not want to be saved anyway.~
-@437 = ~You are... you... I should have done it MYSELF! We would have been spared this debacle! Because of you, the Water Queen has lost one of her daughters! You will be punished for, <CHARNAME>! You had better serve Umberlee well in future, or there will be dire consequences!~
-@438 = ~The Water Queen has already given me your next quest. A logical consequence of our first meeting: the guilty must be punished, as you yourself will be, for your failure.~
+@431 = ~希望你带来了好消息……怎么？没消息就别在这浪费时间！~
+@432 = ~希望你带来了好消息……~
+@433 = ~没有好消息：那个海妖女死了。我们无能为力。~
+@434 = ~什么？！我还相信这么简单的任务，即便对你这种能力较差的人来说也不成问题！可是你依然搞砸了！你都做了些什么？！~
+@435 = ~坦雅，冷静些。我们能做的都做了，但那个海妖女完全听不进去。如果有什么能让安博里感到慰藉的，我想是我尽力减轻了她逝去过程中的痛苦。~
+@436 = ~我们到得太晚了。她离开水太久了，我们救不了她，她也不想要我们的帮助。~
+@437 = ~你……你……我本该亲自完成这事的！那就不会出现这样的灾难！水后因为你失去了一个女儿！你会受到惩罚，<CHARNAME>！你以后最好认真为安博里工作，否则会招致严重的后果！~
+@438 = ~水后已为你安排了下一个任务，我们初次见面时那件事，将会有个符合逻辑的结果：罪行必须受到惩罚，同样你也要为自己的失败有所付出。~
 // Jaheira
-@439 = ~What?! What is the point of all this? You sent us to achieve a task you knew was impossible and you want to punish us for our predictable failure? And you think punishing us will put us in a more cooperative state. Don't dare to approach me.~
-@440 = ~Stop, Tenya. I do not want to have anything to do with Umberlee or her followers. Stay here and rot with your goddess! Farewell, priestess.~
-@441 = ~I... very well...~
-@442 = ~You are learning humility, <CHARNAME>. It's a good thing. Don't move, it will not be long... and not TOO painful.~
-@443 = ~(Tenya whispers a prayer to her goddess. You manage to hear only a few words, but you do not really grasp their meaning. The prayer seems to speaks of duty, of weakness implanted in water and of the icy death found in the Great Dark, whatever that means. It seems to-)~
-@444 = ~(An excruciating pain tears your thoughts. For a moment, you have the impression that the blood flowing in your brain has become frozen. Everything spins around you, then, as quickly as it came, the pain disappears. You did not even have time to scream.
-As your initial surprise susides, you feel a great sense of weakness, which dissipates as quickly as it appeared.)~
-@445 = ~(<CHARNAME> permanently loses two life points.)~
-@446 = ~Nothing that will slow down someone like you, right? ...snicker...~
+@439 = ~什么？！这都是什么逻辑？你派我们去完成一项明知不可能的任务，却要为预料中的失败施加惩罚？还觉得这样的惩罚能让我们更愿意合作。休想跟我再谈这事。~
+@440 = ~别说了，坦雅。我不想跟安博里或她的追随者扯上关系。待在这跟随你的女神堕落吧！再见了，女神官。~
+@441 = ~我……好吧……~
+@442 = ~你正在学会谦卑， <CHARNAME>，这很好。别动，不会太长时间……也不会太痛的。~
+@443 = ~（坦雅向她的女神轻声吟诵了一段祷文。你只能勉强听到几个词，并不能真正理解它们的含义。祷文似乎提到了任务、深藏于水中的虚弱和无尽黑暗中的冰冷死亡之类的。好像——）~
+@444 = ~（一阵剧烈的疼痛打断了你的思绪。片刻之间，你感觉流经大脑的血液凝固了。周围的一切都在旋转，然后疼痛消失了，像来时一样快，你甚至都没来得及叫出来。跟最初的突然疼痛一样，你产生一阵强烈的虚弱感，很快又消失了。）~
+@445 = ~（<CHARNAME>永久损失2点生命值。）~
+@446 = ~这没什么，对你这种人没什么妨碍，对吧？……暗笑……~
 @447 = ~Now, I assume you remember Sonner and his henchmen?The ones who stole the magic bowl given by the goddess to my mother, before torturing and killing her? You've probably already figured out that these miserable fishermen did not have the brains to come up with that idea on their own... they would never have found the courage to challenge Umberlee.~
 @448 = ~Our priestesses have tracked down the person responsible for these acts of cruelty. It is a powerful priest named Enriack, sent by the Church of Talos. This man must pay for his crimes! The Water Queen wants him to... *disappear*. That is where you come in.~
 // Imoen
