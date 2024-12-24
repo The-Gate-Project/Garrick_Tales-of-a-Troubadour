@@ -273,7 +273,7 @@
 // after the quest with fishermen
 @341 = ~可爱的姑娘，那些渔民死了，你妈妈的仇已报。那么接下来你打算做什么？~
 @342 = ~可爱的姑娘，我们找到了你被偷走的钵。现在希望你妈妈能够安息。如果你允许的话，我会向众神祈祷。那么接下来你打算做什么？~
-@343 = ~啊！安博里就是妈妈，她非常非常高兴。我打算做什么？嗯……我觉得应该是去博德之门。~
+@343 = ~啊！安博里也是妈妈，她非常非常高兴。我打算做什么？嗯……我觉得应该是去博德之门。~
 @344 = ~但是以你这么小的年纪，没有妈妈又没有别人陪伴，要如何生活呢？你不是认真的吧！我们不能让你这样走，来，不管怎样拿着这些金币，这能帮你支撑一段时间。~
 @345 = ~（坦雅笑了）你这人好像还不错，叫什么名字？为什么要给陌生人金币？~
 @346 = ~我是加瑞克，剑湾著名的吟游诗人！我只是想帮你，如果我还能做些什么的话，尤其是——~
@@ -315,11 +315,11 @@
 @372 = ~回见了，加瑞克。~
 
 // Tenya 2 - The Gate
-@399 = ~我们想见坦雅女神官。~
+@399 = ~我们想见坦雅祭司。~
 @400 = ~向你致意，加瑞克。欢迎来到安博里神殿，很高兴见到你。~
 @401 = ~你好，坦雅。我也……很高兴见到你，我觉得。~
 @402 = ~你……觉得？啊哈……我——……我们以后再谈……我必须告知你，水后要委派任务给你……大任务……啊我不能这么失礼！也要向你致意，<CHARNAME>，并祈求女神安博里注视你。这里是安博里神殿，她会注视所有人……特别是你。~
-@403 = ~我不太明白……你这是要说服我还是威胁我，小神官？~
+@403 = ~我不太明白……你这是要说服我还是威胁我，小祭司？~
 @404 = ~在我看来，很难讲被安博里委派任务是否是好消息。~
 @405 = ~（坦雅没理你。）加瑞克，你不用担心，我来告诉你是什么任务。~
 @406 = ~“特别是我”？为什么？~
@@ -346,7 +346,7 @@
 @426 = ~好的，我们这就去。~
 @427 = ~寻找被捕的海妖女
 
-坦雅，安博里的女神官，让我们寻找一个被渔民捕获并带上岸的海妖女。她让我们从码头开始搜寻，海妖女离开水无法长期存活，所以我们必须尽快。~
+坦雅，安博里的祭司，让我们寻找一个被渔民捕获并带上岸的海妖女。她让我们从码头开始搜寻，海妖女离开水无法长期存活，所以我们必须尽快。~
 @428 = ~寻找被捕的海妖女
 
 不幸的是，被捕的海妖女死了，没有什么可以阻止这发生。希望坦雅……或安博里不要责怪我们。~
@@ -364,23 +364,23 @@
 @438 = ~水后已为你安排了下一个任务，我们初次见面时那件事，将会有个符合逻辑的结果：罪行必须受到惩罚，同样你也要为自己的失败付出代价。~
 // Jaheira
 @439 = ~什么？！这都是什么逻辑？你派我们去完成一项明知不可能的任务，却要为预料中的失败施加惩罚？还觉得这样的惩罚能让我们更愿意合作。休想跟我再谈这事。~
-@440 = ~别说了，坦雅。我不想跟安博里或她的追随者扯上关系。待在这跟随你的女神堕落吧！再见了，女神官。~
+@440 = ~别说了，坦雅。我不想跟安博里或她的追随者扯上关系。待在这跟随你的女神堕落吧！再见了，祭司。~
 @441 = ~我……好吧……~
 @442 = ~你正在学会谦卑， <CHARNAME>，这很好。别动，不会太长时间……也不会太痛的。~
 @443 = ~（坦雅向她的女神轻声吟诵了一段祷文。你只能勉强听到几个词，并不能真正理解它们的含义。祷文似乎提到了任务、深藏于水中的虚弱和无尽黑暗中的冰冷死亡之类的。好像——）~
 @444 = ~（一阵剧烈的疼痛打断了你的思绪。片刻之间，你感觉流经大脑的血液凝固了。周围的一切都在旋转，然后疼痛消失了，像来时一样快，你甚至都没来得及叫出来。跟最初的突然疼痛一样，你产生一阵强烈的虚弱感，很快又消失了。）~
 @445 = ~（<CHARNAME>永久损失2点生命值。）~
 @446 = ~这没什么，对你这种人没什么妨碍，对吧？……暗笑……~
-@447 = ~Now, I assume you remember Sonner and his henchmen?The ones who stole the magic bowl given by the goddess to my mother, before torturing and killing her? You've probably already figured out that these miserable fishermen did not have the brains to come up with that idea on their own... they would never have found the courage to challenge Umberlee.~
-@448 = ~Our priestesses have tracked down the person responsible for these acts of cruelty. It is a powerful priest named Enriack, sent by the Church of Talos. This man must pay for his crimes! The Water Queen wants him to... *disappear*. That is where you come in.~
+@447 = ~那么，你是否还记得桑那和他的走狗？就是那帮人偷走女神赐予妈妈的魔法之钵，又残忍地杀害了她。你大概也能明白，这些卑微的渔民不可能聪明至此，自己想出这样的主意……他们绝对没那个胆子挑战安博里。~
+@448 = ~我们的祭司已经追踪到了真正该为这个残忍行径负责的人。那是个强大的牧师，名叫恩里亚克，来自塔洛斯教会。这个人必须为自己的罪行付出代价！水后希望他……“消失”。这就是你的任务。~
 // Imoen
-@449 = ~Uhhh are we assassins now? We're not even getting paid... I understand that this child mother was killed but...~
+@449 = ~那我们就是刺客了对吧？即使还没拿到报酬……我能理解，这孩子的妈妈被杀了，但是……~
 // Khalid
-@450 = ~*cough*... I d-d-don't think t-t-this is such a good id-d-dea...~
+@450 = ~*咳*……我不——不——不认为这——这——这是个好主——主——主意……~
 // Imoen
-@451 = ~As long as we know why we are doing this... If it's for justice, I guess it's okay. But I don't like this.~
-@452 = ~I guess we'll have to deal with this priest then... Umberlee must really be short staffed to be obliged to carry out her dirty work through the first group of adventurers that passes by!~
-@453 = ~Hold your tongue... Your ignorance makes you particularly crass! Talos is a direct superior... of Umberlee. If we approach Enriack, the Storm Lord will know immediately. Umberlee does not want to displease her superior... not directly, anyway.~
+@451 = ~只要我们搞明白为什么要这么做……如果这是正义的，我觉得就没问题，但我还是不喜欢。~
+@452 = ~我想接下来我们得处理掉这个牧师了……安博里肯定人手不够，不得不把这种肮脏工作交给路过的第一队冒险者！~
+@453 = ~注意你的言辞……无知让你显得尤其愚蠢！塔洛斯是安博里的……直属上位神。如果我们亲自处理恩里亚克，风暴之神立刻就会知道。安博里可不想惹怒上位神……不管怎样不能那么直接。~
 @454 = ~So that's the explanation for all this. Umberlee simply need thugs to do her dirty work, anonymously. How... crude.~
 @455 = ~Crude? You expected something more... heroic, perhaps? Sorry to disappoint you! (Tenya laughs.)~
 @456 = ~Don't be so glum, Garrick, for you the rewards are truly great indeed! I promise once you have accomplished all that Umberlee asks of you, she will reward you with something you will greatly desire! And it will be just for you.~
@@ -409,13 +409,13 @@
 @479 = ~Garrick! It is nice to see you! Have you thought about my proposal?~
 @480 = ~I am not yet finished with <CHARNAME>, Tenya.~
 @481 = ~... That's... too bad. I will pray to Umberlee for your success, then.~
-@482 = ~The priest of Talos
+@482 = ~塔洛斯牧师
 
-According to Tenya, the person responsible for the death of her mother is a priest of Talos called Enriack. She and her goddess have ordered us to kill him, as punishment for his crimes. He resides currently in the Three Old Kegs inn.~
+据坦雅说，真正要为她妈妈的死而负责的，是一个名叫恩里亚克的塔洛斯牧师。她和她的女神命令我们去杀掉这个人，作为对他罪行的惩罚。他现在住在三个老酒桶旅店。~
 @483 = ~The priest of Talos
 
 We reported our success to Tenya with regards to Enriack. She was very happy, but did not judge it good enough to give us a proper reward... Helping evil gods does not pay, it seems.~
-@484 = ~I really hope you will not disappoint me...~
+@484 = ~希望你不要让我失望……~
 @485 = ~Garrick, stay a moment, please.~
 @486 = ~You're back.~
 @487 = ~You want something else, <CHARNAME>?~
