@@ -318,10 +318,10 @@
 @399 = ~我们想见坦雅祭司。~
 @400 = ~向你致意，加瑞克。欢迎来到安博里神殿，很高兴见到你。~
 @401 = ~你好，坦雅。我也……很高兴见到你，我觉得。~
-@402 = ~你……觉得？啊哈……我——……我们以后再谈……我必须告知你，水后要委派任务给你……大任务……啊我不能这么失礼！也要向你致意，<CHARNAME>，并祈求女神安博里注视你。这里是安博里神殿，她会注视所有人……特别是你。~
+@402 = ~你……觉得？啊哈……我——……我们以后再谈……我必须告知你，水后为你准备了计划……大计划……啊我不能这么失礼！也要向你致意，<CHARNAME>，并祈求女神安博里注视你。这里是安博里神殿，她会注视所有人……特别是你。~
 @403 = ~我不太明白……你这是要说服我还是威胁我，小祭司？~
-@404 = ~在我看来，很难讲被安博里委派任务是否是好消息。~
-@405 = ~（坦雅没理你。）加瑞克，你不用担心，我来告诉你是什么任务。~
+@404 = ~至于我，不太确定安博里为我准备了“大计划”是否是好消息。~
+@405 = ~（坦雅没理你。）加瑞克，你不用担心，我来告诉你是怎么回事。~
 @406 = ~“特别是我”？为什么？~
 @407 = ~像你这样的人，肆意破坏和毁灭，让许多人死于非命……受到神明关注不是理所应当吗？~
 @408 = ~我不确定是否喜欢被安博里关注，特别是她还有任务委派我……~
@@ -335,7 +335,7 @@
 @416 = ~是的，会的……不是因为我杀了它们……而是因为我不得不杀它们……~
 @417 = ~这不就跟你消灭的生物一样了吗？甚至更糟？或许你只是以所谓道德的名义，随意评判自己和别人的行为，仅仅因为你把自己想象成了“善良阵营”。~
 @418 = ~这还不能让你心中有所警醒吗，<CHARNAME>？~
-@419 = ~真是浪费时间……加瑞克，还是说你的任务吧……~
+@419 = ~真是浪费时间……加瑞克，说回到为你准备的计划……~
 @420 = ~我们坚持的真善美原则要么适用于所有人、所有事情、所有地方，要么完全不适用。不存在自我定义的道德这种东西。要是按照你的观点，这些生物为了享乐、食物或者金钱而肆意杀人也是可以接受的了！所以这是很简单的选择屠杀哪一方的问题，因为双方不能和平共处。我处理掉那些渔民时可没听到你抱怨……~
 @421 = ~（坦雅用她蓝色的大眼睛瞪着你，什么也没说，但你能从中看出她并不赞同你的说法。）~
 @422 = ~昨天晚上水后在我面前现身，告诉我她的一个孩子被一伙渔民捕获了，就在博德之门外面。据我们的……知情人所说，今天一早他们的船回到了码头。你必须找到她，否则就太迟了。这些禽兽什么事都干得出来，安博里的女儿离开大海活不了多久的。~
@@ -366,7 +366,7 @@
 @439 = ~什么？！这都是什么逻辑？你派我们去完成一项明知不可能的任务，却要为预料中的失败施加惩罚？还觉得这样的惩罚能让我们更愿意合作。休想跟我再谈这事。~
 @440 = ~别说了，坦雅。我不想跟安博里或她的追随者扯上关系。待在这跟随你的女神堕落吧！再见了，祭司。~
 @441 = ~我……好吧……~
-@442 = ~你正在学会谦卑， <CHARNAME>，这很好。别动，不会太长时间……也不会太痛的。~
+@442 = ~你正在学会谦卑，<CHARNAME>，这很好。别动，不会太长时间……也不会太痛的。~
 @443 = ~（坦雅向她的女神轻声吟诵了一段祷文。你只能勉强听到几个词，并不能真正理解它们的含义。祷文似乎提到了任务、深藏于水中的虚弱和无尽黑暗中的冰冷死亡之类的。好像——）~
 @444 = ~（一阵剧烈的疼痛打断了你的思绪。片刻之间，你感觉流经大脑的血液凝固了。周围的一切都在旋转，然后疼痛消失了，像来时一样快，你甚至都没来得及叫出来。跟最初的突然疼痛一样，你产生一阵强烈的虚弱感，很快又消失了。）~
 @445 = ~（<CHARNAME>永久损失2点生命值。）~
@@ -381,45 +381,45 @@
 @451 = ~只要我们搞明白为什么要这么做……如果这是正义的，我觉得就没问题，但我还是不喜欢。~
 @452 = ~我想接下来我们得处理掉这个牧师了……安博里肯定人手不够，不得不把这种肮脏工作交给路过的第一队冒险者！~
 @453 = ~注意你的言辞……无知让你显得尤其愚蠢！塔洛斯是安博里的……直属上位神。如果我们亲自处理恩里亚克，风暴之神立刻就会知道。安博里可不想惹怒上位神……不管怎样不能那么直接。~
-@454 = ~So that's the explanation for all this. Umberlee simply need thugs to do her dirty work, anonymously. How... crude.~
-@455 = ~Crude? You expected something more... heroic, perhaps? Sorry to disappoint you! (Tenya laughs.)~
-@456 = ~Don't be so glum, Garrick, for you the rewards are truly great indeed! I promise once you have accomplished all that Umberlee asks of you, she will reward you with something you will greatly desire! And it will be just for you.~
-@457 = ~On to the details, Enriack currently resides at the Three Old Kegs inn, from where he expects to embark for Waterdeep. He should NOT place a foot on a ship, understood, <CHARNAME>? After what he did to us, there is no way he will be allowed to set foot onto our mother's kingdom! Go kill him!~
-@458 = ~One last thing: no one knows that you work for Umberlee, and it would be unfortunate if this circumstance changes. Now go, and try to come back alive. And, more importantly, victorious!~
-@459 = ~Is Enriack dead? No?! What are you STILL doing here?! Leave immediately!!~
-@460 = ~Is Enriack dead?~
-@461 = ~Yes. It was a tough battle, but we managed to accomplish what we set out to do...~
-@462 = ~Finally! You are not as incapable as you look. Glory be to the Water Queen! The affront has been washed in blood! Umberlee is mother, and her revenge is accomplished!~
-@463 = ~Um... yes... Can we go now?~
-@464 = ~Yes... you have served Umberlee well. Go with her blessing!~
-@465 = ~Indeed. What about our reward...?~
-@466 = ~A reward? The privilege of serving the greatest goddess of Faerun is not enough for you?~
-@467 = ~No.~
-@468 = ~Too bad. Sigh... well... Given the service you have rendered to Umberlee, I authorize you to keep the items you took from Enriack. You will not get nothing more. Go now.~
-@469 = ~I... yes?~
-@470 = ~Garrick, I have a proposal for you. Please come see me whenever you wish..., whenever you get rid of <CHARNAME> that is! Together, we will accomplish great things! With Umberlee's blessing, we will explore the wonders of marine world. Amazing things await, and we will go further than we can even dare to imagine.~
-@471 = ~These are Umberlee's wishes? Her "great plans" for me? Are you offering me a job?!~
-@472 = ~It is rather kind of a... partnership, but you can see it as you like it, I guess.~
-@473 = ~I honestly do not think I want to join the church of Umberlee. I have worked with some unsavory people, and I do not want to repeat the experience.~
-@474 = ~I do not require you to join our ranks, Garrick. I am suggesting you work with me, from time to time... if you wish, and without jeopardizing your "morality". The plans of Umberlee require many hands, in many places, and a talented bard will be more than useful. Imagine the wonderful things we will see! Your ballads, songs and poems will tell of them all! Your talents will be put to good use! You will be important, I am sure!~
-@475 = ~I do not know, Tenya. You... you are intriguing, and strange as well, and part of me would love to follow you. But I must admit I do not know whether I can trust you... You were very quick to unleash the wrath of your goddess on <CHARNAME>.~
-@476 = ~I am sorry about that, Garrick, but I am not always like that. I want you to be with me...~
-@477 = ~If you say so. In any case, I have to help <CHARNAME> to finish some little things.~
-@478 = ~Well ,then you will have plenty of time to think... about us. I will wait to hear from you with great impatience, Garrick. Farewell!~
-@479 = ~Garrick! It is nice to see you! Have you thought about my proposal?~
-@480 = ~I am not yet finished with <CHARNAME>, Tenya.~
-@481 = ~... That's... too bad. I will pray to Umberlee for your success, then.~
+@454 = ~那么整个任务就是这样了，安博里只是需要杀手帮她悄无声息地完成肮脏的工作。真是……粗鄙。~
+@455 = ~粗鄙？也许你本来设想这任务会更……崇高？抱歉让你失望了！（坦雅一笑。）~
+@456 = ~不要沮丧，加瑞克，你的报酬真的很丰厚！我保证只要你满足安博里的所有要求，她会奖赏给你非常渴望的东西！那会非常适合你。~
+@457 = ~关于任务细节，恩里亚克目前住在三个老酒桶旅店，正计划坐船去深水城。绝不能让他踏上船半步，明白吗，<CHARNAME>？他对我们做了那样的事情，绝不容许他再涉足我们神母的领域！去杀了他！~
+@458 = ~最后一件事：没有人知道你为安博里工作，这件事如果改变了，那会很不幸的。去吧，争取活着回来。还有，更重要的是，胜利归来！~
+@459 = ~恩里亚克死了吗？没有？那你还在这干什么？！快去！~
+@460 = ~恩里亚克死了吗？~
+@461 = ~死了，一场艰苦的战斗，但我们还是按预定计划完成了……~
+@462 = ~终于完成了！你不像看起来那么无能嘛。荣耀归于水后！敌血洗刷耻辱！安博里神母的复仇达成！~
+@463 = ~嗯……是的……那我们可以走了？~
+@464 = ~可以……你的工作完成得很好，带着安博里的祝福离开吧！~
+@465 = ~的确。那我们的报酬呢……？~
+@466 = ~报酬？能为费伦最伟大的女神工作，这样的特权对你来说还不够吗？~
+@467 = ~不够。~
+@468 = ~真糟糕。唉……好吧……考虑到你为安博里提供的服务，我准许你带走恩里亚克身上的物品。不能更多了，走吧。~
+@469 = ~我……我吗？~
+@470 = ~加瑞克，我有个提议。等你处理完<CHARNAME>的事情后再回来找我吧！我们两个可以完成很多伟大的事情！有安博里的庇护，我们可以去探索海洋世界的奇景。很多了不起的东西在等待着我们，我们能去到以前想都不敢想的地方。~
+@471 = ~这是安博里的意愿？这就是为我准备的“大计划”？你们要为我提供工作？！~
+@472 = ~这相当于是一种……合作，不过我想如果你喜欢，将其视为工作也可以。~
+@473 = ~实话说我不想加入安博里教会，我曾和一些令人不快的人共事，不想再重复那种体验。~
+@474 = ~你不需要加入我们的行列，加瑞克。我建议你有时能和我一起去处理任务……按照你的意愿，而且不违背你的“道德观”。安博里的计划中需要很多帮手，多数情况下，拥有一位才华横溢的吟游诗人很有益处。想象下我们会看到的奇景吧！你可以把这些都写到歌曲和诗歌中！你的才华将会发挥巨大作用！你的地位也将变得举足轻重！~
+@475 = ~我不确定，坦雅。你……你很迷人，又有些奇怪，某种程度上我乐意跟着你。但我又不确定是否可以信任你……你把女神的愤怒施加到<CHARNAME>身上时是那么暴躁。~
+@476 = ~那件事我很抱歉，加瑞克，但我并不总是那样。我想要你跟我在一起……~
+@477 = ~这么说的话，不管怎样，我得先帮<CHARNAME>处理完一些小事。~
+@478 = ~好吧，那样你也有足够的时间思考……我们的事。我会焦急地等待你的消息，加瑞克。再见！~
+@479 = ~加瑞克！很高兴见到你！我的提议你想的怎么样了？~
+@480 = ~我还没完成<CHARNAME>的任务，坦雅。~
+@481 = ~……那……真糟糕。那么我会向安博里祈祷，保佑你们成功。~
 @482 = ~塔洛斯牧师
 
 据坦雅说，真正要为她妈妈的死而负责的，是一个名叫恩里亚克的塔洛斯牧师。她和她的女神命令我们去杀掉这个人，作为对他罪行的惩罚。他现在住在三个老酒桶旅店。~
-@483 = ~The priest of Talos
+@483 = ~塔洛斯牧师
 
-We reported our success to Tenya with regards to Enriack. She was very happy, but did not judge it good enough to give us a proper reward... Helping evil gods does not pay, it seems.~
+我们向坦雅报告了恩里亚克任务成功完成的消息。她非常高兴，但没有给我们合适的报酬。看起来帮助邪神是得不到回报的。~
 @484 = ~希望你不要让我失望……~
-@485 = ~Garrick, stay a moment, please.~
-@486 = ~You're back.~
-@487 = ~You want something else, <CHARNAME>?~
-@488 = ~No. Bye for now.~
+@485 = ~加瑞克，请等一下。~
+@486 = ~你回来了。~
+@487 = ~你还想要什么东西吗，<CHARNAME>？~
+@488 = ~没有。那么再见了。~
 @489 = ~I don't want anything from you, but a dead body you have kept here in your *sacred* halls. I don't imagine keeping it around is good for the decor...~
 @490 = ~You think you are asking for something small? Very well... you may take the child and leave. The lesson is learned. Do with the body as you wish.~
 // BGT Original - Journal entry
@@ -429,15 +429,15 @@ We reported our success to Tenya with regards to Enriack. She was very happy, bu
 I have retrieved the child's body from the Umberlee temple.  It was a stroke of luck that Tenya was there, though I feel no better about being used before.~
 
 // Enriack
-@500 = ~Enriack~
-@501 = ~I hope you have a VERY good reason for entering my room without my permission.~
-@502 = ~I am looking for Enriack. Are you he?~
-@503 = ~Yes, I am Enriack. Who are you and what do you want me?~
-@504 = ~I'm afraid you have angered the wrong person. Any last words before I send you to the bosom of your loving god, Talos?~
-@505 = ~I... What?! I warn you... out of charity: I will not be easy prey! TALOS, BEHOLD YOUR DEVOTED SERVANT! BEHOLD AS I BRING DESTRUCTION IN YOUR NAME!~
-@-500 = ~Aerial Servant~
-@-501 = ~Storm Shield~
-@-502 = ~Lightning Bolt~
+@500 = ~恩里亚克~
+@501 = ~希望你能有很好的理由未经许可就进入我的房间。~
+@502 = ~我在找恩里亚克，你就是吗？~
+@503 = ~是的，我是恩里亚克。你是谁，找我有什么事？~
+@504 = ~恐怕你触怒了不该招惹的人。还有什么遗言吗？我这就送你去见敬爱的塔洛斯神。~
+@505 = ~我……什么？我警告你……完全出于善意：我不会轻易成为你的猎物！塔洛斯，请注视您忠诚的仆从！在此注视下，我将以您之名带来毁灭！~
+@-500 = ~气灵侍者~
+@-501 = ~风暴护盾~
+@-502 = ~闪电术~
 
 // Desert stone
 @-520 = ~Gem~
