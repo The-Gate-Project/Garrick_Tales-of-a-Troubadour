@@ -185,7 +185,7 @@
 @213 = ~新歌曲可使用：海妖女之歌~
 
 // Sirens - Morning Temple
-@220 = ~海妖女这种生物是如此美丽，据说她们的美丽和歌喉甚至能让最理智的人疯狂。我们如果有时间应该待在这听她们唱一会，可是冒险就像是苛刻的女主人，唉……~
+@220 = ~海妖女这种生物是如此美丽，据说她们的美丽和歌喉甚至能让最理智的人疯狂。我们如果有时间应该待在这听她们唱一会儿，可是冒险就像是苛刻的女主人，唉……~
 
 // Sirens - Lighthouse
 @230 = ~我们可能会见到海妖女！不过我估计这里的会比晨歌神殿的更有攻击性。~
@@ -420,13 +420,13 @@
 @486 = ~你回来了。~
 @487 = ~你还想要什么东西吗，<CHARNAME>？~
 @488 = ~没有。那么再见了。~
-@489 = ~I don't want anything from you, but a dead body you have kept here in your *sacred* halls. I don't imagine keeping it around is good for the decor...~
-@490 = ~You think you are asking for something small? Very well... you may take the child and leave. The lesson is learned. Do with the body as you wish.~
+@489 = ~我什么都不要，除了你们*神圣*殿堂里的那具尸体。难以想象留着它作装饰的样子……~
+@490 = ~你觉得你所要求的微不足道？好吧……你可以带着那孩子离开。他们应该学到教训了。你可以随意处置这具尸体。~
 // BGT Original - Journal entry
 // @800062 + @1827 in BGT for english lang.
-@491 = ~Rescue Tremain's son.
+@491 = ~拯救崔门的儿子。
 
-I have retrieved the child's body from the Umberlee temple.  It was a stroke of luck that Tenya was there, though I feel no better about being used before.~
+我从安博里的神殿中带回了那名小孩的尸体。很幸运的，坦雅也在那里，虽说我对曾被她利用仍然耿耿于怀。~
 
 // Enriack
 @500 = ~恩里亚克~
@@ -440,61 +440,61 @@ I have retrieved the child's body from the Umberlee temple.  It was a stroke of 
 @-502 = ~闪电术~
 
 // Desert stone
-@-520 = ~Gem~
-@520 = ~Desert stone~
-@521 = ~This little gem is made of a material that you have never seen before. It is difficult to guess at the origin, but it is likely of some value.
+@-520 = ~宝石~
+@520 = ~沙漠之石~
+@521 = ~这颗小宝石是由你以前从未见过的材料制成的。它的出处难以推测，但看起来比较值钱。
 
-The stone is warm to touch, even when the surroundings are cold. Maybe it is magical, or perhaps it is just an impression one gets when the unusual texture of the stone is touched.~
-@522 = ~Divination spells do not do much on this rock.
+它摸起来有些温热，特别是当周围比较冷的时候，可能是因为上面附有魔法，也可能只是因为它的材质不同寻常，摸上去感觉比较特殊。~
+@522 = ~预言系法术对这块石头的作用不大。
 
-According to legend, it would have belonged to an efreet of the Elemental Plane of Fire, who used it to decorate his favorite magic scimitar. It is said that this efreet was captured by a Sha'ir wizard and sentenced to serve 100 years. To lighten his sentence, the efreet would have negotiated a shorter period of captivity in return for his scimitar.
-The Sha'ir would have kept the weapons for years, until, in need of money, he would ended up to eventually sell it.
+传说它曾属于一个火元素位面的火巨灵，用于装饰他最爱的魔法弯刀。据说一位通灵巫师抓住了他，要奴役他100年。火巨灵用弯刀作为交换，减少了自己的奴役期限。
+多年来这位通灵巫师一直保存着这把武器，后来因为需要用钱，最后把它卖掉了。
 
-You have no idea how this gem ended up here, or what its powers are, if indeed it has any.~
+你不清楚这宝石最后怎么到的这里，也不知道它有什么力量，如果确实有的话。~
 // Silence
-@523 = ~Tell me, do you have interest in gemstones, by chance?~
-@524 = ~Not really, no.~
-@525 = ~Sorry to have bothered you.~
-@526 = ~It depends. What sort of stones are you talking about?~
-@527 = ~Ah, I knew it! Let me explain. One of my friends has recently imported a particularly rare gem. In fact, I have never seen one such as this before!~
-@528 = ~Imported, you say? And where does it come from?~
-@529 = ~My friend says it comes from a remote area to the far south, called Zakhara. According to him, it has vast deserts, and there is much mineral wealth! It is said that there are may djinn there, and one can see them walking around! Unless you catch the evil eye, hahaha!~
-@530 = ~On second thought, this does not interest us. I will look at some other services.~
-@531 = ~Hilarious. And what does this have to do with gems?~
-@532 = ~Of course, of course! Look, here it is. Strange, is it not? See the purity of its features, the fabulous colors, it exudes exoticism! Really fascinating, yes?~
-@533 = ~It is very pretty, indeed. But what is it for?~
-@534 = ~What is it for?! Well that's for you to- Oh let's see! You can gift it to a relative or a friend on a great occasion! You can put a smile on the face of a beautiful damsel - or an handsome man - with this, you can-~
-@535 = ~Alright alright, thank you, I get the idea. It is not very useful, then. And how much does it cost?~
-@536 = ~For someone as exceptional as you, I'll give it for... 800 gold. A mere trifle to you, no doubt.~
-@537 = ~What?! That is a lot of gold for a pebble!~
-@538 = ~Your price is a bit excessive.~
-@539 = ~<CHARNAME>? I think I will buy this stone, if you allow it.~
-@540 = ~You? Well... if you want, sure. I do not see how it would serve a purpose for me, anyway.~
-@541 = ~Uhhhh... would it be possible to loan me some gold? I will return it as soon as I can! My finances are a bit... uhhh... dry.~
-@542 = ~No, sorry, I cannot.~
-@543 = ~Never mind, I will sell it to someone else. You have missed quite a bargain!~
-@544 = ~Hmm... if you want, sure. Here.~
-@545 = ~Thank you so much, <CHARNAME>! Here, my good fellow!~
-@546 = ~I guess that is over with...~
-@547 = ~Garrick, out of curiosity... what are you going to do with it?~
-@548 = ~(Garrick blushes) Well uh, I... I'm going to offer it to Tenya.~
-@549 = ~Sorry, what?!~
-@550 = ~I, uh, yes. I think it will make her happy... a stone...~
-@551 = ~Garrick. You do not have to justify yourself to me, as long as you pay me back...~
-@552 = ~Thank you, <CHARNAME>.~
-@553 = ~I do hope you realise she is 12 years old... and quite a handful... not the nicest person, if you know what I mean...~
-@554 = ~I know, <CHARNAME>. I know.~
-@555 = ~You really are ridiculous, Garrick. You better pay me back soon!~
-@556 = ~(Garrick looks down at the ground, without saying anything else.)~
-@557 = ~Thank you.~
+@523 = ~告诉我，你是不是碰巧对宝石有兴趣？~
+@524 = ~不，完全没兴趣~
+@525 = ~抱歉打扰你了。~
+@526 = ~这要看情况而定。你说的是哪种宝石？~
+@527 = ~啊，我明白了！请听我说明。我的一个朋友最近进口了一块非常罕见的宝石，那是我之前从未见过的！~
+@528 = ~你说，进口？那是从哪里进口来的？~
+@529 = ~我朋友说它来自很远的南方，一个叫扎卡拉的地方。据他说，那里有广袤的沙漠和大量的矿藏！听说还有风巨灵，到处都能看到，除非你中了邪，哈哈哈！~
+@530 = ~我又想了下，还是没兴趣。我要看看你卖的其它东西。~
+@531 = ~真是有趣，那么这跟宝石有什么关系？~
+@532 = ~有关系，当然有关系！看，就是这个。不可思议，是吧？看这纯洁无暇的外观，美妙绝伦的色彩，到处散发着异国情调！真令人陶醉，对吧？~
+@533 = ~确实很漂亮，但它有什么用？~
+@534 = ~有什么用？！那么，对你来说的话——啊有了！你可以把它作为某个重要场合的礼物送给亲戚朋友！也可以用它来博取某位美女——或者帅哥——的笑容！还可以用它来——~
+@535 = ~好了好了，谢谢你，我明白了。这东西并不是很有用，卖多少钱？~
+@536 = ~对您这么卓越的人，我的开价是……800枚金币。毫无疑问对您来说只是笔小钱。~
+@537 = ~什么？！一颗石子就要这么多钱！~
+@538 = ~你的开价有点高。~
+@539 = ~<CHARNAME>？我想买下这块石头，如果你允许的话。~
+@540 = ~你？好吧……你想要的话，可以。反正我没看出它对我有什么用。~
+@541 = ~嗯……那你能借我点钱吗？我会尽快还给你的！我的资金有点……嗯……紧张。~
+@542 = ~抱歉，不行。~
+@543 = ~没事，我会把它卖给别人，你错失了一笔相当棒的交易！~
+@544 = ~嗯……是你的话，可以，给。~
+@545 = ~非常感谢，<CHARNAME>！给你钱，好兄弟！~
+@546 = ~那就成交……~
+@547 = ~加瑞克，我有些好奇……你要这东西做什么？~
+@548 = ~（加瑞克脸一红）啊，我……我想把它送给坦雅。~
+@549 = ~不好意思，我没听错吧？！~
+@550 = ~我，呃，没错。我觉得她会喜欢……这块石头……~
+@551 = ~加瑞克，你不用向我解释，只要记得还钱就行了……~
+@552 = ~谢谢你，<CHARNAME>。~
+@553 = ~希望你能意识到她才12岁……而且相当难应付……也不是多么好的人，如果你明白我的意思的话……~
+@554 = ~我明白，<CHARNAME>。我明白。~
+@555 = ~真荒唐，加瑞克。你最好快点把钱还给我！~
+@556 = ~（加瑞克低着头，什么也没再说。）~
+@557 = ~谢谢你。~
 // Gift for Tenya
-@560 = ~Yes? Did you need something?~
-@561 = ~Tenya, I... I brought you something. A... a gift.~
-@562 = ~You brought a *gift*? For me?~
-@563 = ~Yes. Look...~
-@564 = ~(Tenya looks at the stone for a few moments, then looks at Garrick. She smiles.) Thank you, Garrick... this is so sweet of you... thank you very much... this is such a beautiful gem. Where did you find it?~
-@565 = ~It comes from a desert region far to the south.~
-@566 = ~(Tenya laughs.) Very original... gifting a desert stone to a priestess of the Water Queen. I appreciate the irony! Oh Garrick, this pleases me... very much. I promise to wear it, always!~
+@560 = ~怎么了？有什么事吗？~
+@561 = ~坦雅，我……我给你带了东西。一……一份礼物。~
+@562 = ~你带来了一份*礼物*？给我的？~
+@563 = ~对。看……~
+@564 = ~（坦雅对着那块石头看了一会儿，又看看加瑞克，她笑了。）谢谢你，加瑞克……你好贴心……非常感谢……这宝石真漂亮。你从哪找到这东西的？~
+@565 = ~它来自遥远南方的沙漠。~
+@566 = ~(Tenya laughs.) Very original... gifting a desert stone to a priestess of the Water Queen. I appreciate the irony! Oh Garrick, this pleases me... very much. I promise to wear it, always!（坦雅笑了。）非常有创意……送给水后的祭司一块沙漠之石作为礼物。~
 @567 = ~Really? Oh, I... Well, I, uh, I think... we have to go, time to go, <CHARNAME>? Yes? We have a lot to do, and... uh-~
 @568 = ~I don't doubt it. Come back soon, Garrick.~
 
