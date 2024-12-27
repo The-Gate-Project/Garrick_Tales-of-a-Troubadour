@@ -494,54 +494,54 @@
 @563 = ~对。看……~
 @564 = ~（坦雅对着那块石头看了一会儿，又看看加瑞克，她笑了。）谢谢你，加瑞克……你好贴心……非常感谢……这宝石真漂亮。你从哪找到这东西的？~
 @565 = ~它来自遥远南方的沙漠。~
-@566 = ~(Tenya laughs.) Very original... gifting a desert stone to a priestess of the Water Queen. I appreciate the irony! Oh Garrick, this pleases me... very much. I promise to wear it, always!（坦雅笑了。）非常有创意……送给水后的祭司一块沙漠之石作为礼物。~
-@567 = ~Really? Oh, I... Well, I, uh, I think... we have to go, time to go, <CHARNAME>? Yes? We have a lot to do, and... uh-~
-@568 = ~I don't doubt it. Come back soon, Garrick.~
+@566 = ~（坦雅笑了。）真是别出心裁的礼物……把沙漠之石送给水后祭司。我感受到了这种反差效果！哦加瑞克，我很高兴……非常高兴。我保证会一直戴着它！~
+@567 = ~真的？哦，我……好的，我，嗯，我觉得……我们得走了，该走了吧，<CHARNAME>？是吧？我们还有很多任务要完成，然后……嗯——~
+@568 = ~我明白了。快点回来，加瑞克。~
 
 // Garrick - end of BG1
-@570 = ~<CHARNAME>...~
-@571 = ~I've thought deeply about it... and I think the time has come for us to part ways. I... I'm going back to the Water Queen's Temple... I will tell Tenya that I accept her offer.~
-@572 = ~It is your choice, Garrick. But we'll miss you. And Tenya will be very lucky to have you.~
-@573 = ~I know, <CHARNAME>. I will miss your company as well. But we'll meet again, I'm sure. Take care of yourself, okay?~
-@574 = ~You too. Goodbye, Garrick.~
-@575 = ~What?! You are a traitor! Leaving when I need you most! Go, go away! Disappear! I hope I never see you again!~
-@576 = ~But...~
-@577 = ~GO AWAY!~
-@578 = ~I... Well, <CHARNAME>. Farewell.~
-@579 = ~Recruitment Drive
+@570 = ~<CHARNAME>……~
+@571 = ~我仔细考虑过了……我们是时候分别了。我……我要回水后神殿去……告诉坦雅我接受她的提议。~
+@572 = ~那是你的选择，加瑞克。不过我们会想念你的。坦雅有你陪伴真是幸运。~
+@573 = ~我明白，<CHARNAME>。我也会想念你们。不过我们一定会再见面的，保重了。~
+@574 = ~你也是，再见了，加瑞克。~
+@575 = ~什么？！你这个叛徒！在我最需要你的时候离开！滚，滚蛋！从我面前消失！我再也不想见到你！~
+@576 = ~但是……~
+@577 = ~滚蛋！~
+@578 = ~我……好吧，<CHARNAME>。再见。~
+@579 = ~招募新血
 
-The bard Garrick is too busy with Tenya to accompany me on the trek to Dragonspear.~
+吟游诗人加瑞克与坦雅在一起，无法跟我前往龙矛堡。~
 
 // Garrick in BG2 -> "Gorrick"
-@580 = ~Gorrick~
+@580 = ~高瑞克~
 // from #27838
-@581 = ~I wonder who that gnome be who stands always behind Gorrick. He certainly does look rather cute, methinks.~
+@581 = ~我很好奇一直站在高瑞克背后那侏儒是谁。我觉得他看起来还蛮可爱的。~
 // from #27839
-@582 = ~Gorrick be an amusing man, but he'll hardly take my heart. For a bard, he seems to have a hesitant and awkward grasp of courtly words.~
+@582 = ~高瑞克是个很有趣的人，但是他几乎不可能会赢得我的喜爱。以一名吟游诗人而言，他对文字的掌控能力似乎太迟钝、太糟糕了。~
 // from #27840
-@583 = ~If I e'er found a man who could speak as Gorrick does, but with fluency and passion... then that man would have my heart, methinks.~
+@583 = ~要是我能够遇到某个能说得像高瑞克的人，但是却更流畅自然、更真心热情……或许那位男子就能够赢得我的心。~
 // from #27870
-@584 = ~Err... Gorrick, isn't it? What can I do for ye, Gorrick?~
+@584 = ~呃……高瑞克？我能为你做什么，高瑞克？~
 // from #27875
-@585 = ~Oh... I see. Well, thank you, Gorrick.~
+@585 = ~哦……我晓得了。好的，高瑞克，谢谢你。~
 // from #27905
-@586 = ~It was your words, little gnome, that stole my heart. Placing them in Gorrick's mouth did naught for me. I love you for it, regardless.~
+@586 = ~小侏儒，全都是你的甜言蜜语盗走了我的心。将他们放在高瑞克的口中并没有用处，不管怎么样，我爱的是发自你内心的那些话。~
 // from #27843
-@587 = ~This foolish boy, Gorrick, can barely take instruction... sometimes I think he barely has a thought in his head.~
+@587 = ~这个愚昧的小孩，高瑞克，几乎无法接受命令……有时候我觉得他根本没有脑袋。~
 // from #27835
-@588 = ~The foolishness of this Gorrick fellow... does he think the Lady Irlana does not see through his ruse?~
+@588 = ~高瑞克这家伙真是愚蠢……难道他真的以为艾拉娜女士看不出他的招式吗？~
 // from #27837
-@589 = ~It is quite amusing to watch Gorrick perform these endeavours in his efforts to win the Lady's heart. I cannot wait to see what he does, next.~
+@589 = ~看着高瑞克做出这么些糗事想取悦女士的芳心，实在是一件相当好笑的事情。我等不及想看看他接下来还有什么把式。~
 // from #27901
-@590 = ~Well, perhaps the gnome fellow standing behind our good Gorrick has the answer to that.  What say you, sir gnome?~
+@590 = ~嗯，也许站在高瑞克后面的那位侏儒会有答案。你怎么说呢，侏儒先生？~
 // from #27906
-@591 = ~And just where is that Gorrick fellow, now?~
+@591 = ~不过那个高瑞克到哪去了？~
 // from #27863 - Silke -> Ragaei
-@592 = ~Are you trying to tell me, bard, that you do not remember me? You were working for that evil sorceress, Ragaei, when I ran into you.~
+@592 = ~你是要告诉我，诗人，说你不记得我们？我们碰见你的时候，你当时正在帮邪恶的女巫师拉嘉艾跑腿。~
 // from #27834 Baldur's Gate -> Waterdeep
-@593 = ~Come to think of it, you do look passingly familiar. Did we perhaps meet in Waterdeep? I can hardly remember.~
+@593 = ~突然想到，你看起来好像很眼熟。我们在深水城有见过吗？我不大记得了。~
 // from #27864 - Silke -> Ragaei
-@594 = ~Hmm. Nope, doesn't ring a bell. Who's this Ragaei person?~
+@594 = ~嗯……没有，没什么印象。那位拉嘉艾是谁？~
 
 //
 // Installation - additional strings
