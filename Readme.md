@@ -1,6 +1,18 @@
 # Garrick: Tales of a Troubadour
 
-![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20german%20%7C%20&color=informational)
+[![Release](https://img.shields.io/github/v/release/The-Gate-Project/Garrick_Tales-of-a-Troubadour?include_prereleases&color=41788a)](https://github.com/The-Gate-Project/Garrick_Tales-of-a-Troubadour/releases)
+[![Published](https://img.shields.io/github/release-date-pre/The-Gate-Project/Garrick_Tales-of-a-Troubadour?display_date=published_at&label=published&color=014a69)](https://github.com/The-Gate-Project/Garrick_Tales-of-a-Troubadour/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/The-Gate-Project/Garrick_Tales-of-a-Troubadour/total?color=41788a)](https://github.com/The-Gate-Project/Garrick_Tales-of-a-Troubadour/releases)
+
+[![Language](https://img.shields.io/badge/language-english%20%7C%20french%20%7C%20german%20%7C%20schinese-014a69)](https://github.com/The-Gate-Project/Garrick_Tales-of-a-Troubadour/releases)
+[![Games](https://img.shields.io/badge/games-BGEE%20%a0%20BG2EE%20%a0%20BGT%20%a0%20EET-41788a)](https://github.com/The-Gate-Project/Garrick_Tales-of-a-Troubadour/releases)
+
+<!--
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FThe-Gate-Project%2FGarrick_Tales-of-a-Troubadour&countColor=41788a&style=flat)
+
+[![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-014a69)](https://github.com/The-Gate-Project/Garrick_Tales-of-a-Troubadour/releases)
+-->
 
 **Autor** : **Mirandir**
 
@@ -40,11 +52,13 @@ Follow the prompt
 
 1.28:
 
+	Simplified chinese translation by Esceen
     Correction for :
 	 - gtt#bo.itm no more flagged as critical
 	 - ForceRandomEncounter for EE
 	 - Adittional block in Garrick.bcs to prevent missing encounters
 	 - Use ADD_WORLDMAP_LINKS for oBG to trigger the random encounter from Nashkel to NorthNashkelRoad, FishermansLake, XvartVillage and FireLeafForest
+	
 
 1.27:
 
