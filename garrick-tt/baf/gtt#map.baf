@@ -1,6 +1,14 @@
 IF
+	OnCreation()
+	Global("gtt#01rencontre","GLOBAL",2)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,~There is nothing more to do here.~)
+END
+
+IF
 	Global("gtt#01rencontre","GLOBAL",1)
-	!See([ENEMY])
+	PartyHasItem("gtt#vvv")
 THEN
 	RESPONSE #100
 	SetGlobal("gtt#01rencontre","GLOBAL",2)

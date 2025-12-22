@@ -1,11 +1,21 @@
 // pour initier la rencontre aléatoire forcée
-// FIXME: ne semble fonctionner que pour la première destination (%NorthNashkelRoad%)
+
+IF
+	!AreaCheck("%Nashkel%")
+	!AreaCheck("GTT#01")
+	Global("gtt#01rencontre","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#01rencontre","GLOBAL",0)
+	Continue()
+END
+
 IF
 	AreaCheck("%Nashkel%")
 	Global("gtt#01rencontre","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("Set","GLOBAL",1)
+	SetGlobal("gtt#Set","GLOBAL",1)
 	SetEncounterProbability("%Nashkel%","%NorthNashkelRoad%",100)
 	SetEncounterProbability("%Nashkel%","%FishermansLake%",100)
 	SetEncounterProbability("%Nashkel%","%XvartVillage%",100)
@@ -20,12 +30,12 @@ IF
 	Global("gtt#01rencontre","GLOBAL",2)
 THEN
 	RESPONSE #100
-	SetGlobal("Set","GLOBAL",1)
-	SetEncounterProbability("%Nashkel%","%NorthNashkelRoad%",0)
-	SetEncounterProbability("%Nashkel%","%FishermansLake%",0)
-	SetEncounterProbability("%Nashkel%","%XvartVillage%",0)
-	SetEncounterProbability("%Nashkel%","%DryadFalls%",0)
-	SetEncounterProbability("%Nashkel%","%FireLeafForest%",0)
+	SetGlobal("gtt#Set","GLOBAL",1)
+	SetEncounterProbability("%Nashkel%","%NorthNashkelRoad%",20)
+	SetEncounterProbability("%Nashkel%","%FishermansLake%",20)
+	SetEncounterProbability("%Nashkel%","%XvartVillage%",50)
+	SetEncounterProbability("%Nashkel%","%DryadFalls%",20)
+	SetEncounterProbability("%Nashkel%","%FireLeafForest%",20)
 	SetGlobal("gtt#01rencontre","GLOBAL",3)
 	Continue()
 END

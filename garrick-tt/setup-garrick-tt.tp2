@@ -1,7 +1,7 @@
 BACKUP ~garrick-tt/backup~
 AUTHOR ~mirandir AT orange DOT fr~
 AUTO_TRA ~garrick-tt/tra/%LANGUAGE%/%s~
-VERSION ~1.27~
+VERSION ~1.28~
 
 README ~garrick-tt/readme/%LANGUAGE%-readme.html~ ~garrick-tt/readme/english-readme.html~
 
@@ -148,12 +148,14 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	        SAY NAME2 @18
 	        SAY UNIDENTIFIED_DESC @19
 	        SAY DESC @19
+			WRITE_LONG 0x18 (THIS BAND BNOT BIT0)
 END ELSE BEGIN
         COPY ~garrick-tt/itm/gtt#bo_bgt.itm~ ~override/gtt#bo.itm~
 	        SAY NAME1 @18
 	        SAY NAME2 @18
 	        SAY UNIDENTIFIED_DESC @19
 	        SAY DESC @19
+			WRITE_LONG 0x18 (THIS BAND BNOT BIT0)
 END
 
 // Ajout du sort "Baiser de la dryade"
@@ -212,6 +214,58 @@ EXTEND_TOP ~%DryadFalls%.bcs~ ~garrick-tt/baf/dryadfalls.baf~ EVALUATE_BUFFER
 COMPILE ~garrick-tt/d/durlag.d~ EVALUATE_BUFFER
 
 EXTEND_TOP ~%GARRICK_BCS%.bcs~ ~garrick-tt/baf/garrick_bcs.baf~ EVALUATE_BUFFER // garrick_bcs.baf contient également des ajouts de script pour Garrick autre que ceux concernant la Ballade du Nain Fou
+
+
+	ACTION_IF GAME_IS ~bgee eet~ BEGIN
+
+<<<<<<<<garrick_bcs_rep.baf
+IF
+	AreaCheck("%Nashkel%")
+	Global("gtt#01rencontre","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#Set","GLOBAL",1)
+	SetEncounterProbability("%Nashkel%","%NorthNashkelRoad%",100)
+	SetEncounterProbability("%Nashkel%","%FishermansLake%",100)
+	SetEncounterProbability("%Nashkel%","%XvartVillage%",100)
+	SetEncounterProbability("%Nashkel%","%DryadFalls%",100)
+	SetEncounterProbability("%Nashkel%","%FireLeafForest%",100)
+	SetGlobal("gtt#01rencontre","GLOBAL",1)
+	Continue()
+END
+
+IF
+	AreaCheck("%Nashkel%")
+	Global("gtt#01rencontre","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#Set","GLOBAL",1)
+	SetEncounterProbability("%Nashkel%","%NorthNashkelRoad%",20)
+	SetEncounterProbability("%Nashkel%","%FishermansLake%",20)
+	SetEncounterProbability("%Nashkel%","%XvartVillage%",50)
+	SetEncounterProbability("%Nashkel%","%DryadFalls%",20)
+	SetEncounterProbability("%Nashkel%","%FireLeafForest%",20)
+	SetGlobal("gtt#01rencontre","GLOBAL",3)
+	Continue()
+END
+>>>>>>>>
+
+<<<<<<<<garrick_bcs_add.baf
+IF
+	AreaCheck("%Nashkel%")
+	Global("gtt#01rencontre","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#01rencontre","GLOBAL",1)
+	ForceRandomEncounter("GTT#01")
+	Continue()
+END
+>>>>>>>>
+COPY_EXISTING ~%GARRICK_BCS%.bcs~ ~override~
+  REPLACE_BCS_BLOCK EVALUATE_BUFFER ~garrick_bcs_rep.baf~ ~garrick_bcs_add.baf~
+
+	END
+
 
 // remarque au Temple du Matin
 COMPILE ~garrick-tt/d/templedumatin.d~ EVALUATE_BUFFER
@@ -364,7 +418,7 @@ COPY ~garrick-tt/maps/gtt#01/gtt#01SR.bmp~ ~override~
 /////////////////////////////////////////////////////
 
 // nouveau code, plus flexible et supporte les fichiers worldmap.wmp modifiés par d'autres mods
-
+/*
 COPY_EXISTING ~worldmap.wmp~ ~override/worldmap.wmp~
 
 READ_LONG 0x30 "area-count"
@@ -383,6 +437,49 @@ FOR (i = 0 ; i < "%area-count%" ; i = i+1) BEGIN
 	END		
 END
 BUT_ONLY_IF_IT_CHANGES
+*/
+
+ACTION_IF NOT GAME_IS ~bgee eet~ THEN BEGIN
+
+	COPY_EXISTING ~worldmap.wmp~ ~override/worldmap.wmp~
+		LPF ADD_WORLDMAP_LINKS
+			INT_VAR
+			encounter_probability = 0
+			STR_VAR
+			from_area = EVAL ~%Nashkel%~
+			from_node = EVAL ~north~
+			to_area = EVAL ~%NorthNashkelRoad%~
+			random_area2 = EVAL ~GTT#01~
+		END
+		LPF ADD_WORLDMAP_LINKS
+			INT_VAR
+			encounter_probability = 0
+			STR_VAR
+			from_area = EVAL ~%Nashkel%~
+			from_node = EVAL ~west~
+			to_area = EVAL ~%FishermansLake%~
+			random_area2 = EVAL ~GTT#01~
+		END
+		LPF ADD_WORLDMAP_LINKS
+			INT_VAR
+			encounter_probability = 0
+			STR_VAR
+			from_area = EVAL ~%Nashkel%~
+			from_node = EVAL ~west~
+			to_area = EVAL ~%XvartVillage%~
+			random_area2 = EVAL ~GTT#01~
+		END
+		LPF ADD_WORLDMAP_LINKS
+			INT_VAR
+			encounter_probability = 0
+			STR_VAR
+			from_area = EVAL ~%Nashkel%~
+			from_node = EVAL ~south~
+			to_area = EVAL ~%FireLeafForest%~
+			random_area2 = EVAL ~GTT#01~
+		END
+
+END
 
 // compatibilité avec Worldmap (modifie le fichier map_mods_links.tbl installé par BGT pour Worldmap, et l'un des fichiers du mod Worldmap)
 
