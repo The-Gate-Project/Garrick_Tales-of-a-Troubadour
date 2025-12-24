@@ -22,6 +22,8 @@ LANGUAGE ~Simplified Chinese (Esceen)~
          ~garrick-tt/tra/schinese/schinese.tra~
 
 BEGIN @2
+DESIGNATED 0
+LABEL ~garrick-mirandir~
 
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         REQUIRE_FILE ~override/X#BG1NPCPhase2.G3~ @-3 // nécessite le BG1NPC
