@@ -58,6 +58,7 @@ Follow the prompt
 	 - ForceRandomEncounter for EE
 	 - Adittional block in Garrick.bcs to prevent missing encounters
 	 - Use ADD_WORLDMAP_LINKS for oBG to trigger the random encounter from Nashkel to NorthNashkelRoad, FishermansLake, XvartVillage and FireLeafForest
+	 - PVRZ for gtt#01.tis
 	
 
 1.27:

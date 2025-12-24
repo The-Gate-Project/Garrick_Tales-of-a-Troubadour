@@ -398,15 +398,18 @@ WRITE_LONG 0xe30 ~0x0000~
 // Ajout de la carte
 /////////////////////////////////////////////////////
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-        COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.mos~ ~override/gtt#01.mos~
-        COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.are~ ~override/gtt#01.are~
-	        SAY 0x4b0 @240
+		COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.mos~ ~override/gtt#01.mos~
+		COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.are~ ~override/gtt#01.are~
+			SAY 0x4b0 @240
+		COPY ~garrick-tt/maps/gtt#01/gtt#01_bgee.tis~ ~override/gtt#01.tis~
+		COPY ~garrick-tt/maps/gtt#01/gt#0100.PVRZ~ ~override/gt#0100.PVRZ~
+		COPY ~garrick-tt/maps/gtt#01/gt#0101.PVRZ~ ~override/gt#0101.PVRZ~
 END ELSE BEGIN
         COPY ~garrick-tt/maps/gtt#01/gtt#01.mos~ ~override/gtt#01.mos~
         COPY ~garrick-tt/maps/gtt#01/gtt#01.are~ ~override/gtt#01.are~
-	        SAY 0x4b0 @240
+			SAY 0x4b0 @240
+		COPY ~garrick-tt/maps/gtt#01/gtt#01.tis~ ~override/gtt#01.tis~
 END
-COPY ~garrick-tt/maps/gtt#01/gtt#01.tis~ ~override~
 COPY ~garrick-tt/maps/gtt#01/gtt#01.wed~ ~override~
 COPY ~garrick-tt/maps/gtt#01/gtt#01HT.bmp~ ~override~
 COPY ~garrick-tt/maps/gtt#01/gtt#01LM.bmp~ ~override~
