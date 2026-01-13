@@ -150,14 +150,42 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 	        SAY NAME2 @18
 	        SAY UNIDENTIFIED_DESC @19
 	        SAY DESC @19
-			WRITE_LONG 0x18 (THIS BAND BNOT BIT0)
-END ELSE BEGIN
+			WRITE_LONG 0x18 (THIS BAND BNOT BIT0) // Not critical
+			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
+END ELSE ACTION_IF (GAME_IS ~bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN
         COPY ~garrick-tt/itm/gtt#bo_bgt.itm~ ~override/gtt#bo.itm~
 	        SAY NAME1 @18
 	        SAY NAME2 @18
 	        SAY UNIDENTIFIED_DESC @19
 	        SAY DESC @19
-			WRITE_LONG 0x18 (THIS BAND BNOT BIT0)
+			WRITE_LONG 0x18 (THIS BAND BNOT BIT0) // Not critical
+			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
+END ELSE BEGIN
+        COPY ~garrick-tt/itm/gtt#bo.itm~ ~override~
+	        SAY NAME1 @18
+	        SAY NAME2 @18
+	        SAY UNIDENTIFIED_DESC @19
+	        SAY DESC @19
+			WRITE_LONG 0x18 (THIS BAND BNOT BIT0) // Not critical
+//			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
+END
+
+
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+
+	COPY_EXISTING ~gtt#bo.itm~ ~override/gtt#bo.itm~
+		PRINT ~Item restricted to Garrick for EE~
+OUTER_SET gtt#_bo = RESOLVE_STR_REF (@569)
+OUTER_SET use_it = RESOLVE_STR_REF (@570)
+APPEND ~ITEM_USE.2DA~ ~gtt#bo   GARRICK      %gtt#_bo%      2           %use_it%~ UNLESS ~gtt#bo~
+
+END ELSE ACTION_IF (GAME_IS ~bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN
+
+	COPY_EXISTING ~gtt#bo.itm~ ~override/gtt#bo.itm~
+		PRINT ~Item restricted to Garrick~
+OUTER_SET use_it = RESOLVE_STR_REF (@570)
+APPEND ~ITEM_USE.2DA~ ~gtt#bo   GARRICK      -1      2          %use_it%~ UNLESS ~gtt#bo~
+
 END
 
 // Ajout du sort "Baiser de la dryade"
@@ -256,6 +284,11 @@ END
 IF
 	AreaCheck("%Nashkel%")
 	Global("gtt#01rencontre","GLOBAL",0)
+	OR(4)
+		Global("DORNPLOT","GLOBAL",0)
+		GlobalGT("SenjackExists","GLOBAL",0)
+		GlobalGT("DORN_AMBUSH","GLOBAL",0)
+		GlobalGT("BACKFROMAMBUSH","GLOBAL",0)
 THEN
 	RESPONSE #100
 	SetGlobal("gtt#01rencontre","GLOBAL",1)

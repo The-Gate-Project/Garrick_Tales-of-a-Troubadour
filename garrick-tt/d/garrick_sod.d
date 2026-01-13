@@ -22,14 +22,14 @@ APPEND ~BDGARRIJ~
 	IF ~Global("gtt#garricksod","GLOBAL",1)~ THEN BEGIN vousallezmemanquer
 		SAY @573
 		IF ~~ THEN DO ~SetGlobal("gtt#garrickarejointtenya","GLOBAL",1)
-		DestroyItem("gtt#bo")
-		DestroyItem("gtt#fl")
-		DestroyItem("gtt#fl2")
+//		DestroyItem("gtt#bo")
+//		DestroyItem("gtt#fl")
+//		DestroyItem("gtt#fl2")
 		DestroyItem("gtt#gde")
-		DestroyItem("gtt#vio")
+//		DestroyItem("gtt#vio")
 		DestroyItem("gtt#vvv")
-		DestroyItem("x#garch2")
-		DestroyItem("x#garch")
+//		DestroyItem("x#garch2")
+//		DestroyItem("x#garch")
 		SetGlobal("gtt#garricksod","GLOBAL",2)
 		LeaveParty()
 		EscapeAreaDestroy(90)~ REPLY @574 EXIT
@@ -43,14 +43,14 @@ APPEND ~BDGARRIJ~
 	IF ~Global("gtt#garricksod","GLOBAL",1)~ THEN BEGIN especedetraitre2
 		SAY @578
 		IF ~~ THEN DO ~SetGlobal("gtt#garrickarejointtenya","GLOBAL",1)
-		DestroyItem("gtt#bo")
-		DestroyItem("gtt#fl")
-		DestroyItem("gtt#fl2")
+//		DestroyItem("gtt#bo")
+//		DestroyItem("gtt#fl")
+//		DestroyItem("gtt#fl2")
 		DestroyItem("gtt#gde")
-		DestroyItem("gtt#vio")
+//		DestroyItem("gtt#vio")
 		DestroyItem("gtt#vvv")
-		DestroyItem("x#garch2")
-		DestroyItem("x#garch")
+//		DestroyItem("x#garch2")
+//		DestroyItem("x#garch")
 		SetGlobal("gtt#garricksod","GLOBAL",2)
 		LeaveParty()
 		EscapeAreaDestroy(90)~ EXIT

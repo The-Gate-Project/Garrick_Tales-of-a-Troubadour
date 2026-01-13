@@ -33,7 +33,7 @@ Sit by the fire, forget the worries of the road, and listen to the tales of the 
 ## Compatibility :
 ------------
 
-Please note that Garrick: Tales of a Troubadour requires the componant ["Banters, Quests, and Interjections"](https://github.com/Gibberlings3/BG1NPC/tree/master?tab=readme-ov-file#the-bg1npc-project-banters-quests-and-interjections) from [BG1NPC](https://github.com/Gibberlings3/BG1NPC) mod. 
+Please note that Garrick: Tales of a Troubadour requires the componants ["Banters, Quests, and Interjections"](https://github.com/Gibberlings3/BG1NPC/tree/master?tab=readme-ov-file#the-bg1npc-project-banters-quests-and-interjections) AND from ["Player-Initiated Dialogues (PIDs)"](https://github.com/Gibberlings3/BG1NPC/tree/master?tab=readme-ov-file#the-bg1npc-project-player-initiated-dialogues-pids) [BG1NPC](https://github.com/Gibberlings3/BG1NPC) mod. 
 
 Thanks to K4thos, this version can be installed after EET.
 
@@ -59,8 +59,8 @@ Follow the prompt
 	 - Adittional block in Garrick.bcs to prevent missing encounters
 	 - Use ADD_WORLDMAP_LINKS for oBG to trigger the random encounter from Nashkel to NorthNashkelRoad, FishermansLake, XvartVillage and FireLeafForest
 	 - PVRZ for gtt#01.tis
-	 - WeiduModPackager
-	 - Label
+	WeiduModPackager
+	Label
 
 1.27:
 
