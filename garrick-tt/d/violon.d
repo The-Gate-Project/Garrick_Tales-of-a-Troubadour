@@ -24,13 +24,13 @@ APPEND ~FALDOJ~
 END
 
 // Haute-Haie
-EXTEND_TOP THALAN 1
+EXTEND_BOTTOM THALAN 1
 	IF ~PartyHasItem("gtt#vvv")
 	Global("gtt#thalanviolon","GLOBAL",0)
 	~ THEN REPLY @250 GOTO thalanviolon
 END
 
-EXTEND_TOP THALAN 35
+EXTEND_BOTTOM THALAN 35
 	IF ~PartyHasItem("gtt#vvv")
 	Global("gtt#thalanviolon","GLOBAL",0)
 	~ THEN REPLY @250 GOTO thalanviolon
@@ -53,7 +53,7 @@ END
 END
 
 // Toubazar Drin : on lui parle du violon pour la première fois
-EXTEND_TOP HALBAZ 0
+EXTEND_BOTTOM HALBAZ 0
 	IF ~PartyHasItem("gtt#vvv")
 	Global("gtt#drinviolon","GLOBAL",0)
 	~ THEN REPLY @260 GOTO drinviolon
@@ -91,7 +91,7 @@ APPEND ~HALBAZ~
 END
 
 // on lui parle du violon pour la deuxième fois
-EXTEND_TOP HALBAZ 0
+EXTEND_BOTTOM HALBAZ 0
 	IF ~Global("gtt#drinviolon","GLOBAL",1)
 	!PartyHasItem("gtt#vvv")
 	Global("gtt#reparviolon","GLOBAL",1)
