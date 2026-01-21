@@ -1,7 +1,7 @@
 BACKUP ~garrick-tt/backup~
 AUTHOR ~mirandir AT orange DOT fr~
 AUTO_TRA ~garrick-tt/tra/%LANGUAGE%/%s~
-VERSION ~1.28~
+VERSION ~1.29~
 
 README ~garrick-tt/readme/%LANGUAGE%-readme.html~ ~garrick-tt/readme/english-readme.html~
 
@@ -110,7 +110,7 @@ COPY ~garrick-tt/itm/gtt#fl.itm~ ~override/gtt#fl.itm~
 	SAY NAME2 @8
 	SAY UNIDENTIFIED_DESC @9
 	SAY DESC @9
-	
+
 COPY ~garrick-tt/itm/gtt#fl2.itm~ ~override/gtt#fl2.itm~
 	SAY NAME1 @10
 	SAY NAME2 @10
@@ -146,26 +146,26 @@ COPY ~garrick-tt/bam/gtt#bo.bam~ ~override/gtt#bo.bam~
 
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         COPY ~garrick-tt/itm/gtt#bo_bgee.itm~ ~override/gtt#bo.itm~
-	        SAY NAME1 @18
-	        SAY NAME2 @18
-	        SAY UNIDENTIFIED_DESC @19
-	        SAY DESC @19
+			SAY NAME1 @18
+			SAY NAME2 @18
+			SAY UNIDENTIFIED_DESC @19
+			SAY DESC @19
 			WRITE_LONG 0x18 (THIS BAND BNOT BIT0) // Not critical
-			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
+//			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
 END ELSE ACTION_IF (GAME_IS ~bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN
         COPY ~garrick-tt/itm/gtt#bo_bgt.itm~ ~override/gtt#bo.itm~
-	        SAY NAME1 @18
-	        SAY NAME2 @18
-	        SAY UNIDENTIFIED_DESC @19
-	        SAY DESC @19
+			SAY NAME1 @18
+			SAY NAME2 @18
+			SAY UNIDENTIFIED_DESC @19
+			SAY DESC @19
 			WRITE_LONG 0x18 (THIS BAND BNOT BIT0) // Not critical
-			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
+//			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
 END ELSE BEGIN
         COPY ~garrick-tt/itm/gtt#bo.itm~ ~override~
-	        SAY NAME1 @18
-	        SAY NAME2 @18
-	        SAY UNIDENTIFIED_DESC @19
-	        SAY DESC @19
+			SAY NAME1 @18
+			SAY NAME2 @18
+			SAY UNIDENTIFIED_DESC @19
+			SAY DESC @19
 			WRITE_LONG 0x18 (THIS BAND BNOT BIT0) // Not critical
 //			WRITE_LONG 0x18 (THIS BAND BNOT BIT4) // Not cursed
 END
@@ -197,7 +197,7 @@ COPY ~garrick-tt/spl/gtt#bdb.spl~ ~override/gtt#bdb.spl~
 COPY ~garrick-tt/spl/gtt#bd.spl~ ~override/gtt#bd.spl~
       SAY NAME1 @20
       SAY UNIDENTIFIED_DESC @21
-      
+
 COPY ~garrick-tt/eff/gtt#bds.eff~ ~override/gtt#bds.eff~
 COPY ~garrick-tt/eff/gtt#bdb.eff~ ~override/gtt#bdb.eff~
 
@@ -210,7 +210,7 @@ COPY ~garrick-tt/spl/gtt#sir.spl~ ~override/gtt#sir.spl~
 
 COPY ~garrick-tt/spl/gtt#vu.spl~ ~override/gtt#vu.spl~
       SAY NAME1 @22
-      
+
 // Ajout des sorts d'Enriack (Talos)
 COPY ~garrick-tt/spl/gtt#bou.spl~ ~override/gtt#bou.spl~
         SAY NAME1 @-501
@@ -472,7 +472,7 @@ FOR (i = 0 ; i < "%area-count%" ; i = i+1) BEGIN
 		SET "area-3700-north-link-offset" = ("%link-offset%" + ("%area-3700-north-link-number%" * 216))
 		SET "area-3700-random-encounter-0-for-north-link-offset" = ("%area-3700-north-link-offset%" + 44)
 		WRITE_ASCII "%area-3700-random-encounter-0-for-north-link-offset%" ~GTT#01~
-	END		
+	END
 END
 BUT_ONLY_IF_IT_CHANGES
 */

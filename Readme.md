@@ -50,6 +50,13 @@ Follow the prompt
 ## Version History :
 ----------------
 
+1.29 :
+
+	Compatibility with Dorn encounter
+	Items, critical / restriction
+	EXTEND_TOP vs EXTEND_BOTTOM
+
+
 1.28:
 
 	Simplified chinese translation by Esceen
