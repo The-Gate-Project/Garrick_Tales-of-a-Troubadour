@@ -21,6 +21,10 @@ LANGUAGE ~Simplified Chinese (Esceen)~
          ~schinese~
          ~garrick-tt/tra/schinese/schinese.tra~
 
+LANGUAGE ~Russian (Neoko5)~
+         ~russian~
+         ~garrick-tt/tra/russian/russian.tra~
+
 BEGIN @2
 DESIGNATED 0
 LABEL ~garrick-mirandir~
