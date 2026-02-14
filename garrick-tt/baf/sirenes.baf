@@ -4,9 +4,9 @@ IF
 	!Dead("Garrick")
 	!StateCheck("Garrick",CD_STATE_NOTVALID)
 	See("SIL")
-	Or(2)
-	StateCheck("Garrick",STATE_INVISIBLE)
-	StateCheck("Garrick",STATE_IMPROVEDINVISIBILITY)
+	OR(2)
+		StateCheck("Garrick",STATE_INVISIBLE)
+		StateCheck("Garrick",STATE_IMPROVEDINVISIBILITY)
 	Global("gtt#cutscenesirenes","GLOBAL",0)
 	AreaCheck("%Lighthouse%")
 THEN

@@ -1,7 +1,7 @@
 CHAIN
 IF WEIGHT #-1 ~InParty("Garrick")
 !Dead("Garrick")
-!StateCheck("Garrick",STATE_SLEEPING)
+!StateCheck("Garrick",CD_STATE_NOTVALID)
 Global("FirebeadDone","GLOBAL",1)
 !Global("gtt#garrickflute","GLOBAL",1)
 AreaCheck("%Beregost_FirebeadsHouse_L1%")~ THEN GARRIJ garrickflute
@@ -20,7 +20,7 @@ AreaCheck("%Beregost_FirebeadsHouse_L1%")~ THEN GARRIJ garrickflute
 @126
 == KAGAIJ IF ~InParty("Kagain")
 !Dead("Kagain")
-!StateCheck("Kagain",STATE_SLEEPING)~ THEN
+!StateCheck("Kagain",CD_STATE_NOTVALID)~ THEN
 @127
 == FIREBE
 @128
@@ -34,7 +34,7 @@ AreaCheck("%Beregost_FirebeadsHouse_L1%")~ THEN GARRIJ garrickflute
 @132
 == %VICONIA_JOINED% IF ~InParty("Viconia")
 !Dead("Viconia")
-!StateCheck("Viconia",STATE_SLEEPING)~ THEN
+!StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN
 @133
 == GARRIJ
 @134
@@ -60,7 +60,7 @@ AreaCheck("%Beregost_FirebeadsHouse_L1%")~ THEN GARRIJ garrickflute
 @144
 == %JAHEIRA_JOINED% IF ~InParty("Jaheira")
 !Dead("Jaheira")
-!StateCheck("Jaheira",STATE_SLEEPING)~ THEN
+!StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN
 @145
 == FIREBE
 @146
@@ -82,6 +82,6 @@ SetGlobal("gtt#garrickflute","GLOBAL",1)~
 @153
 == %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%")
 !Dead("%IMOEN_DV%")
-!StateCheck("%IMOEN_DV%",STATE_SLEEPING)~ THEN
+!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN
 @154
 EXIT

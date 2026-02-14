@@ -1,7 +1,6 @@
 APPEND ~GARRIJ~
 
-IF WEIGHT #0 ~!See([ENEMY])
-AreaCheck("%Lighthouse%")
+IF WEIGHT #0 ~AreaCheck("%Lighthouse%")
 Global("gtt#pharesirenes","GLOBAL",1)~ THEN BEGIN remarquesirene2
   SAY @230
   IF ~~ THEN DO ~SetGlobal("gtt#pharesirenes","GLOBAL",2)~

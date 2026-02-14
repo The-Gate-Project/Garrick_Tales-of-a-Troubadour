@@ -1,7 +1,6 @@
 APPEND ~GARRIJ~
 
-	IF WEIGHT #0 ~!See([ENEMY])
-	AreaCheck("GTT#01")
+	IF WEIGHT #0 ~AreaCheck("GTT#01")
 	PartyHasItem("gtt#vvv")
 	Global("gtt#garrickviolon1","GLOBAL",1)~ THEN BEGIN garrickviolon1
 	  SAY @242
@@ -13,8 +12,7 @@ END
 
 APPEND ~FALDOJ~
 
-	IF WEIGHT #0 ~!See([ENEMY])
-	AreaCheck("GTT#01")
+	IF WEIGHT #0 ~AreaCheck("GTT#01")
 	Global("gtt#faldornbarbare","GLOBAL",1)~ THEN BEGIN faldornbarbare
 	  SAY @241
 	  IF ~~ THEN DO ~SetGlobal("gtt#faldornbarbare","GLOBAL",2)~
@@ -110,7 +108,7 @@ APPEND ~HALBAZ~
 	  SAY @274
 	  IF ~InParty("Garrick")
 	  !Dead("Garrick")
-	  !StateCheck("Garrick",STATE_SLEEPING)~ THEN DO ~SetGlobal("gtt#drinviolon","GLOBAL",2)
+	  !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN DO ~SetGlobal("gtt#drinviolon","GLOBAL",2)
 	  GiveItemCreate("gtt#vio",LastTalkedToBy,1,0,0)~ EXTERN ~GARRIJ~ garviolonfini
 	  IF ~~ THEN DO ~SetGlobal("gtt#drinviolon","GLOBAL",2)
 	  GiveItemCreate("gtt#vio",LastTalkedToBy,1,0,0)~

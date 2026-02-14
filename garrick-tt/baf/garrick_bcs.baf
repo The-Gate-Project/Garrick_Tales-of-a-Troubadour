@@ -42,7 +42,7 @@ END
 
 // script pour la ballade du nain fou
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	Global("DurlagFinish","GLOBAL",1)
 	Global("gtt#durlagtimer1active","GLOBAL",0)
 THEN
@@ -52,14 +52,12 @@ THEN
 END
 
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	!Dead("Garrick")
-	!StateCheck("Garrick",STATE_SLEEPING)
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	Global("DurlagFinish","GLOBAL",1)
 	Global("gtt#durlagtimer1active","GLOBAL",1)
 	Global("gtt#diagchansonnainfou1","GLOBAL",0)
@@ -71,14 +69,12 @@ THEN
 END
 
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	!Dead("Garrick")
-	!StateCheck("Garrick",STATE_SLEEPING)
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	Global("gtt#diagchansonnainfou1","GLOBAL",2)
 	Global("gtt#diagchansonnainfou2","GLOBAL",0)
 	GlobalTimerExpired("gtt#durlagtimer2","GLOBAL")
@@ -90,13 +86,12 @@ END
 
 // remarque au Temple du matin
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	!Dead("Garrick")
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
-	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	AreaCheck("%Temple_SongoftheMorning%")
 	!Global("gtt#ChansonSirenes","GLOBAL",1)
 	Global("gtt#templesirenes","GLOBAL",0)
@@ -109,13 +104,12 @@ END
 
 // remarque sur la carte du phare
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	!Dead("Garrick")
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
-	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	AreaCheck("%Lighthouse%")
 	!Global("gtt#ChansonSirenes","GLOBAL",1)
 	Global("gtt#pharesirenes","GLOBAL",0)
@@ -128,13 +122,12 @@ END
 
 // remarque après la défaite d'Aec'Letec
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	!Dead("Garrick")
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
-	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	Global("DaemonCultFinish","GLOBAL",1)
 	Global("gtt#garrickaecletec","GLOBAL",0)
 THEN
@@ -146,13 +139,12 @@ END
 
 // dialogue avec CHARNAME après le départ de Tenya
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	!Dead("Garrick")
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
-	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	Global("gtt#tenyagarrick","GLOBAL",2)
 	Global("gtt#aprestenya2","GLOBAL",1)
 THEN
@@ -163,13 +155,12 @@ END
 
 // dialogue avec Perleflamme
 IF
-	InParty("Garrick")
+	InParty(Myself)
 	!Dead("Garrick")
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea("FIREBE")
-	!StateCheck("Garrick",CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck("FIREBE",CD_STATE_NOTVALID)
-	!See([ENEMY])
 	Global("FirebeadDone","GLOBAL",1)
 	!Global("gtt#garrickflute","GLOBAL",1)
 	AreaCheck("%Beregost_FirebeadsHouse_L1%")

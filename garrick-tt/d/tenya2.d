@@ -341,7 +341,7 @@ CHAIN
 	@422
 	== EDWINJ IF ~InParty("Edwin")
 	!Dead("Edwin")
-	!StateCheck("Edwin",STATE_SLEEPING)~ THEN
+	!StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN
 	@423
 	== GARRIJ
 	@424
@@ -354,21 +354,21 @@ CHAIN
 	@448
 	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%")
 	!Dead("%IMOEN_DV%")
-	!StateCheck("%IMOEN_DV%",STATE_SLEEPING)~ THEN
+	!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN
 	@449
 	== KHALIJ IF ~InParty("%IMOEN_DV%")
 	!Dead("%IMOEN_DV%")
-	!StateCheck("%IMOEN_DV%",STATE_SLEEPING)
+	!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)
 	InParty("Khalid")
 	!Dead("Khalid")
-	!StateCheck("Khalid",STATE_SLEEPING)~ THEN
+	!StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN
 	@450
 	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%")
 	!Dead("%IMOEN_DV%")
-	!StateCheck("%IMOEN_DV%",STATE_SLEEPING)
+	!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)
 	InParty("Khalid")
 	!Dead("Khalid")
-	!StateCheck("Khalid",STATE_SLEEPING)~ THEN
+	!StateCheck("Khalid",CD_STATE_NOTVALID)~ THEN
 	@451
 	EXTERN ~TENYA2~ pasdecevoir
 

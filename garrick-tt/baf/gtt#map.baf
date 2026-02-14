@@ -18,11 +18,10 @@ END
 IF
 	InParty("Garrick")
 	!Dead("Garrick")
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
 	!StateCheck("Garrick",CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	AreaCheck("GTT#01")
 	Global("gtt#garrickviolon1","GLOBAL",0)
 	PartyHasItem("gtt#vvv")
@@ -36,11 +35,10 @@ END
 IF
 	InParty("Faldorn")
 	!Dead("Faldorn")
-	!See([ENEMY])
+	!ActuallyInCombat()
 	InMyArea(Player1)
 	!StateCheck("Faldorn",CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	!See([ENEMY])
 	AreaCheck("GTT#01")
 	Global("gtt#faldornbarbare","GLOBAL",0)
 THEN

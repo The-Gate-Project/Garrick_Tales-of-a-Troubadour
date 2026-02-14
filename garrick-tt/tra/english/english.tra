@@ -548,4 +548,4 @@ The bard Garrick is too busy with Tenya to accompany me on the trek to Dragonspe
 //
 // Installation - additional strings
 //
-@600 = ~Error installing Worldmap compatibility. Is BGT installed?~
+@600 = ~Error installing Worldmap compatibility. Is BGT or EET installed?~

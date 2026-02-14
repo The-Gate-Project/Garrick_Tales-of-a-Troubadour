@@ -1,7 +1,7 @@
 INTERJECT_COPY_TRANS2 DRYAD 6 gtt#dryadegarrick1
 == GARRIJ IF ~InParty("Garrick")
 !Dead("Garrick")
-!StateCheck("Garrick",STATE_SLEEPING)
+!StateCheck("Garrick",CD_STATE_NOTVALID)
 Global("AskedDryad","GLOBAL",0)
 PartyHasItem("gtt#fl")~ THEN
 @170
@@ -29,7 +29,7 @@ END
 CHAIN
 IF WEIGHT #-2 ~InParty("Garrick")
 !Dead("Garrick")
-!StateCheck("Garrick",STATE_SLEEPING)
+!StateCheck("Garrick",CD_STATE_NOTVALID)
 Global("AskedDryad","GLOBAL",0)
 Global("gtt#dryadegarrick1","GLOBAL",1)
 PartyHasItem("gtt#fl2")
@@ -50,7 +50,6 @@ EXIT
 APPEND ~DRYAD~
 IF WEIGHT #-1 ~Global("gtt#creadryad2","GLOBAL",1)~ THEN BEGIN hellodryad2
   SAY @180
-  IF ~~ THEN DO ~~
-  EXIT
+  IF ~~ THEN DO ~~ EXIT
 END
 END

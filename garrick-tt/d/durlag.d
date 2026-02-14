@@ -2,7 +2,7 @@
 CHAIN
 IF WEIGHT #-1 ~InParty("Garrick")
 !Dead("Garrick")
-!StateCheck("Garrick",STATE_SLEEPING)
+!StateCheck("Garrick",CD_STATE_NOTVALID)
 Global("DurlagFinish","GLOBAL",1)
 Global("gtt#durlagtimer1active","GLOBAL",1)
 Global("gtt#diagchansonnainfou1","GLOBAL",1)~ THEN GARRIJ diagchansonnainfou1
@@ -13,7 +13,7 @@ SetGlobalTimer("gtt#durlagtimer2","GLOBAL",TWO_DAYS)~
 @191
 == YESLIJ IF ~InParty("Yeslick")
 !Dead("Yeslick")
-!StateCheck("Yeslick",STATE_SLEEPING)~ THEN
+!StateCheck("Yeslick",CD_STATE_NOTVALID)~ THEN
 @192
 EXIT
 
@@ -21,14 +21,14 @@ EXIT
 CHAIN
 IF WEIGHT #0 ~InParty("Garrick")
 !Dead("Garrick")
-!StateCheck("Garrick",STATE_SLEEPING)
+!StateCheck("Garrick",CD_STATE_NOTVALID)
 Global("gtt#diagchansonnainfou1","GLOBAL",2)
 Global("gtt#diagchansonnainfou2","GLOBAL",1)~ THEN GARRIJ diagchansonnainfou2
 @193
 DO ~SetGlobal("gtt#diagchansonnainfou2","GLOBAL",2)~
 == YESLIJ IF ~InParty("Yeslick")
 !Dead("Yeslick")
-!StateCheck("Yeslick",STATE_SLEEPING)~ THEN
+!StateCheck("Yeslick",CD_STATE_NOTVALID)~ THEN
 @194
 END
 IF ~~ GOTO diagchansonnainfou21

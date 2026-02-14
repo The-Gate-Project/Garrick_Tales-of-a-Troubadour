@@ -113,8 +113,7 @@ END
 // après le départ de Tenya, dialogue entre CHARNAME et Garrick
 APPEND ~GARRIJ~
 
-	IF WEIGHT #0 ~!See([ENEMY])
-	Global("gtt#tenyagarrick","GLOBAL",2)
+	IF WEIGHT #0 ~Global("gtt#tenyagarrick","GLOBAL",2)
 	Global("gtt#aprestenya2","GLOBAL",1)~ THEN BEGIN garrickaprestenya
 	  SAY @356
 	  IF ~~ THEN REPLY @357 GOTO garrickaprestenyachain
@@ -122,25 +121,24 @@ APPEND ~GARRIJ~
 END
 
 	CHAIN
-	IF ~!See([ENEMY])
-	Global("gtt#tenyagarrick","GLOBAL",2)
+	IF ~Global("gtt#tenyagarrick","GLOBAL",2)
 	Global("gtt#aprestenya2","GLOBAL",1)~ THEN GARRIJ garrickaprestenyachain
 	@358
 	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%")
 	!Dead("%IMOEN_DV%")
-	!StateCheck("%IMOEN_DV%",STATE_SLEEPING)~ THEN
+	!StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN
 	@359
 	== KAGAIJ IF ~InParty("Kagain")
 	!Dead("Kagain")
-	!StateCheck("Kagain",STATE_SLEEPING)~ THEN
+	!StateCheck("Kagain",CD_STATE_NOTVALID)~ THEN
 	@360
 	== ELDOTJ IF ~InParty("Eldoth")
 	!Dead("Eldoth")
-	!StateCheck("Eldoth",STATE_SLEEPING)~ THEN
+	!StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN
 	@361
 	== MINSCJ IF ~InParty("Minsc")
 	!Dead("Minsc")
-	!StateCheck("Minsc",STATE_SLEEPING)~ THEN
+	!StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN
 	@362
 	=
 	@363
@@ -148,18 +146,17 @@ END
 	@364
 	== %JAHEIRA_JOINED% IF ~InParty("Jaheira")
 	!Dead("Jaheira")
-	!StateCheck("Jaheira",STATE_SLEEPING)~ THEN
+	!StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN
 	@365
 	== XANJ IF ~InParty("Xan")
 	!Dead("Xan")
-	!StateCheck("Xan",STATE_SLEEPING)~ THEN
+	!StateCheck("Xan",CD_STATE_NOTVALID)~ THEN
 	@366
 	END
 	IF ~~ GOTO garrickaprestenyachain2
 	
 APPEND ~GARRIJ~
-	IF ~!See([ENEMY])
-	Global("gtt#tenyagarrick","GLOBAL",2)
+	IF ~Global("gtt#tenyagarrick","GLOBAL",2)
 	Global("gtt#aprestenya2","GLOBAL",1)~ THEN BEGIN garrickaprestenyachain2
 	  SAY @370
 	  IF ~~ THEN REPLY @367 DO ~SetGlobal("gtt#aprestenya2","GLOBAL",2)~ EXIT

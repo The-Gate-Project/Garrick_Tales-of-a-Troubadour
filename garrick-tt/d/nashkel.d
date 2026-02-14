@@ -6,8 +6,7 @@ InMyArea(Player1)
 !StateCheck(Player1,CD_STATE_NOTVALID)
 NumberOfTimesTalkedTo(0)
 Global("SPRITE_IS_DEADNEIRA","GLOBAL",1)
-Global("Chapter","GLOBAL",%tutu_chapter_2%)
-!See([ENEMY])~ THEN INNKN2 tavernechant1
+Global("Chapter","GLOBAL",%tutu_chapter_2%)~ THEN INNKN2 tavernechant1
 @280
 
 == GARRIJ

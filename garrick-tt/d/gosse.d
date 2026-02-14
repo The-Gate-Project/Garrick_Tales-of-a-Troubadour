@@ -24,7 +24,7 @@ END
 CHAIN
 IF WEIGHT #-1 ~InParty("Garrick")
 !Dead("Garrick")
-!StateCheck("Garrick",STATE_SLEEPING)
+!StateCheck("Garrick",CD_STATE_NOTVALID)
 Global("gtt#ChansonIvrogne","GLOBAL",0)~ THEN WHELP chantivrogne
 @101
 

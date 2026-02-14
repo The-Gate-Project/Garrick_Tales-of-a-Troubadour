@@ -1,7 +1,7 @@
 @1 = ~Garrick: Tales of a Troubadour~
 @2 = ~Garrick : les contes d'un troubadour~
 @3 = ~Ce mod necessite Baldur's Gate Trilogy.~
-@-3 = ~Ce mod necessite le BG1NPC.~
+@-3 = ~Garrick: Tales of a Troubadour necessite les composants "Bavardages, quetes et interjections" et "dialogues inities par le joueur" du mod BG1NPC.~
 //
 //
 @4 = ~Chant des sirènes~
@@ -548,7 +548,7 @@ The bard Garrick is too busy with Tenya to accompany me on the trek to Dragonspe
 //
 // chaines supplémentaires pour l'installation
 //
-@600 = ~Erreur lors de l'installation de la compatibilite avec Worldmap. BGT est-il bien installe ?~
+@600 = ~Erreur lors de l'installation de la compatibilite avec Worldmap. BGT ou EET est-il bien installe ?~
 
 
 // WeiDU prompts
