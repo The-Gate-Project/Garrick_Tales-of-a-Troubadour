@@ -21,6 +21,10 @@ LANGUAGE ~Simplified Chinese (Esceen)~
          ~schinese~
          ~garrick-tt/tra/schinese/schinese.tra~
 
+LANGUAGE ~Russian (Neoko5)~
+         ~russian~
+         ~garrick-tt/tra/russian/russian.tra~
+
 BEGIN @2
 DESIGNATED 0
 LABEL ~garrick-mirandir~
@@ -29,8 +33,8 @@ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
         REQUIRE_FILE ~override/X#BG1NPCPhase2.G3~ @-3 // nécessite le BG1NPC
         // on convertit les tra en utf8
 		// ne pas convertir german_ee.tra et french_ee.tra, ils sont déjà en utf8
-		ACTION_DEFINE_ARRAY noconvert BEGIN german_ee french_ee schinese schinese_ee END
-		ACTION_DEFINE_ARRAY reload BEGIN english english_ee french german german_ee END
+		ACTION_DEFINE_ARRAY noconvert BEGIN german_ee french_ee schinese schinese_ee russian_ee END
+		ACTION_DEFINE_ARRAY reload BEGIN english english_ee french german german_ee russian russian_ee END
 		LAF HANDLE_CHARSETS
 				INT_VAR
 						infer_charset = 1
