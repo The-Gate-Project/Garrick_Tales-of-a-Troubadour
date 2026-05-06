@@ -1,7 +1,7 @@
-BACKUP ~garrick-tt/backup~
+BACKUP ~weidu_external/garrick-tt/backup~
 AUTHOR ~mirandir AT orange DOT fr~
 AUTO_TRA ~garrick-tt/tra/%LANGUAGE%/%s~
-VERSION ~1.29~
+VERSION ~1.30~
 
 README ~garrick-tt/readme/%LANGUAGE%-readme.html~ ~garrick-tt/readme/english-readme.html~
 
@@ -453,6 +453,45 @@ COPY ~garrick-tt/maps/gtt#01/gtt#01.wed~ ~override~
 COPY ~garrick-tt/maps/gtt#01/gtt#01HT.bmp~ ~override~
 COPY ~garrick-tt/maps/gtt#01/gtt#01LM.bmp~ ~override~
 COPY ~garrick-tt/maps/gtt#01/gtt#01SR.bmp~ ~override~
+
+
+        COPY_EXISTING ~gtt#01.are~ ~override~
+			LPF fj_are_structure
+				INT_VAR
+				fj_loc_x = 812
+				fj_loc_y = 928
+				fj_orientation = 0
+				STR_VAR
+				fj_structure_type = entrance
+				fj_name = EXITSgtt
+			END
+			LPF fj_are_structure
+				INT_VAR
+				fj_loc_x = 727
+				fj_loc_y = 14
+				fj_orientation = 8
+				STR_VAR
+				fj_structure_type = entrance
+				fj_name = EXITNgtt
+			END
+			LPF fj_are_structure
+				INT_VAR
+				fj_loc_x = 20
+				fj_loc_y = 516
+				fj_orientation = 4
+				STR_VAR
+				fj_structure_type = entrance
+				fj_name = EXITWgtt
+			END
+			LPF fj_are_structure
+				INT_VAR
+				fj_loc_x = 347
+				fj_loc_y = 305
+				fj_orientation = 12
+				STR_VAR
+				fj_structure_type = entrance
+				fj_name = EXITEgtt
+			END
 
 /////////////////////////////////////////////////////
 // Patch du WORLDMAP.WMP pour ajouter la

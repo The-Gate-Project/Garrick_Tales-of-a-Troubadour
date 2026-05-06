@@ -1,5 +1,24 @@
 IF
 	OnCreation()
+THEN
+	RESPONSE #100
+		MoveGlobal("gtt#01",Player1,[814.928])
+		MoveGlobal("gtt#01",Player2,[812.928])
+		MoveGlobal("gtt#01",Player3,[816.928])
+		MoveGlobal("gtt#01",Player4,[810.928])
+		MoveGlobal("gtt#01",Player5,[808.928])
+		MoveGlobal("gtt#01",Player6,[818.928])
+		ActionOverride(Player1,Face(8))
+		ActionOverride(Player2,Face(8))
+		ActionOverride(Player3,Face(8))
+		ActionOverride(Player4,Face(8))
+		ActionOverride(Player5,Face(8))
+		ActionOverride(Player6,Face(8))
+		MoveViewPoint([814.928],INSTANT)
+END
+
+IF
+	OnCreation()
 	Global("gtt#01rencontre","GLOBAL",2)
 THEN
 	RESPONSE #100
@@ -11,7 +30,7 @@ IF
 	PartyHasItem("gtt#vvv")
 THEN
 	RESPONSE #100
-	SetGlobal("gtt#01rencontre","GLOBAL",2)
+		SetGlobal("gtt#01rencontre","GLOBAL",2)
 END
 
 // remarque sur le violon
