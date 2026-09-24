@@ -1,0 +1,9 @@
+IF
+	Global("BOYBODY","GLOBAL",1)
+	!InMyArea("Tenya2")
+	Global("gtt#tenyagarrick","GLOBAL",2)
+	!Dead("Tenya")
+THEN
+	RESPONSE #100
+		CreateCreature("TENYA2",[536.648],0)
+END

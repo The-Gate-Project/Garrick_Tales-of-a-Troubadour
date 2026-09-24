@@ -1,3 +1,4 @@
+/*
 ALTER_TRANS SILENC
 BEGIN %BLOC_SILENCE_A% END
 BEGIN 1 END
@@ -18,7 +19,18 @@ EXTEND_BOTTOM SILENC %BLOC_SILENCE_A%
 	PartyGoldGT(4)~ THEN REPLY @557 DO ~TakePartyGold(5)
 	StartStore("stosilen",LastTalkedToBy(Myself))~ EXIT
 END
+*/
 
+EXTEND_BOTTOM SILENC %BLOC_SILENCE_A%
+	IF ~InParty("Garrick")
+		!Dead("Garrick")
+		!StateCheck("Garrick",CD_STATE_NOTVALID)
+		PartyGoldGT(4)
+		!Dead("Tenya")
+		Global("gtt#tenyagarrick","GLOBAL",2)~ THEN GOTO tuaimelespierres
+END
+
+/*
 ALTER_TRANS SILENC
 BEGIN %BLOC_SILENCE_B% END
 BEGIN 0 END
@@ -35,6 +47,17 @@ EXTEND_BOTTOM SILENC %BLOC_SILENCE_B%
 	!InParty("Garrick")
 	Dead("Garrick")
 	StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN REPLY @557 DO ~StartStore("stosilen",LastTalkedToBy(Myself))~ EXIT
+END
+*/
+
+EXTEND_BOTTOM SILENC %BLOC_SILENCE_B%
+	IF ~InParty("Garrick")
+		!Dead("Garrick")
+		!StateCheck("Garrick",CD_STATE_NOTVALID)
+		PartyGoldGT(4)
+		!Dead("Tenya")
+		Global("gtt#tenyagarrick","GLOBAL",2)~ THEN REPLY #6381 DO ~TakePartyGold(5)
+~ GOTO tuaimelespierres
 END
 
 APPEND ~SILENC~

@@ -95,9 +95,9 @@ IF
 	AreaCheck("%Temple_SongoftheMorning%")
 	!Global("gtt#ChansonSirenes","GLOBAL",1)
 	Global("gtt#templesirenes","GLOBAL",0)
+	Delay(3)
 THEN
 	RESPONSE #100
-	Wait(5)
 	SetGlobal("gtt#templesirenes","GLOBAL",1)
 	StartDialogNoSet(Player1)
 END
@@ -113,11 +113,25 @@ IF
 	AreaCheck("%Lighthouse%")
 	!Global("gtt#ChansonSirenes","GLOBAL",1)
 	Global("gtt#pharesirenes","GLOBAL",0)
+	Delay(2)
 THEN
 	RESPONSE #100
-	Wait(2)
 	SetGlobal("gtt#pharesirenes","GLOBAL",1)
 	StartDialogNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	!Dead("Garrick")
+	!ActuallyInCombat()
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	AreaCheck("%Lighthouse%")
+	Global("gtt#pharesirenes","GLOBAL",2)
+	Delay(2)
+THEN
+	RESPONSE #100
+	SetGlobal("gtt#pharesirenes","GLOBAL",3)
+	DisplayStringHead(Myself,~I could watch them furtively... Without being noticed... In the name of art, of course.~)
 END
 
 // remarque après la défaite d'Aec'Letec
@@ -130,9 +144,9 @@ IF
 	!StateCheck(Player1,CD_STATE_NOTVALID)
 	Global("DaemonCultFinish","GLOBAL",1)
 	Global("gtt#garrickaecletec","GLOBAL",0)
+	Delay(2)
 THEN
 	RESPONSE #100
-	Wait(2)
 	SetGlobal("gtt#garrickaecletec","GLOBAL",1)
 	StartDialogNoSet(Player1)
 END
@@ -147,9 +161,9 @@ IF
 	!StateCheck(Player1,CD_STATE_NOTVALID)
 	Global("gtt#tenyagarrick","GLOBAL",2)
 	Global("gtt#aprestenya2","GLOBAL",1)
+	Delay(4)
 THEN
 	RESPONSE #100
-	Wait(6)
 	StartDialogNoSet(Player1)
 END
 
@@ -164,8 +178,8 @@ IF
 	Global("FirebeadDone","GLOBAL",1)
 	!Global("gtt#garrickflute","GLOBAL",1)
 	AreaCheck("%Beregost_FirebeadsHouse_L1%")
+	Delay(1)
 THEN
 	RESPONSE #100
-	Wait(1)
 	StartDialogNoSet("FIREBE")
 END

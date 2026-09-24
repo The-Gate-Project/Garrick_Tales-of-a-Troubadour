@@ -14,7 +14,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-014a69)](https://github.com/The-Gate-Project/Garrick_Tales-of-a-Troubadour/releases)
 -->
 
-**Autor** : **Mirandir**
+**Author** : **Mirandir**
 
 [Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=26267)
 
@@ -33,7 +33,7 @@ Sit by the fire, forget the worries of the road, and listen to the tales of the 
 ## Compatibility :
 ------------
 
-Please note that Garrick: Tales of a Troubadour requires the componants ["Banters, Quests, and Interjections"](https://github.com/Gibberlings3/BG1NPC/tree/master?tab=readme-ov-file#the-bg1npc-project-banters-quests-and-interjections) AND from ["Player-Initiated Dialogues (PIDs)"](https://github.com/Gibberlings3/BG1NPC/tree/master?tab=readme-ov-file#the-bg1npc-project-player-initiated-dialogues-pids) [BG1NPC](https://github.com/Gibberlings3/BG1NPC) mod. 
+Please note that Garrick: Tales of a Troubadour requires the componants ["Banters, Quests, and Interjections"](https://github.com/Gibberlings3/BG1NPC/tree/master?tab=readme-ov-file#the-bg1npc-project-banters-quests-and-interjections) AND ["Player-Initiated Dialogues (PIDs)"](https://github.com/Gibberlings3/BG1NPC/tree/master?tab=readme-ov-file#the-bg1npc-project-player-initiated-dialogues-pids) from [BG1NPC](https://github.com/Gibberlings3/BG1NPC) mod. 
 
 Thanks to K4thos, this version can be installed after EET.
 
@@ -49,6 +49,10 @@ Follow the prompt
 
 ## Version History :
 ----------------
+
+1.30 :
+
+	Workaround for gtt#01.are entrance
 
 1.29 :
 

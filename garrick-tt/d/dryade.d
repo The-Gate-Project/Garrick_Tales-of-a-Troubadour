@@ -1,4 +1,4 @@
-INTERJECT_COPY_TRANS2 DRYAD 6 gtt#dryadegarrick1
+INTERJECT_COPY_TRANS2 DRYAD 6 gtt#dryadegarrick1 // I_C_T ?
 == GARRIJ IF ~InParty("Garrick")
 !Dead("Garrick")
 !StateCheck("Garrick",CD_STATE_NOTVALID)

@@ -12,8 +12,8 @@ IF
 	!StateCheck(Player1,CD_STATE_NOTVALID)
 	Global("gtt#garricksod","GLOBAL",0)
 	Global("gtt#garrickarejointtenya","GLOBAL",0)
+	Delay(2)
 THEN
 	RESPONSE #100
-		Wait(2)
 		StartDialogNoSet(Player1)
 END
